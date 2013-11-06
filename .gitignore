@@ -40,3 +40,4 @@ cache/
 __pycache__/
 
 *.swp
+.doit.db
