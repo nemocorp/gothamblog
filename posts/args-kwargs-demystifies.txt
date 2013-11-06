@@ -1,0 +1,91 @@
+.. link: 
+.. description: 
+.. tags: Python
+.. date: 2013/10/11 08:27:23
+.. title: *args, **kwargs démystifiés
+.. slug: args-kwargs-demystifies
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/args-kwargs-demystifies/postcard.png
+	:align: left
+
+En ``python``, il existe deux paramètres de fonctions un peu particulier,\*args et \*\*kwargs. Je vais essayer de vous les expliquer le plus simplement possible.
+
+.. TEASER_END
+.. code:: python
+
+    def somme(x,y,message="Résultat:"):
+        print (message + " " + str(x+y))
+
+
+Ici, ``x`` et ``y`` sont des paramètres positionnels. C'est à dire que le paramètre en première position sera toujours affecté à ``x`` et celui en deuxième à ``y``.
+
+Après les paramètres positionnels viennent les paramètres nommés. Dans notre exemple, nous avons un seul paramètre nommé: ``message``.
+
+Donc un appel classique de notre fonction sera de la forme:
+
+.. code:: 
+
+    >>> somme(2,3)
+    Résultat: 5
+
+
+Jusque là c'est bon vous suivez? Le problème ici, c'est que notre fonction n'accepte que deux paramètres. Comment faire si je veux écrire le code d'une fonction qui additionne 3, 4, 5... nombres? C'est là que \*args entre en jeu. \*args remplace un nombre quelconque de paramètres positionnels.
+
+.. code:: python
+
+    def somme(*args, message="Résultat: "):
+        total = 0
+        for i in args:
+            total = total + i
+        print (message + str(total))
+
+
+Maintenant, on va pouvoir utiliser notre fonction avec un nombre quelconque d'arguments positionnels, par exemple:
+
+.. code:: 
+
+    >>> somme(2,3)
+    Résultat: 5
+    >>> somme(2,3,4,5)
+    Résultat: 14
+    >>> somme(1,2,3,message="La somme est égale à ")
+    La somme est égale à 6
+
+
+Voyons maintenant \*\*kwargs. Si vous avez compris \*args, \*\*kwargs c'est pareil mais pour les paramètres nommés. Alors que \*args fournit en ensemble pour les paramètres positionnels (un set en python), \*\*kwargs fournit les paramètres nommés sous formes de dictionnaire. Voyons donc un exemple complet:
+
+.. code:: python
+
+    def ma_func(*args, **kwargs):
+        print("Liste des arguments positionnels:")
+        for pos,arg in enumerate(args):
+            print("Position: " + str(pos) + ", valeur: " + str(arg))
+        print("Liste des arguments nommés")
+        for key in kwargs:
+            print(key+"="+str(kwargs[key]))
+
+
+.. code::
+
+    >>> ma_func(1,2,"Coucou",texte="Ok",puissance=1200)
+    Liste des arguments positionnels:
+    Position: 0, valeur: 1
+    Position: 1, valeur: 2
+    Position: 2, valeur: Coucou
+    Liste des arguments nommés
+    texte=Ok
+    puissance=1200
+
+
+Et voilà, c'est tout pour aujourd'hui. Ah si j'oubliais, on peut aussi tout mixer pour obtenir des chose de ce genre:
+
+.. code:: python
+
+    def ma_func(x,*args,test=True,**kwargs):
+        ...
+
+
+Où certains arguments positionnels et nommés sont explicites et pas les autres. Amusez-vous bien.
+

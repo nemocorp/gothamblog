@@ -1,0 +1,77 @@
+.. date: 2013/10/29 16:56:31
+.. description: 
+.. tags: Retro-Gaming
+.. title: MSX, Retro Gaming et The Maze of Galious 
+.. link: 
+.. slug: msx
+.. category: Jeux Vidéos
+.. icon: jeux-videos
+
+.. image:: /images/msx/postcard.png
+    :align: left
+    :class: media-object
+
+.. class:: media-body
+
+    Ah, le MSX! Je suis quasiment sûr que je n'en serai pas là si je n'avais pas croisé cette formidable machine. Elle a façonné mon esprit videoludique, me rendant terriblement exigeant, tellement les jeux, qu'elle proposait étaient eux aussi exigeants. Que d'heures perdues à errer dans les donjons de Maze of Galious, à libérer les planètes du joug de Salamander... Bref, petite histoire des débuts de l'informatique grand public.
+
+
+.. TEASER_END
+
+.. image:: /images/msx/1.png
+	:align: right
+
+Le MSX, c'est avant tout une grande idée. Une alliance de constructeur (Sony, Canon, JVC, Philips, Sanyo, Fujitsu,...) pour proposer des ordinateurs familiaux compatibles les uns avec les autres. Au Japon, le succès est immédiat. En Europe, la sortie du MSX coïncide avec celle de l'Amstrad CPC464, et c'est le drame. Et pourtant, le MSX avait tout pour réussir. Des specs supérieures, une ludothèque porté par les grandes firmes de l'arcade japonnaise, Konami, Namco.
+
+J'ai beaucoup joué sur Amstrad, sur Commodore 64, c'est ce que tous mes copains avaient. Mais je peux vous assurer que le MSX, c'était autre chose.
+
+Konami, le génie de la sphère vidéoludique
+------------------------------------------
+
+|
+
+.. image:: /images/msx/2.png
+    :align: center
+
+|
+
+Si vous croisez un jour un MSX Maniac, le premier mot qui lui vient à la bouche lorsque vous évoquez avec lui ce glorieux passé, c'est Konami.
+
+.. image:: /images/msx/3.png
+    :align: left
+
+Konami, c'est des titres phares, encore connu aujourd'hui dont les premier opus sont sortis sur MSX. C'est le cas de CastleVania ou Metal Gear Solid. Mais c'est aussi des Shoot'em up de légende, tels que Nemesis ou Salamander. Des jeux d'une difficulté inconcevable aujourd'hui. Je me souviens de Nemesis 2, terminé en un dimanche après-midi, plusieurs heures de jeux, pas de sauvegarde, juste la possibilité de continuer et continuer jusqu'à parvenir au fameux générique de fin, ou encore Penguin Adventure, qui une fois terminée se contente d'un "C'est bien petit, mais tu es arrivé trop tard pour sauver ta dulcinée" et du coup il fallait tout recommencer en trouvant tous les raccourcis!
+
+.. image:: /images/msx/6.png
+    :align: right
+
+Une trouvaille de génie de Konami tenaient aussi dans la possibilité de mixer les cartouches. Le MSX était muni de deux ports cartouche. Si par exemple vous insériez Nemesis 2 dans le port 1 et Penguin Adventure dans le port 2, vous transformiez le vaisseau de votre shoot'em up en pingouin tirant des coeurs. Aucun intérêt, si ce n'est la joie de découvrir c'est Easter Egg avant l'heure.
+
+Tout ça pour dire, qu'avec tous les émulateurs qui traînent sur la toile, c'est presque Sacrilège de ne pas avoir encore testé ces jeux.
+
+Et on commence tout de suite les hostilités avec... (...rrr...RRR...rrr)...
+
+The Maze of Galious
+-------------------
+
+.. image:: /images/msx/4.png
+    :align: left
+
+C'est le jeu qui a le plus marqué les possesseurs de MSX. Un jeu de plateforme, au monde immense (pour l'époque, il ne faut pas perdre de vue que les cartouches qui stockaient les jeux ne faisaient que 256Ko), dans lequel vous dirigiez tour à tour Popolon et Aphrodite à la recherche de leur bébé capturé par le terrible Galious. A l'intérieur du terrible labyrinthe de Galious, 10 portes s'ouvrent sur des donjons, chacuns terminés par un terrible Boss.
+
+The Maze of Galious est un jeu à la durée de vie incroyable, où se mêlent habilement des séquences de pure arcade (boss) et de puzzle game.
+
+Pour finir, je ne peux que vous recommander d'essayer ce jeu qui bénéficie d'une belle `version Fan-made pour Windows, Linux et Mac OS <http://www.braingames.getput.com/mog/>`_.
+
+|
+
+.. image:: /images/msx/5.png
+    :align: center
+
+|
+
+.. class:: center
+
+    .. youtube:: xczSIuB2J68
+
+

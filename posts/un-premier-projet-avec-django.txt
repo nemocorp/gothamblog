@@ -1,0 +1,117 @@
+.. link: 
+.. description: 
+.. tags: Python, Django, Tutoriel, Développement
+.. date: 2013/09/16 13:04:29
+.. title: Un premier projet avec Django
+.. slug: un-premier-projet-avec-django
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/un-premier-projet-avec-django/postcard.png
+	:align: left
+
+Maintenant que vous maîtrisez ``virtualenv`` nous allons créer notre premier petit projet avec `Django <https://www.djangoproject.com/>`_.
+
+Créons le virtualenv django
+
+.. TEASER_END
+
+.. code:: bash
+
+    mkvirtualenv -p /usr/bin/python2.7 django
+    pip install django
+
+
+Pour plus de détail sur la création et l'utilisation de ``virtualenv``, je vous renvoie aux articles précédents.
+
+Maintenant nous allons créer le répertoire qui arbritera notre projet.
+
+.. code:: bash
+
+    mkdir projets
+    cd projets
+
+
+Puis nous allons lancer la commande magique qui va initialiser notre projet Django dans ce répertoire.
+
+.. code:: bash
+
+    django-admin startproject mon_projet
+
+
+Cette commande va créer un répertoire ``mon_projet`` avec la structure suivante:
+
+.. code:: bash
+
+    .
+    |-- manage.py
+    `-- mon_projet
+        |-- __init__.py
+        |-- settings.py
+        |-- urls.py
+        `-- wsgi.py
+
+    1 directory, 5 files
+
+
+Un projet Django est constitué, nous le verrons plus en détail ultérieurement d'une ou plusieurs application (site). Nous allons donc maintenant créer notre première application à l'intérieur de notre projet.
+
+.. code:: bash
+
+    cd mon_projet
+    python manage.py startapp blog
+
+
+Nous retrouvons maintenant avec un nouveau répertoire et une structure qui ressemble à cela:
+
+.. code:: bash
+
+    projets
+    `-- mon_projet
+        |-- blog
+        |   |-- __init__.py
+        |   |-- models.py
+        |   |-- tests.py
+        |   `-- views.py
+        |-- manage.py
+        `-- mon_projet
+            |-- __init__.py
+            |-- __init__.pyc
+            |-- settings.py
+            |-- settings.pyc
+            |-- urls.py
+            `-- wsgi.py
+
+3 directories, 11 files
+
+
+Nous verrons en détail à quoi servent tous ces fichiers mais pour l'instant patience.
+
+Il nous reste à lancer le serveur web de développement pour nous assurer que tout es ok.
+
+.. code:: bash
+
+    cd projets/mon_projet
+    python manage.py runserver
+
+    Validating models...
+    
+    0 errors found
+    September 16, 2013 - 06:22:08
+    Django version 1.5.4, using settings 'mon_projet.settings'
+    Development server is running at http://127.0.0.1:8000/
+    Quit the server with CONTROL-C.
+
+
+Et maintenant, rendons nous l'adresse http://127.0.0.1:8000 pour admirer le résultat.
+
+|
+
+.. image:: /images/django/debug-welcome.png
+    :align: center
+
+|
+
+Voilà votre serveur de dev opérationnel avec toute l'architecture de répertoire prête pour le prochain article...
+
+

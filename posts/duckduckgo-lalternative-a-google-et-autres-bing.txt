@@ -1,0 +1,35 @@
+.. link: 
+.. description: 
+.. tags: 
+.. date: 2013/09/26 18:48:13
+.. title: duckduckgo, l'alternative à Google et autres Bing
+.. slug: duckduckgo-lalternative-a-google-et-autres-bing
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/duckduckgo-lalternative-a-google-et-autres-bing/postcard.png
+	:align: left
+
+A la demande générale générale (je suis sûr que tu te reconnais dans cette phrase Lecteur), laisse-moi te présenter `Duck Duck Go <http://www.duckduckgo.com>`_.
+
+Duck Duck Go est un moteur de recherche sur le web comme peuvent l'être Google, Yahoo ou Bing, mais alors c'est quoi donc l'intérêt d'utiliser Duck Duck GO?
+
+.. TEASER_END
+
+Les intérêt sont multiples. Tout d'abord, peut-être que tu as un peur des géants de l'Internet qui regarde tout ce que tu fais sur le web? Peut-être en as-tu marre d'avoir des pubs qui 'enlarge ton pénis' après être allé sur un site peu recommandable... Ou alors ta femme à utiliser ton compte et du coup tu as des pubs de chaussures plein l'écran.
+
+Et je te rassure, comme tu vas le voir Duck Duck Go est la solution à tes problèmes et même bien plus encore.
+
+Première chose, sache que Duck Duck Go ne traque pas tes recherches. Après il n'a pas la pertinence de Google, mais il est capable de relayer tes requêtes à Google pour te fournir les mêmes résultats que lui et sans que tu sois tracé. Et oui parce que c'est Duck Duck Go qui est tracé à ta place. Et ça marche avec google, mais avec pleins d'autres sites.
+
+Et comment cela est-ce possibles? Avec les magics 'She-Bang'. What the fuck is this? Un petit exemple vaut mieux qu'un grand discours.
+
+Ouvre ton naviguateur, rend-toi à cette adresse http://www.duckduckgo.com et fais une recherche quelconque, par exemple ``abeilles`` (je sais que tu aimes les abeilles). Les résultats ne te convienne pas, ajouter ``!gfr`` devant ta recherche pour obtenir ``!gfr abeilles`` et relance la recherche. Tu obtiens ainsi les résultats de google.fr pour cette recherche. Remplace ``!gfr`` par ``!wfr`` tu obtiens les résultats de wikipedia.fr. ``!gi`` et il te renvoie directement sur Google Images.
+
+.. image:: /images/duckduckgo-lalternative-a-google-et-autres-bing/1.png
+    :align: center
+
+Et il existe des centaines de She-Bang (`liste complète <https://duckduckgo.com/bang.html>`_. Après dès que tu as retenu les principaux, tels que ``!tpb``, ``!t411``, ``!metasearch`` et j'en passe et des meilleurs, tu ne pourras plus vous en passez.
+
+Ajoute à cela une petite extension Firefox nommée DuckDuckGo Plus `<https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/>`_ qui vous permet d'utiliser directement la recherche et les She-Bang dans la barre d'adresse et tu vas devenir le roi du pétrole de la recherche sur le net.
+

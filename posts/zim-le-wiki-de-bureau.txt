@@ -1,0 +1,39 @@
+.. link: 
+.. description: 
+.. tags: Get Things Done, Wiki
+.. date: 2013/10/02 08:14:49
+.. title: Zim, le wiki de bureau
+.. slug: zim-le-wiki-de-bureau
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/zim-le-wiki-de-bureau/postcard.png
+	:align: left
+
+Aujourd'hui Lecteur, je vais te présenter un petit soft multi-plateforme (Windows, Linux) pour que tu puisses rester organisé. Parce que bon, je n'osais pas te le dire (on se connait pas trop bien encore), mais c'est un peu le bordel sur ton bureau et dans ton ordinateur.
+
+.. TEASER_END
+
+Zim se présente comme un petit éditeur de texte, mais il permet de faire bien plus de choses.
+
+Avec Zim, tu peux:
+
+* Tenir un blog
+* Prendre des notes
+* Mettre des Tags sur tout et n'importe quoi
+* Faire des Todolists dynamiques (tu sais les trucs que tu as à faire et que tu oublies de faire)
+* Joindre des documents à tes notes
+* Organiser tes notes en classeur
+* Lancer un petit serveur web pour que tes notes soient dispos all over the world
+
+Le mieux c'est que tu aillles voir par toi-même le site officiel, très bien fait et la doc.
+
+Allez un petite demo vaut mieux qu'un long discours...
+
+* `Le site officiel <http://zim-wiki.org/>`_
+* `La page de téléchargement <http://zim-wiki.org/downloads.html>`_
+
+.. youtube:: yBZpWgzO9Ps
+
+PS: J'espère que tu as apprécié mon accent anglais ;)
+

@@ -1,0 +1,19 @@
+.. link: 
+.. description: 
+.. tags: Linux, Truc, Bash 
+.. date: 2013/09/04 21:39:41
+.. title: Tagger son historique Bash
+.. slug: tagger-son-historique-bash
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/tagger-son-historique-bash/postcard.png
+	:align: left
+
+Allez un petit article tout court, un petit truc glané autour d'internet que je trouve d'une simplicité et d'une élégance rare. Je ne peux donc m'empêcher de vous en faire profiter.
+
+.. TEASER_END
+.. youtube:: 6FKvclalYB8
+
+
+

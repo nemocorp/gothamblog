@@ -1,0 +1,28 @@
+.. slug: bangaio-spirits
+.. date: 2013/08/28 21:33:29
+.. description: 
+.. link: 
+.. title: Bangai'O Spirits
+.. tags: Nintendo DS
+.. category: Jeux Vidéos
+.. icon: jeux-videos
+
+.. image:: /images/bangaio-spirits/postcard.png
+	:align: left
+
+Et voilà comme promis le premier vrai post d'outre-tombe. Un jeu de 2008 sorti sur Nintendo DS, quasiment passé inaperçu et pourtant. Bangai'O Spirit est un OLNI, comprenez Objet Ludique Non Identifié. A mi-chemin entre le Shoot'em up et le puzzle game. Comment de quoi-t'esse possible?
+
+.. TEASER_END
+    :align: right
+
+Laissez-moi vous expliquer et vous verrez. Aux commandes d'un Giant Robot dans le plus pur style Japanim' (amateur de Robotech, pardon Macross pour les puristes levez vous) vous allez tenter d'éradiquer des cibles dans une sucession de tableaux plus compliqués les uns que les autres. Parce que, d'une part, les cibles sont protégées et que d'autre part, il va vous falloir choisir astucieusement votre arsenal au début de chaque tableau. Et c'est là que tout se corse. Car il vous faudra trouver l'armement adéquat pour chaque tableau.
+
+Avec le bon armement, la plupart des tableaux se passent en moins d'une minute. Mais il peut arriver d'avoir à les faire et les refaire des dizaines de fois avant de trouver le bon armement, les bons angles de tirs, les bonnes paradesou la bonne séquence d'attaque. Bref autant de paramètres qui en font un vrai casse-tête, derrière ces allures de shoot'em up.
+
+De longues heures de jeu en perspective avec Bangai'O tu auras. Avec en plus un mode multi et un mode edit pour créer ses propres puzzles. Enjoy!
+
+Allez une petite vidéo de gameplay pour la forme
+
+.. youtube:: tgQz-DZHavA
+
+PS: Certains tableaux sont tellement remplis d'ennemis et de missiles que la console lag et n'arrive plus à tout gérer. Mais ils vous préviennent dans le tutoriel et ce n'est absolument pas gênant.

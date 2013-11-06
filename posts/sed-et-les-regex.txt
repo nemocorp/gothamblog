@@ -1,0 +1,82 @@
+.. link: 
+.. description: 
+.. tags:  Script
+.. date: 2013/10/16 08:11:24
+.. title: sed et les regex
+.. slug: sed-et-les-regex
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/sed-et-les-regex/postcard.png
+	:align: left
+
+Quel titre barbare. Je sais et pourtant c'est exactement de ça qu'il va être question. Et comme toujours puisqu'un exemple vaut mieux qu'un long discours, entrons dans le vif du sujet.
+
+.. TEASER_END
+
+Une ``regex`` ou expression régulière en français dans le texte est un motif de recherche complexe. Par exemple, une ``regex`` permettant de rechercher un chiffre va s'écrire ``[0-9]``. Rechercher un nombre s'écrira ``[0-9]\+``
+
+Basiquement ``sed`` permet de faire des opérations de substitution sur des fichiers ou des flux de texte.
+
+.. code::
+
+    $ echo "Rémi a une cape rouge" | sed "s/Rémi/Colette/g"
+    Colette a une cape rouge
+
+
+Et avec les ``regex`` ça donne quoi?
+
+.. code::
+
+    $ echo "123 abc 456 def" | sed "s/[0-9]\+/(&)/g"
+    (123) abc (456) def
+
+
+Pas mal, n'est-il pas? Donc le symbole ``&`` permet de récupérer le motif de la ``regex`` précédente pour l'utiliser dans la chaîne de substitution.
+
+Mais on peut aller beaucoup plus loin avec ``sed``. Imaginons le petit fichier texte ``toto.txt`` pour faire original avec le contenu suivant:
+
+.. code::
+
+    Rémi: "Bonjour! Colette"
+    Colette: "Allons dans le grenier!"
+    Rémi: "Attends je vais chercher Capi"
+    Colette: "D'accord"
+
+On peut maintenant afficher uniquement les lignes commençant par Rémi ou uniquement les lignes commençant par Colette (comprenez les lignes ne commençant pas par Rémi)
+
+.. code:: bash
+
+    $ sed '/^Rémi:/!d' toto.txt 
+    Rémi: "Bonjour! Colette"                                                                                                                                                      
+    Rémi: "Attends je vais chercher Capi"                                                                                                                                             
+
+    $ sed '/^Rémi:/d' toto.txt 
+    Colette: "Allons dans le grenier!"
+    Colette: "D'accord"
+
+
+Mais on peut aussi modifier tout notre texte avec des ``regex`` comme ceci
+
+.. code::
+
+    sed 's/^[A-Za-z]*/[&]/g' toto.txt 
+    [Rémi]: "Bonjour! Colette"
+    [Colette]: "Allons dans le grenier!"
+    [Rémi]: "Attends je vais chercher Capi"
+    [Colette]: "D'accord"
+
+Et on peut bien sûr mixer les deux exemples précédents pour ne modifier que les lignes de Rémi.
+
+.. code:: bash
+
+    $ sed '/^Rémi/ s/^[A-Za-z]*/[&]/g' toto.txt 
+    [Rémi]: "Bonjour! Colette"
+    Colette: "Allons dans le grenier!"
+    [Rémi]: "Attends je vais chercher Capi"
+    Colette: "D'accord"
+
+
+Allez je vous laisse imaginer ce que vous pouvez faire avec ``sed``. Ah, oui, j'oubliais, si vous avez des astuces avec ``sed``, n'hésitez pas à les partager en commentaires. Mais évitez les ``perl`` c'est mieux, ``awk`` c'est mieux... D'autres articles les mettront à l'honneur.
+
+* Pour une explication complète de ce que l'on peut faire avec les ``regex``, je vous renvoie à `la page du manuel de sed dédiée au regex <https://www.gnu.org/software/sed/manual/html_node/Regular-Expressions.html>`_

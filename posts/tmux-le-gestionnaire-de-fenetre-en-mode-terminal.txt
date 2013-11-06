@@ -1,0 +1,29 @@
+.. link: 
+.. description: 
+.. tags: Linux, Tmux
+.. date: 2013/09/16 20:44:54
+.. title: tmux le gestionnaire de fenêtre en mode terminal
+.. slug: tmux-le-gestionnaire-de-fenetre-en-mode-terminal
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/tmux-le-gestionnaire-de-fenetre-en-mode-terminal/postcard.png
+	:align: left
+
+Ami développeur fan du terminal, de vi(m) et des scripts shell qui travaillent à ta place pendant que tu bois le café, laisse-moi te présenter ``tmux``, le gestionnaire de fenêtre en mode console.
+
+.. TEASER_END
+
+Rien de tel qu'un petit screencast des familles pour voir toute la puissance de la bête.
+
+
+.. youtube:: sn-HGD9vEDU
+
+
+Voilà, dans un prochain article, je présenterai ``tmuxinator``, son fidèle compagnon, qui permet de scripter les environnements ``tmux``...
+
+La grande classe, quoi! Plus geek que ça tu meurs!
+ 
+
+
+

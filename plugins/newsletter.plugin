@@ -1,0 +1,10 @@
+[Core]
+Name = render_newsletter
+Module = newsletter
+
+[Documentation]
+Author = Jean-Philippe Rutault
+Version = 0.1
+Website = http://www.nemocorp.info
+Description = Generates the blog's newsletter pages.
+

@@ -1,0 +1,33 @@
+.. link: 
+.. description: 
+.. tags: Critique
+.. date: 2013/09/15 11:39:20
+.. title: Et si on jouait à Ciao, Ciao
+.. slug: et-si-on-jouait-a-ciao-ciao
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+
+.. image:: /images/et-si-on-jouait-a-ciao-ciao/postcard.png
+	:align: left
+
+Dans notre rubrique faisons du neuf avec du vieux ou déterrons des trésors cachés, je vous présente Ciao Ciao d'Alex Randolph. Ciao Ciao est un peit jeu de la famille bien nommée des jeux apéro.
+
+.. TEASER_END
+
+Ciao Ciao est un jeu de bluff qui peut s'apparenter au jeu du menteur. Chaque joueur dispose d'une équipe d'aventuriers à qui il devra faire traverser un pont suspendu au-dessus d'un prépice. Malheureusement, chaque faux pas sera fatal.
+
+Le jeu dispose d'une petite boîte noire contenant un dé dont seul un joueur pourra voir le résultat. Le dé dispose de quatre faces numérotées de 1 à 4 et deux faces munies d'une croix. Le joueur qui tient la boîte devra annoncée un résultat compris entre 1 et 4, quelque soit le résultat affiché. Donc si le dé affiche une croix, il sera obligé de mentir.
+
+Une fois qu'il a annoncé son résultat, chaque autre joueur va devoir décider s'il le traite de menteur où s'il accepte le résultat qu'il a annoncé. Si tous les joueurs acceptent le résultat annoncé, le joueur avance son aventurier sur le pont du nombre de cases annoncées. Sinon, deux cas se présentent. Il a menti et un des joueurs l'a traité de menteur, auquel son aventurier tombe dans le précipice. Soit il n'a pas menti et alors, le joueur accusateur fait tomber un de ses aventuriers dans le précipice.
+
+La partie s'arrête dès qu'un joueur a fait traverser le pont à 4 de ses aventuriers où dès que plus personne n'a d'aventurier à envoyers sur le pont.
+
+|
+
+.. image:: /images/et-si-on-jouait-a-ciao-ciao/in-game.jpg
+    :align: center
+
+|
+
+Ciao Ciao, vous le voyez est un jeu on ne peut plus simple et pourtant, je peux vous assurer que ça rigole et ça se chambre à chaque partie. Bref, si vous avez la chance de le trouver dans un fond de stock d'une boutique ou sur un vide-grenier vous savez ce qu'il vous reste à faire. Sinon patientez jusqu'à sa prochaine réédition...
+

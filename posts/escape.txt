@@ -1,0 +1,24 @@
+.. link: 
+.. description: 
+.. tags: Critique
+.. date: 2013/09/15 15:42:43
+.. title: (Esc)ape
+.. slug: escape
+.. category: Jeux Vidéos
+.. icon: jeux-videos
+
+.. image:: /images/escape/postcard.png
+	:align: left
+
+`Escape <http://www.kongregate.com/games/IncredibleApe/escape>`_ est un petit jeu en ligne crétin-crétin mais terriblement addictif. Il se joue avec une seule touche de votre clavier (essayer de deviner laquelle). Vous devez aider un petit ninja à sortir d'une tour en évitant des obstacles et avant qu'un rayon laser mortel de la mort ne le rattrappe et ne le tue mortellement.
+
+.. TEASER_END
+
+Ah oui, dernier petit détail , la durée moyenne d'un partie: 19,3s. Bon jeu!
+
+.. image:: /images/escape/1.png
+    :scale: 75
+
+.. image:: /images/escape/2.png
+    :scale: 75
+    :align: right

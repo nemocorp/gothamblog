@@ -1,0 +1,64 @@
+.. link: 
+.. description: 
+.. tags: Tmux, Développement
+.. date: 2013/09/20 14:34:36
+.. title: Let me introduce you tmuxinator
+.. slug: let-me-introduce-you-tmuxinator
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/let-me-introduce-you-tmuxinator/postcard.png
+	:align: left
+
+Jusqu'à présent, nous avons vu comment installer Django dans un virtualenv python. Et nous avons également vu la puissance du port du Havre avec tmux. Voyons maintenant comment relier les deux pour se créer un environnement de développement fully functionnal avec tmuxinator.
+
+.. TEASER_END
+.. code:: bash
+
+    yaourt -s tmuxinator
+
+
+Mais ``tmuxinator`` c'est quoi finalement. C'est juste un petit outil qui va nous permettre de scripter le démarrage de tmux afin d'obtenir un environnement conforme à nos besoins.
+
+Voyons un exemple concret avec Django
+-------------------------------------
+
+Vous verrez que lorsqu'on développe avec Django, on a besoin d'une console python spécifique avec Django préchargé, qu'on a besoin que le serveur de développement soit lancé en permanence, qu'on a besoin d'un éditeur de texte...
+
+Nous allons donc créer un petit projet ``tmuxinator`` qui s'occupera de tout cela à notre place. La configuration de ``tmuxinator`` se trouve dans votre répertoire ``~/.tmuxinator``. Chaque fichier ``.yml`` correspond à un projet.
+
+Créons le fichier ``django.yml`` avec le contenu suivant:
+
+.. code:: yaml
+
+    # ~/.tmuxinator/django.yml
+    # you can make as many tabs as you wish...
+
+    project_name: mon_projet
+    project_root: ~/projets/mon_projet
+    socket_name: django_socket
+    tabs:
+      - editor: vim . 
+      - bash: workon django
+      - gtd: task list && task shell
+      - console: workon django &&  python manage.py shell
+      - database: workon django &&  python manage.py dbshell 
+      - server: workon &&  python manage.py runserver
+
+
+Sauvegarder le fichier et lancer la commande suivante pour admirer le résultat.
+
+.. code:: bash
+
+    tmuxinator start django
+
+
+Et voilà le travail.
+
+|
+
+.. image:: /images/let-me-introduce-you-tmuxinator/1.png
+    :align: center
+
+|
+

@@ -1,0 +1,79 @@
+.. link: 
+.. description: 
+.. tags: Python, Django
+.. date: 2013/10/03 18:37:31
+.. title: Upload/Download de fichier avec Django
+.. slug: uploaddownload-de-fichier-avec-django
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/uploaddownload-de-fichier-avec-django/postcard.png
+	:align: left
+
+Au cours du développement d'un projet avec Django, je voulais pouvoir uploader des fichiers sous forme de uuid et les downloader avec un nom différent de l'uuid qui servait à les stocker. J'ai un peu galéré (beaucoup) alors je me suis dit que si ça pouvait aider ne serait-ce qu'une personne.
+
+.. TEASER_END
+.. code:: python
+
+    from django.db import models
+
+    import os
+    import uuid
+
+    def upload_file(instance, filename):
+        instance.ext = filename[-3:]
+        return "%s" % (uuid.uuid4())
+
+    class MonModele(models.Model)
+        titre = models.CharField(max_length=50)
+        slug = models.SlugField(null=True, blank=True)
+        fichier = models.FileField(upload_to=upload_file)
+        ext = models.CharField(max_length=3, editable=False)
+
+
+
+C'est basique, mais ça va suffir pour mettre en place notre exemple. L'astuce c'est d'utiliser un ``callable`` pour le paramètre ``upload_to`` de notre ``FileField``. On va maintenant créer le formulaire de l'admin qui va mettre à jour automatiquement le ``SlugField`` de notre modèle à partir de notre champ ``titre``. Donc on va éditer ainsi le fichier `admin.py`
+
+.. code:: python
+
+    from monapp.models import *
+    from django.forms import ModelForm
+
+    class MonModeleAdminForm(ModelForm):
+        class Meta:
+            model = MonModele
+
+
+    class MonModeleAdmin(admin.ModelAdmin):
+        form = MonModeleAdminForm
+        prepopulated_fields = {'slug': ('titre',)}
+
+    admin.site.register(MonModele, MonModeleAdmin)
+
+
+Il ne nous reste plus qu'à intercepter les requêtes de téléchargement. On va faire cela dand le fichier `urls.py`
+
+.. code:: python
+
+    (r'^download/([-0-9a-z]+)/$', 'app.views.download'),
+
+
+Ainsi chaque requête requête de la forme http://mosupersite.org/download/b9a11670-f843-49ff-9761-06567ab506f2 sera renvoyé à la vue ``download`` suivante du fichier ``views.py``
+
+.. code:: python
+
+    def download(request, filename):
+    try:
+        f = MonModele.objects.filter(fichier__contains=filename)[0]
+        data = open("%s/%s" % (MEDIA_ROOT, filename), 'r')
+        response = HttpResponse(data, content_type='application/octet-stream', \
+            mimetype='application/%s' % f.ext)
+        response['Content-Disposition'] = 'attachment; filename=%s.%s' % \
+            (f.slug, f.ext)
+        return response
+    except IndexError:
+        raise Http404
+
+
+Et voilà le travail, vous récupérez un fichier de la forme `slug-du-titre.ext`...
+

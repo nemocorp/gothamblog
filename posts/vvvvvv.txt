@@ -1,0 +1,42 @@
+.. link: 
+.. description: 
+.. tags: Plate-forme
+.. date: 2013/10/07 18:28:21
+.. title: VVVVVV
+.. slug: vvvvvv
+.. category: Jeux Vidéos
+.. icon: jeux-videos
+
+.. image:: /images/vvvvvv/postcard.png
+	:align: left
+
+*Petite mise à jour pour ajouter une video du gameplay parce qu'on m'a fait remarquer que les simples captures d'écran c'est pas suffisant!*
+
+T'as vu ça, Lecteur, si c'est pas accrocheur comme titre. Je suis sûr que tu te demandes, mais bon sang de bonsoir! Où va-t'il chercher tout ça? Bon là, en l'occurence, j'ai pas trop de mérite. Comme tu ne vas tarder à le découvir.
+
+.. TEASER_END
+
+Et oui. Je n'y suis pour pas grand chose (peut-être même rien). VVVVVV est le nom d'un jeu vidéo moche (encore) et diabolique (c'est sûr). Arrête de soupirer, Lecteur, et ne t'inquiète pas. Il viendre bientôt le temps des jeux vidéos jolis, avec pleins de beaux graphismes pour que tu t'exastasies devant et que tu oublies à quel point ce à quoi tu joues est insipide (c'est pas faux).
+
+Bref, dans VVVVVV, vous incarnez le capitaine d'un vaisseau spatial (si si, regarde bien le sprite bleu, c'est lui le capitaine. Il est ressemblant pourtant) qui subit une avarie. Pour éviter le crash, tout l'équipage se téléporte et là bug. Au lieu de se retrouver tous au même endroit, il se retrouve dans des dimensions parallèles.
+
+Votre mission, si vous l'acceptez, retrouvez l'équipage, réparez le vaisseau (parce qu'en fait l'avarie était pas si dramatique) et rentrez à la maison.
+
+.. image:: /images/vvvvvv/2.png
+    :align: left
+
+Tout le gameplay repose sur une idée simple. Y'a que trois boutons à gérer. Droite, Gauche et Inversion de gravité. Note, Lecteur, que comparez à `escape <http://www.nemocorp.info/posts/escape.html>`_ j'ai multiplié la difficulté pour tes doigts par trois.
+
+La progression dans les tableaux est très bien faite. Au début, on avance, on se dit, ouais c'est rigolo. Et puis on meurt. Alors on repart du checkpoint et on remeurt. Et puis finalement on comprend pourquoi dans le même écran il peut y avoir plusieurs checkpoint. Car s'il y a bien une chose dans laquelle VVVVVV est très fort, c'est la manière dont sont insérées les petites touches de gameplay au fur et à mesure de la progression.
+
+Certains niveaux sont tout simplement diaboliques. Je n'ai jamais compté mais je pense que certains passages ont nécessité plus d'une centaine de vie pour que je réussisse à les franchir.
+
+Tout ça pour dire qu'après trente ans d'entraînement sur un nombre conséquent de jeux de plateforme, je pensais avoir acquis une certaine dextérité. VVVVVV vient de me donner une bonne leçon d'humilité. Gloups! 
+
+Allez une petite video du gameplay pour finir l'article. Attention c'est un mutant qui joue, ne vous y fiez pas. Moi au bout d'une minute de video j'étais déjà mort une dizaine de fois!
+
+|
+
+.. youtube:: sG54P89-qcU
+
+

@@ -1,0 +1,49 @@
+.. link: 
+.. description: 
+.. tags: Python, Développement, Virtualenv
+.. date: 2013/09/13 07:26:39
+.. title: Utilisation concrète d'un virtualenv
+.. slug: utilisation-concrete-dun-virtualenv
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/utilisation-concrete-dun-virtualenv/postcard.png
+	:align: left
+
+On me signale dans l'oreillette qu'il y a des ``Issues`` comme disent les anglais, des problèmes quoi, quand on veut installer ``virtualenvwrapper`` sur une Ubuntu 13.04. Je vous renvoie donc vers le forum Ubuntu, très bien fait, pour voir comment passer outre ses problèmes et profiter pleinement des joies de ``virtualenvwrapper`` 
+
+.. TEASER_END
+
+Tout d'abord, voyons la commande ``lsvirtualenv`` qui permet de lister l'ensemble des virtualenvs installés sur notre machine.
+
+.. code:: bash
+
+    $ lsvirtualenv
+    env1
+    ====
+    
+    
+    env2
+    ====
+    
+
+ 
+Vous devriez obtenir quelquechose dans ce style.
+
+Voyons maintenant ``rmvirtualenv`` qui comme son nom l'indique permet de supprimer physiquement de votre disque un virtualenv. Petite remarque, pour être supprimer, un virtualenv doit avoir été désactivé au préalable.
+
+.. code:: bash
+
+    (env1) $ rmvirtualenv env1
+    Removing env1...
+    ERROR: You cannot remove the active environment ('env1').
+    Either switch to another environment, or run 'deactivate'.
+    (env1) $ deactivate
+    $ rmvirtualenv env1
+    Removing env1...
+
+
+Et voilà le travail...
+
+La prochaine fois, nous verrons comment paramétrer nos virtualenv pour répondre parfaitement à nos besoins.
+  

@@ -1,0 +1,72 @@
+.. link: 
+.. description: 
+.. tags: Enchères
+.. date: 2013/10/06 18:21:10
+.. title: Goa, ou la quintessence du jeu à l'européenne
+.. slug: goa-ou-la-quintessence-du-jeu-a-leuropeenne
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+
+.. image:: /images/goa-ou-la-quintessence-du-jeu-a-leuropeenne/postcard.png
+	:align: left
+
+A sa sortie en 2003, Goa a un peu fait parler de lui. Mais pas suffisamment à mon goût. Lors de sa première édition française en 2011, il a encore un peu fait parler de lui. Mais toujours pas suffisamment à mon goût. Alors rendons enfin un vibrant hommage à cet excellent jeu de Rüdiger Dorn.
+
+.. TEASER_END
+
+Goa est un comptoir commercial portuguais en Inde, mais on s'en fout. Car s'il y a bien une chose dont on se fout dans Goa, c'est le thème, tellement il est plaqué sur les mécanismes du jeu. On aurait aussi bien pu se retrouver au fin fond de la galaxie à échanger des minerais contre des vaisseaux spaciaux. Vous voyez le genre!
+
+Bon dans Goa, on échange plutôt des épices contre des bateaux, mais là n'est pas la question. Voyons un peu comment tout cela se goupille et surtout, pourquoi, malgré cette absence flagrante de thème et d'immersion qui en rebuteront plus d'un, Goa est un très bon jeu.
+
+Dans Goa, les joueurs incarnent des marchands portuguais qui vont tenter de développer leur activité en faisant prospérer le commerce des épices entre L'inde et le vieux continent. Pour cela, chaque joueur dispose de deux plateaux individuels. Le premier permet de marquer son niveau d'avancement dans 5 grands domaines:
+
+* La construction navale
+* La production d'épice
+* Le commerce
+* Le développement
+* La colonisation
+
+Le second indique les colonies qu'il a conquises avec leurs productions d'épices.
+
+Chaque type d'épice a une utilisation dominante dans le jeu. L'utilisation conjointe des épices produits et des bateaux construits va permettre au joueur de développer les 5 grands axes. Plus un axe est développé plus il est rentable d'utiliser l'action qui lui est associée.
+
+Par exemple, utiliser l'axe "production d'épice" au niveau 1 vous fournira un épice supplémentaire, au niveau 4, il vous en fournira 8.
+
+Mais voyons voir comment tout ça s'articule.
+
+Le comment qu'on y joue
+-----------------------
+
+.. image:: /images/goa-ou-la-quintessence-du-jeu-a-leuropeenne/2.png
+    :align: left
+
+Une partie de Goa est constitué de 8 tours de jeu. 4 tours en phase A, 4 tours en phase... (rrrr...RRRR...rrrr) B. Bravo!
+
+A chaque tour, les joueurs vont commencer par mettre aux enchères des tuiles qui se trouve sur le plateau central. Je ne vous détaillerai pas le mécanisme de choix des tuiles mais sachez qu'il est brillant et machiavélique. Le système d'enchères choisit est le système des enchères à un tour. Chaque joueur fait une et une seule offre ou passe. L'offre la plus élévée remporte l'enchère et s'empare de la tuile.
+
+Quand la phase d'enchères est finit, on passe à la phase d'action. Chaque joueur va pouvoir effectuer 3 actions au choix, plus éventuellement des actions bonus acquis au fil des tours.
+
+Il peut, soit:
+
+* Utiliser une des 5 actions de ces 5 axes de développement
+* ou améliorer un axe de développement en dépensant des bateaux et des épices.
+
+Et on recommence 8 fois, avec un remplissage du plateau central avec de nouvelles tuiles à la fin du quatrième tour.
+
+En fin de partie, le joueur avec le plus de points l'emporte.
+
+Alors, Chef?
+------------
+
+Bien, très bien même. Ce qui est vraiment terrible dans Goa, c'est que Rüdiger Dorn a réussi à pousser à son paroxysme ce qui fait la marque de fabrique des jeux à l'européenne. Pleins d'actions différentes, pleins de stratégie et jamais assez de temps et d'actions pour faire tout ce qu'on a envie de faire. Donc une énorme frustration qui conduit toujours à un debriefing de fin de partie du style... "Arrggghh, j'aurai plutôt du faire ça et t'empêcher d'acheter ça, ça m'aurait ouvert ça et ça..."
+
+La phase d'enchères apporte également son lot d'interaction et de noms d'oiseau du style "Mais t'es un P.... d'E... de t'être mis là!! On peut plus rien acheter d'intéressant"
+
+Bref, j'adore. Et comble du comble, il marche aussi bien à 2 qu'à 4 joueurs.
+
+|
+
+.. image:: /images/goa-ou-la-quintessence-du-jeu-a-leuropeenne/3.png
+    :align: center
+
+

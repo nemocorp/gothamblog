@@ -1,0 +1,118 @@
+.. link: 
+.. description: 
+.. tags: Python, Django, Développement, Tutoriel
+.. date: 2013/09/17 17:28:53
+.. title: Après l'installation, la configuration
+.. slug: apres-linstallation-la-configuration
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/apres-linstallation-la-configuration/postcard.png
+	:align: left
+
+Django étant installé (voir le `post précédent <http://www.nemocorp.info/posts/un-premier-projet-avec-django.html>`_), nous allons passer à la configuration. Dans Django, toute la configuration se trouve dans le fichier ``settings.py`` du répertoire ``mon_projet``.
+
+.. TEASER_END
+
+Si vous avez besoin d'une base de données pour votre projet, tout se passe dans le bloc ``DATABASES``. Il s'agit d'un dictionnaire python. L'entrée ``ENGINE`` indique le moteur de base de données à utiliser. Django supporte postgresql, mysql, sqlite3 et oracle. Pour notre exemple, nous allons utiliser sqlite3 qui a le mérite de ne nécessiter aucune installation supplémentaire.
+
+Il ne reste plus qu'à indiquer le nom du fichier de base de données, ici ``mon_projet.db``, dans l'entrée ``NAME``.
+
+.. code:: python
+
+    DATABASES = { 
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+            'NAME': 'mon_projet.db',                # Or path to database file if using sqlite3.
+            # The following settings are not used with sqlite3:
+            'USER': '',
+            'PASSWORD': '',
+            'HOST': '',      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
+            'PORT': '',      # Set to empty string for default.
+        }   
+    }
+ 
+
+Et voilà la gestion de la base de données activée.
+
+Activation du backend d'administration
+--------------------------------------
+
+Descendez plus loin dans le fichier de configuration jusqu'à l'entrée ``INSTALLED_APPS`` et décommentez la ligne ``django.contrib.admin`` pour activer le backend d'administration de Django.
+
+.. code:: python
+
+    INSTALLED_APPS = (
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.sites',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        # Uncomment the next line to enable the admin:
+        'django.contrib.admin',
+        # Uncomment the next line to enable admin documentation:
+        # 'django.contrib.admindocs',
+    )
+
+
+Nous allons maintenant indiquer à Django sur quelles urls l'interface d'administration est accessible en décommentant les trois lignes suivantes dans le fichier ``urls.py``.
+
+.. code:: python
+
+    # Uncomment the next two lines to enable the admin:
+    from django.contrib import admin
+    admin.autodiscover()
+    ...
+    # Uncomment the next line to enable the admin:
+    url(r'^admin/', include(admin.site.urls)),
+
+
+Retournons dans le répertoire qui contient le fichier ``manage.py`` et lançons la commande suivante:
+
+.. code:: bash
+
+    nemocorp@localhost:~/projets/mon_projet$ python manage.py syncdb
+    Creating tables ...
+    Creating table auth_permission
+    Creating table auth_group_permissions
+    Creating table auth_group
+    Creating table auth_user_groups
+    Creating table auth_user_user_permissions
+    Creating table auth_user
+    Creating table django_content_type
+    Creating table django_session
+    Creating table django_site
+    Creating table django_admin_log
+
+    You just installed Django's auth system, which means you don't have any superusers defined.
+    Would you like to create one now? (yes/no): yes
+    Username (leave blank to use 'nemocorp'): 
+    Email address: wouham@nemocorp.info
+    Password: 
+    Password (again): 
+    Superuser created successfully.
+    Installing custom SQL ...
+    Installing indexes ...
+    Installed 0 object(s) from 0 fixture(s)
+
+
+Django vient d'initialiser la base de données pour nous. Lançons le serveur avec la commande suivante et admirons le résultat http://127.0.0.1:8000/admin
+
+.. code:: bash
+
+    nemocorp@localhost:~/projets/mon_projet$ python manage.py runserver
+
+
+|
+
+.. image:: /images/django/admin-panel.png
+    :align: center
+
+.. image:: /images/django/admin-login.png
+    :align: center
+
+|
+
+Pas mal non. Allez c'est tout pour aujourd'hui, la suite au prochain numéro
+

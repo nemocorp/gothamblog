@@ -1,0 +1,44 @@
+.. link: 
+.. description: 
+.. tags: Outils, Script
+.. date: 2013/10/09 18:41:57
+.. title: Découper un extrait de fichier avi avec ffmpeg
+.. slug: decouper-un-extrait-de-fichier-avi-avec-ffmpeg
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/decouper-un-extrait-de-fichier-avi-avec-ffmpeg/postcard.png
+	:align: left
+
+``ffmpeg`` est l'outil magique pour tous les traitements d'encodage/décodage de fichier audio/video. Ici je vais vous montrer comment l'utiliser très simplement pour extraire une partie d'un fichier vidéo.
+
+.. TEASER_END
+
+* Pour linux, suivant votre distribution
+
+.. code:: bash
+
+    pacman -S ffmpeg        # Archlinux
+    apt-get install ffmpeg  # Debian/ubuntu
+    yum install ffmpeg      # RedHat/Fedora
+
+
+* Pour windows, `cliquez ici pour le télécharger <http://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-latest-win32-static.7z>`_
+
+Une fois que c'est fait, ouvrez un terminal ou une fenêtre de commande et utiliser simplement la commande suivante:
+
+.. code:: 
+
+    ffmpeg -ss [start_seconds] -t [duration_seconds] -i [input_file] [outputfile]
+
+    -ss position
+        Commence l'extraction à cette seconde de la vidéo. La syntaxe “hh:mm:ss[.xxx]” est aussi supportée.
+
+    -t duration
+        Durée en seconde à extraire depuis la position précédente. La syntaxe “hh:mm:ss[.xxx]” est aussi supportée.
+
+    -i filename
+        nom du fchier à traiter
+
+
+

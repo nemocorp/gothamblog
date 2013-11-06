@@ -1,0 +1,13 @@
+.. link: 
+.. description: 
+.. tags: Vie du Site
+.. date: 2013/09/17 14:53:34
+.. title: Une nouvelle fonctionnalité pour le blog
+.. slug: une-nouvelle-fonctionnalite-pour-le-blog
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/une-nouvelle-fonctionnalite-pour-le-blog/postcard.png
+	:align: left
+
+Je viens de rajouter l'accès à mon gestionnaire de favoris (en haut à droite, toujours l'autre gauche). Dès que je vois un site intéressant, une connerie que je n'ai pas le temps de mettre sur le blog, je les publie dans mes favoris donc n'hésitez pas à aller y faire un tour... Peut-être y trouverez vous votre bonheur

@@ -1,0 +1,32 @@
+.. slug: un-petit-mot-sur-nikola
+.. title: Un petit mot sur Nikola
+.. date: 2013/09/02 17:34:27
+.. link: 
+.. description: 
+.. tags: Vie du Site, Python
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/un-petit-mot-sur-nikola/postcard.png
+	:align: left
+
+Kezako Nikola? C'est juste le moteur de blog que j'ai décidé d'utiliser pour ce site. Je vous en parle 5 minutes et après c'est fini. C'est juste que je veux rendre hommage au développeur Roberto Alsina derrière Nikola et qui a fait un travail terrible. Enfin je trouve, c'est un avis personnel qui n'engage que moi.
+
+.. TEASER_END
+    :width: 121px
+    :align: right
+
+Nikola est ce qu'on appelle couramment dans le jargon du métier un générateur de blog statique. Qu'est-que cela me diront les néophytes? Il s'agit d'un petit programme, écrit en python pour le cas de Nikola, mais il en existe dans plein d'autres langages de programmation qui va générer de simples fichiers html à partir de fichiers textes bruts. L'intérêt de ce type d'outil pour gérer un blog?
+
+* C'est que des pages html donc faille de sécurité et/ou risques de hack nul (Ca protège pas si le serveur web de votre hébergeur se fait hacker).
+* Ca se pose sur n'importe quel serveur de n'importe quel hébergeur. 
+* Ca s'occupe de tout à votre place dès qu'on a pris 5 minutes pour lire la `doc <http://nikola.ralsina.com.ar/documentation.html>`_ sur le site de l'auteur(très bien faite au passage).
+* Un simple éditeur de texte et on met à jour son blog de n'importe où (sans connexion web). Y'a plus qu'à uploader les modifs et les nouveaux articles une fois de temps en temps.
+* Idéal pour tenir un blog quand on est comme moi souvent dans le train.
+* Simple, relativement agréable à lire même avec le thème par défaut (enfin je trouve).
+* Possède toute les fonctionnalités basiques qu'on demande à un blog (chronologie, tags, flux rss, intégration de media, images...)
+
+Bref si vous décidez de lancer un blog, regardez du côté de Nikola, je pense que vous ne perdrez pas votre temps
+
+PS: Et en plus d'être idéal pour tenir un blog, on peut l'utiliser très facilement pour faire des petits sites webs statiques plutôt mignons (`voir le site de nikola par exemple <http://nikola.ralsina.com.ar>`_)
+

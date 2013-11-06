@@ -1,0 +1,27 @@
+.. link: 
+.. description: 
+.. tags: Vie du Site
+.. date: 2013/09/18 12:17:44
+.. title: Premier petit bilan après un mois...
+.. slug: premier-petit-bilan-apres-un-mois
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/premier-petit-bilan-apres-un-mois/postcard.png
+	:align: left
+
+Et oui fidèle lecteur (remarque le singulier, il n'y a que toi ici), c'est déjà l'heure d'un premier bilan. Pour l'instant j'arrive à tenir la cadence. Mais comme dit le titre, ça ne fait qu'un mois, alors ne nous emballons pas.
+
+Si tu as deux minutes à m'accorder, laisse-moi un petit commentaire pour me donner ton avis:
+
+* sur le contenu
+* sur la présentation
+* sur ce que tu aimes
+* sur ce que tu n'aimes pas
+* sur ce que tu voudrais lire comme article
+* sur ce que tu ne voudrais pas lire
+* Si tu aimes les liens des `Gotham Bookmarks <http://www.nemocorp.info/shaarli>`_ ou si tu t'en fous.
+* Bref tout ce qui te passe par la tête...
+
+Donc sache, fidèle lecteur que les deux minutes que tu m'accorderas, Dieu (note la majuscule!) te le rendra au centuple. Donc je viens allègrement par ce simple post, d'augmenter ton espérance de vie de trois heures et vingt minutes, fidèle lecteur. Alors profite bien de ta nouvelle longue vie.
+

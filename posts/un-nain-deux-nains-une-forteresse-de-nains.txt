@@ -1,0 +1,72 @@
+.. link: 
+.. description: 
+.. tags: Gestion
+.. date: 2013/09/30 08:28:44
+.. title: Un nain, deux nains,... une forteresse de nains
+.. slug: un-nain-deux-nains-une-forteresse-de-nains
+.. category: Jeux Vidéos
+.. icon: jeux-videos
+
+.. image:: /images/un-nain-deux-nains-une-forteresse-de-nains/postcard.png
+	:align: left
+
+*"Si y'a pas de zombies, ça m'intéresse pas!"*
+
+Attends lecteur, y'a pas de zombies, mais y'a des nains. Et plein en plus!
+
+*"Ouais mais qu'est-ce que c'est moche!"*
+
+Euh, oui... là j'ai pas d'arguments pour contrer ça.
+
+.. TEASER_END
+
+Le mode Fortress
+----------------
+
+Dwarf Fortress est un jeu vidéo, euh comment le dire simplement, hors norme, développé par un studio indépendant composé d'une seule personne. "Tarn Adams". Cela fait plus de dix ans que Tarn Adams se consacre à son jeu et il a su gagner son public. Il ne vit que des donations que font les joueurs à son projet et quand on sait que ces dites donations s'élèvent à plusieurs milliers de dollars par mois, on peut se dire que son jeu plaît.
+
+Dans Dwarf Fortress (DF pour les intimes) vous allez créer de toute pièce, gérer et développer une forteresse naine au coeur d'une montagne. Jusque là, rien de bien nouveau sous le soleil. Mais où on commence à sentir le génie du truc, c'est quand je vais vous dire que chaque nain de votre forteresse à une vraie personnalité, une vraie histoire personnelle, des liens sociaux avec les autres. Des amis, des amours, des ennemis aussi, même parmi les siens.
+
+.. image:: /images/un-nain-deux-nains-une-forteresse-de-nains/1.png
+    :align: center
+
+L'interface est particulièrement austère, la prise en main très difficile et passer le premier hiver quasiment insurmontable. Mais quel plaisir de jeu. Voir ses nains évoluer, acquérir de nouvelles compétences, se spécialiser, apprendre un métier réaliser de magnifiques objets...
+
+Parce que dans DF, les possibilités de jeux sont énormes avec:
+
+* le développement militaire, pour se protéger des aggressions des hordes de gobelins, des voleurs et j'en passe 
+* le génie civil pour la constitution de la forteresse, les galeries (attention aux effrondrements), la réalisation des plans pour que votre forteresse soit agréable à vivre.
+* la politique et la gestion des castes
+* le commerce avec les production d'objet, les échanges avec les peuples voisins, les accords commerciaux, la gestion des places de marchés...
+* la psychologie... Attention à la santé mentale de vos nains, un nain qui vire berserk est si vite arrivé.
+* les mécanismes de défenses et autres pièges (avec un moteur physique très réaliste, comme tout le reste d'ailleurs)
+* la gestion de l'eau, la construction de canaux
+* la chasse, le dressage des animaux, la gestion de la nourriture, la constitution des repas
+* et bien sûr les brasseries et la bière, car qu'est-ce que serait un jeu de nains sans bières.
+
+.. image:: /images/un-nain-deux-nains-une-forteresse-de-nains/3.png
+    :align: center
+
+Tout ceci n'est qu'un tout petit aperçu de ce jeu extrêmement prenant. Tout ceux qui sont tombés dedans vous le diront, Dwarf Fortresse est peut-être le seul jeu complet à ce jour qui simule intégralement tous les aspects d'une civilisation.
+
+Ajoutez à cela que le monde est généré aléatoirement au début d'une partie, que l'histoire du monde s'écrit au fur et à mesure du jeu. Ses mythes, ses héros, ses légendes... Que vous pouvez des années après la fin d'une partie retourner sur les ruines d'une de vos forteresses passées.
+
+Un jeu sans fin, qui mettra vos nerfs à rude épreuve. En tout cas à réserver aux gamers qui recherchent une expérience extrême.
+
+Allez quelques liens pour finir de vous appater:
+
+* `Le site officiel <http://www.bay12games.com/dwarves/>`_
+* `Un tès bon tutoriel en anglais <http://afteractionreporter.com/2009/02/09/the-complete-and-utter-newby-tutorial-for-dwarf-fortress-part-1-wtf/>`_
+* `Un autre tutoriel en français <http://www.dwarffortress.fr/wiki/index.php?title=Tutoriel_illustr%C3%A9>`_
+
+Pour conclure cette toute petite présentation, sachez que je ne vous ai présenté qu'un seul mode de jeu, "le mode fortress", mais qu'il existe aussi "le mode aventure" qui apparemment vaut aussi son pesant de cacahuètes.
+
+PS: Il existe `un guide de démarrage publié chez O'Reilly <http://shop.oreilly.com/product/0636920022565.do>`_ entièrement illustré et qui fait 240p. Gloups!
+
+.. image:: /images/un-nain-deux-nains-une-forteresse-de-nains/4.png
+    :align: center
+
+.. image:: /images/un-nain-deux-nains-une-forteresse-de-nains/5.png
+    :align: center
+
+

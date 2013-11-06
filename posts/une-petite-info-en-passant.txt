@@ -1,0 +1,19 @@
+.. link: 
+.. slug: une-petite-info-en-passant
+.. title: Une petite info en passant...
+.. tags:  Vie du Site
+.. date: 2013/11/05 13:12:55
+.. description: 
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/une-petite-info-en-passant/postcard.png
+    :align: left
+    :class: media-object
+
+.. class:: media-body
+
+    | Je me suis lancé dans un petit chantier de nettoyage de certains articles qui me prend plus de temps que prévu, mais pas de panique tout va bientôt repartir. Pour voir les changements, Lecteur, tu peux déjà aller voir `cet article </posts/sankt-petersburg.html>`_, où il y a des vrais tags, qui vont te permettre de retrouver efficacement des jeux, des livres, des films... et aussi des vraies photos faites avec mes petites mimines, mais du coup, ça prend un peu plus de temps.
+    | Plus deux jolis boutons "Follow" Twitter & Facebook pour se tenir à jour des nouveautés (Faites péter les compteurs) et une page Facebook dédiée `ici <https://www.facebook.com/pages/Gotham-Blog/379159445551177>`_. Bref pas mal de travail de fond qui ne se voit pas du tout et pas beaucoup de news.
+    | Et comme toujours, n'hésite pas à laisser ton avis/tes remarques en commentaires...
+

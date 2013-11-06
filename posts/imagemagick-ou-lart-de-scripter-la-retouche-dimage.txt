@@ -1,0 +1,76 @@
+.. date: 2013/10/22 13:09:10
+.. description: 
+.. title: ImageMagick où l'art de scripter la retouche d'image
+.. link: 
+.. slug: imagemagick-ou-lart-de-scripter-la-retouche-dimage
+.. tags: Script, ImageMagick
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/imagemagick-ou-lart-de-scripter-la-retouche-dimage/postcard.png
+	:align: left
+
+ImageMagick est un logiciel libre. ImageMagick permet de faire pleins de transformation d'image, basique ou complexe. Voyons donc voir exactement ce que l'on peut faire avec.
+
+.. TEASER_END
+.. code:: bash
+
+    convert image.jpg image.png
+
+
+Ou aussi compliqué que cela
+
+.. code:: bash
+
+    convert image.jpg \
+         -bordercolor white  -border 6 \
+         -bordercolor grey60 -border 1 \
+         -bordercolor none  -background  none \
+         \( -clone 0 -rotate `convert null: -format '%[fx:rand()*30-15]' info:` \) \
+         \( -clone 0 -rotate `convert null: -format '%[fx:rand()*30-15]' info:` \) \
+         \( -clone 0 -rotate `convert null: -format '%[fx:rand()*30-15]' info:` \) \
+         \( -clone 0 -rotate `convert null: -format '%[fx:rand()*30-15]' info:` \) \
+         -delete 0  -border 100x80  -gravity center \
+         -crop 350x450+0+0  +repage  -flatten  -trim +repage \
+         -background black \( +clone -shadow 60x4+4+4 \) +swap \
+         -background none  -flatten \
+         $(dirname $1)/poloroid_stack.png
+
+
+Ce dernier exemple produit le résultat que vous pouvez voir sur la page d'accueil du site. Un empilement aléatoire de polaroid à partir d'une image simple.
+
+.. image:: /images/imagemagick-ou-lart-de-scripter-la-retouche-dimage/thumb.png
+    :align: center
+
+|
+
+.. image:: /images/imagemagick-ou-lart-de-scripter-la-retouche-dimage/poloroid_stack.png
+    :align: center
+
+
+ImageMagick est aussi particulièrement utile pour créer des miniatures:
+
+.. code:: bash
+
+    convert -resize 150x150 image.jpg mini.jpg  #Force la largeur et la hauteur a 150px sans preserver l'aspect
+    convert -resize 150x image.jpg mini.png     #Force la largeur à 150px et calcul la hauteur pour préserver l'aspect
+    convert -resize x150 image.jpg mini.png     #Pareil mais en fixant la hauteur et en calculant la largeur
+    convert -resize 50% image.jpg mini.png      #Réduire la taille de l'image de moitié
+    ...
+
+
+ImageMagick permet également d'extraire simplement une portion d'image
+
+.. code:: bash
+
+    # Extraire une portion de 200px x 100px depuis le coin supérieur gauche
+    convert -crop 200x100+0+0 image.jpg crop.png
+
+
+Comme vous le voyez ImageMagick permet de faire énormément de chose, mais il ne s'agit ici que d'un aperçu qui je l'espère vous donnera envie d'en voir un peu plus. Il existe de très nmbreuses ressources sur le net consacrées à cet excellent outil, mais le `site officiel <http://www.imagemagick.org/>`_ me semble être un excellent point de départ ainsi que ces `nombreux scripts d'exemple <http://www.imagemagick.org/script/index.php>`_.
+
+"Ouais c'est bien beau tout ça, mais je préfère photoshop!"
+
+Libre à toi, mais avec ImageMagick, tu joues et tu rejoues tes transformations sur des tonnes d'images sans réinventer la roue à chaque fois. Et ça, quand t'es fainéant comme ton humble serviteur, ça n'a pas de prix.
+
+

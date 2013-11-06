@@ -1,0 +1,105 @@
+.. link: 
+.. description: 
+.. tags:  Python, Développement, Virtualenv
+.. date: 2013/09/13 11:15:13
+.. title: virtualenv, la suite de la suite
+.. slug: virtualenv-la-suite-de-la-suite
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/virtualenv-la-suite-de-la-suite/postcard.png
+	:align: left
+
+Bon maintenant que vous savez Créer, lister et supprimer vos virtualenvs on va pouvoir jouer un petit peu plus avec.
+
+Commençons par créer un petit virtualenv qui va héberger un petit projet django (au hasard).
+
+.. TEASER_END
+
+.. code:: bash
+
+    $ mkvirtualenv -p /usr/bin/python2.7 django
+    (django) $
+
+
+Bon la base étant posée, nous allons installer ``django`` dans notre virtualenv
+
+.. code:: bash
+
+    $ pip install django
+    Downloading/unpacking django
+        Downloading Django-1.5.3.tar.gz (8.0MB): 8.0MB downloaded
+        Running setup.py egg_info for package django
+    
+        warning: no previously-included files matching '__pycache__' found under directory '*'
+        warning: no previously-included files matching '*.py[co]' found under directory '*'
+    Installing collected packages: django
+        Running setup.py install for django
+            changing mode of build/scripts-3.3/django-admin.py from 644 to 755
+    
+        warning: no previously-included files matching '__pycache__' found under directory '*'
+        warning: no previously-included files matching '*.py[co]' found under directory '*'
+        changing mode of /home/batman/btsync/dev/virtualenvs/django/bin/django-admin.py to 755
+    Successfully installed django
+    Cleaning up...
+    (django) $ 
+
+
+Vérifions que ``django`` est bien installé avec la commande ``lssitespackages``
+
+.. code:: bash
+
+    (django) $ lssitepackages 
+    django  Django-1.5.3-py3.3.egg-info  easy_install.py  _markerlib  pip  pip-1.4.1-py3.3.egg-info  pkg_resources.py  __pycache__  setuptools  setuptools-0.9.8-py3.3.egg-info
+    (django) $ 
+
+
+Comme vous le voyez, installer des libraires tierces dans un virtualenv est enfantin. La commande ``pip freeze`` permet de lister les modules intallés avec pip.
+
+.. code:: bash
+
+    (django) $ pip freeze
+    Django==1.5.3
+    (django) $ 
+
+
+Nous allons maintenant utiliser ``pip freeze`` pour créer un deuxième virtualenv avec les mêmes modules que celui que nous venons de faire.
+
+.. code:: bash
+
+    (django) $ pip freeze > requirements.txt
+    (django) $ deactivate
+    $ mkvirtualenv -p /usr/bin/python2.7 django2
+    Running virtualenv with interpreter /usr/bin/python2.7
+    New python executable in django2/bin/python2.7
+    Also creating executable in django2/bin/python
+    Installing Setuptools..............................................................................................................................................................................................................................done.
+    Installing Pip.....................................................................................................................................................................................................................................................................................................................................done.
+    (django2) $ pip install -r requirements.txt 
+    Downloading/unpacking Django==1.5.3 (from -r requirements.txt (line 1))
+        Downloading Django-1.5.3.tar.gz (8.0MB): 8.0MB downloaded
+            Running setup.py egg_info for package Django
+    
+        warning: no previously-included files matching '__pycache__' found under directory '*'
+        warning: no previously-included files matching '*.py[co]' found under directory '*'
+    Installing collected packages: Django
+        Running setup.py install for Django
+            changing mode of build/scripts-2.7/django-admin.py from 644 to 755
+    
+        warning: no previously-included files matching '__pycache__' found under directory '*'
+        warning: no previously-included files matching '*.py[co]' found under directory '*'
+        changing mode of /home/batman/btsync/dev/virtualenvs/django2/bin/django-admin.py to 755
+    Successfully installed Django
+    Cleaning up...
+    (django2) $ lssitepackages 
+    django  Django-1.5.3-py2.7.egg-info  easy_install.py  easy_install.pyc  _markerlib  pip  pip-1.4.1-py2.7.egg-info  pkg_resources.py  pkg_resources.pyc  setuptools  setuptools-0.9.8-py2.7.egg-info
+    (django2)batman@ord13223:~$ 
+
+
+On dispose bien maintenant d'un deuxième ``virtualenv`` identique au premier en terme de module. Cette méthode présente peu d'intérêt avec un seul module, mais vous verrez que fréquemment vous allez installer un grand nombre de modules tiers et ``pip freeze`` vous permet de garder une liste propre des modules à installer ou réinstaller.
+
+N'hésitez pas à consulter la `documentation de pip <http://www.pip-installer.org/en/latest/>`_
+
+Bonne lecture!
+
+

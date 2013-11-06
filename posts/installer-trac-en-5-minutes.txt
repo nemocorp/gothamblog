@@ -1,0 +1,47 @@
+.. link: 
+.. tags: Python, Trac, Développement
+.. description: 
+.. date: 2013/09/02 17:57:54
+.. title: Installer Trac en 5 minutes
+.. slug: installer-trac-en-5-minutes
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/installer-trac-en-5-minutes/postcard.png
+	:align: left
+
+Trac est un gestionnaire de projet développé en python. Il dispose d'un gestionnaire de tickets simple et efficace ainsi que d'un wiki agréable à utiliser. Il dispose de plus de nombreuses extensions qui permettent de le transformer en véritable usine à gaz.
+
+.. TEASER_END
+
+Et pour ce faire on va encore utiliser l'excellent, que dis-je l'incontournable virtualenvwrapper et sa commande magique mkvirtualenv.
+
+.. code:: bash
+
+    mkvirtualenv -p /usr/bin/python2.7 trac
+    pip install trac
+    # <début de commentaire inutile>
+    # Plus je l'utilise plus je trouve virtualenvwrapper propre et élégant
+    # </début de commentaire inutile>
+    mkdir ~/trac
+    cd trac
+    trac-admin . initenv
+
+    htpasswd -c .htpasswd admin
+    tracd -p 8080 --basic-auth="trac,/home/batman/trac/.htpasswd,realmname" /home/batman/trac
+
+Il ne reste plus qu'à ouvrir votre naviguateur à l'adresse http://127.0.0.1:8080
+
+Magic isn't it!
+
+Pour tout virer si ça ne vous convient pas ou pour recommencer au propre
+
+.. code:: bash
+
+    deactivate
+    rmvirtualenv trac
+    rm -rf ~/trac
+
+
+musez-vous bien! Et comme toujours allez faire un tour sur le site officiel où les docs sont très bien faites.
+

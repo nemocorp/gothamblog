@@ -1,0 +1,14 @@
+.. link: 
+.. description: 
+.. tags: Vie du Site
+.. date: 2013/09/17 11:49:36
+.. title: Et la recherche fut...
+.. slug: et-la-recherche-fut
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/et-la-recherche-fut/postcard.png
+	:align: left
+
+Le site grossissant, je me suis dit qu'un petit moteur de recherche vous aiderait à retrouver l'information... Donc n'hésitez pas à l'utiliser, il est en haut à droite (l'autre gauche) de votre écran.
+

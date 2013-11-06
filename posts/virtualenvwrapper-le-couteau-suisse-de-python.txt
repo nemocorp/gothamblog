@@ -1,0 +1,126 @@
+.. link: 
+.. description: 
+.. tags: Python, Développement, Virtualenv
+.. date: 2013/09/04 20:48:09
+.. title: Virtualenvwrapper, le couteau suisse de Python
+.. slug: virtualenvwrapper-le-couteau-suisse-de-python
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/virtualenvwrapper-le-couteau-suisse-de-python/postcard.png
+	:align: left
+
+Je viens de m'apercevoir en relisant quelques posts et quelques notes que j'aurai sûrement du commencer par une présentation de l'installation et de l'utilisation de virtualenvwrapper de `Doug Hellmann <http://doughellmann.com/>`_.
+
+Virtualenvwrapper est un petit set d'extension qui permet de simplifier la gestion des environnements virtuels de développement en Python. Mais qu'est-ce donc que cela? C'est une boîte fermée qui va contenir tout le nécessaire pour exécuter des programmes en Python sans polluer l'environnement Python intégré dans votre distribution.
+
+.. TEASER_END
+
+Voyons donc comment tout cela se passe. La première chose à faire est d'installer virtaulenvwrapper sur votre système avec votre gestionnaire de paquet favori ou avec pip.
+
+.. code:: bash
+
+    # Archlinux
+    pacman -S python-virtualenvwrapper
+    # Ubuntu
+    apt-get install python-virtualenvwrapper
+    # Pip
+    pip install virtualenvwrapper
+
+Puis un petit
+
+.. code:: bash
+
+    virtualenvwrapper_lazy.sh
+
+
+Une fois virtualenvwrapper installé, nous allons pouvoir créer des environnements et jouer avec.
+
+Création d'un environnment
+--------------------------
+
+Si l'installation de virtualenvwrapper s'est correctement déroulée, vous devriez obtenir ce résultat en utilisant la commande ``mkvirtualenv``.
+
+.. code:: bash
+
+    nemocorp@gotham:~$ mkvirtualenv env1
+    Using base prefix '/usr'
+    New python executable in env1/bin/python3
+    Also creating executable in env1/bin/python
+    Installing Setuptools..............................................................................................................................................................................................................................done.
+    Installing Pip.....................................................................................................................................................................................................................................................................................................................................done.
+    (env1)nemocorp@gotham:~$
+
+On voit que la chaîne ``(env1)`` a été ajouté à notre prompt pour indiquer que l'on se trouve dans le virtualenv `env1``.
+
+Si nous executons python à l'intérieur de ce virtualenv, commme nous n'avons rien préciser à ``mkvirtualenv`` nous nous retrouvons avec le même executable python que l'executable par défaut de notre système.
+
+.. code:: bash
+
+    (env1)nemocorp@gotham:~$ python
+    Python 3.3.2 (default, May 21 2013, 15:40:45) 
+    [GCC 4.8.0 20130502 (prerelease)] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    Python shell history and tab completion are enabled.
+    >>> exit() 
+
+    (env1)nemocorp@gotham:~$ deactivate # Permet de sortir de l'environnement virtuel
+
+    nemocorp@gotham:~$ python
+    Python 3.3.2 (default, May 21 2013, 15:40:45) 
+    [GCC 4.8.0 20130502 (prerelease)] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    Python shell history and tab completion are enabled.
+    >>> exit() 
+
+Utilisons une nouvelle fois ``mkvirtualenv`` pour créer un deuxième environnement, mais cette fois en lui précisant l'executable pyton à utiliser grâce à l'option -p.
+
+.. code:: bash
+
+    nemocorp@gotham:~$ mkvirtualenv -p /usr/bin/python2.7 env2
+    Running virtualenv with interpreter /usr/bin/python2.7
+    New python executable in env2/bin/python2.7
+    Also creating executable in env2/bin/python
+    Installing Setuptools.................................................................................
+    ..............................................................................done.
+    Installing Pip........................................................................................
+    ......................................................................................................
+    .................................................................done.
+    (env2)nemocorp@gotham:~$ python
+    Python 2.7.5 (default, May 12 2013, 12:00:47) 
+    [GCC 4.8.0 20130502 (prerelease)] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    Python shell history and tab completion are enabled.
+    >>> exit() 
+
+On le voit ici on dispose maintenant d'un environnement qui va nous permettre d'utiliser l'interpreteur python en version 2.7.5 contrairement à l'environnement ``env1`` qui va nous permettre d'utiliser l'interpreteur python en version 3.
+
+Passer d'un virtualenv à un autre
+---------------------------------
+
+Rien de plus avec les comandes ``workon`` et ``deactivate``. ``workon`` permet d'entrer dans un virtualenv alors que ``deactivate`` permet d'en sortir.
+
+.. code:: bash
+
+    (env2)nemocorp@gotham:~$ python
+    Python 2.7.5 (default, May 12 2013, 12:00:47) 
+    [GCC 4.8.0 20130502 (prerelease)] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    Python shell history and tab completion are enabled.
+    >>> exit() 
+    (env2)nemocorp@gotham:~$ deactivate
+    nemocorp@gotham:~$ workon env1
+    (env1)nemocorp@gotham:~$ python
+    Python 3.3.2 (default, May 21 2013, 15:40:45) 
+    [GCC 4.8.0 20130502 (prerelease)] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    Python shell history and tab completion are enabled.
+    >>> exit()
+    (env1)nemocorp@gotham:~$ deactivate
+    nemocorp@gotham:~$ 
+
+Et voilà le travail.
+
+Dans un prochain article, nous verrons comment supprimer les virtualenvs que nous avons créés et comment installer des modules complémentaires dans un virtualenv.
+
+

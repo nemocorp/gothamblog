@@ -1,0 +1,16 @@
+.. link: 
+.. description: 
+.. tags:  Vie du Site
+.. date: 2013/09/16 13:33:58
+.. title: Passage de nikola en version 6
+.. slug: passage-de-nikola-en-version-6
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/passage-de-nikola-en-version-6/postcard.png
+	:align: left
+
+Un tout petit post pour vous indiquer que le blog vient de migrer en version 6.0.2. J'en ai profité pour revoir le thème. Je trouve celui-ci plus lisible et plus clair (à tous les sens du terme). N'hésitez pas à me faire vos commentaires et pour ceux qui me diront c'était mieux avant, on verra ce qu'on peut faire.
+
+Bonne lecture!
+

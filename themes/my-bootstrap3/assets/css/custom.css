@@ -1,0 +1,39 @@
+@font-face {
+    font-family: SaxMono;
+    src: url('http://www.nemocorp.info/images/SaxMono.ttf');
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    font-size: 16px
+}
+.literal, .literal-block {
+    font-family: 'SaxMono', monospace;
+    font-size: 12px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Abel', sans-serif;
+}
+#blog_desc {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.teaser img {
+    max-width: 150px;
+}
+
+.center {
+    text-align: center;
+}
+
+.fiche {
+    padding: 0 8px 0 9px;
+    margin: 8px 0px 8px 8px;
+    font-size: 13px;
+}
+
+

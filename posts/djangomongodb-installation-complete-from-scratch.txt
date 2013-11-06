@@ -1,0 +1,157 @@
+.. link: 
+.. description: 
+.. tags: Django, MongoDB, Python
+.. date: 2013/09/24 08:10:33
+.. title: Django+MongoDB, Installation complète from scratch
+.. slug: djangomongodb-installation-complete-from-scratch
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/djangomongodb-installation-complete-from-scratch/postcard.png
+	:align: left
+
+Plusieurs de mes lecteurs se sont plaints (ou pleins ça dépend de l'heure de la soirée), de la trop grande technicité de certains articles informatiques. Donc pour répondre à leur demande, on va encore franchir une étape et mettre de côté nos petits tutoriels bon enfant pour s'attaquer à du lourd. La configuration complète de Django pour utiliser MongoDB comme backend de base de données.
+
+Si tu es là, il n'y a que deux options possibles, tu ne comprends rien à l'informatique et tu veux te faire du mal, ou alors tu es comme moi, tu adores triturer les nouvelles technos et tu aimes te faire du mal. Passons donc aux choses sérieuses.
+
+.. TEASER_END
+
+Tout d'abord, il vous faudra installer mongodb puis créer un ``virtualenv`` avec Django et Mongoengine
+
+.. code:: bash
+
+    # Installation de mongodb
+    yaourt -s mongodb
+
+    # Création du virtualenv python
+    mkvirtualenv django-mongodb-env
+    mkdir django-mongodb-env
+    cd django-mongodb-env
+    
+    # Installation des Django et mongoengine
+    pip install django mongoengine pymongo
+
+    # Création du projet python
+    django-admin.py startproject mon_projet
+
+    # Démarrage du serveur mongoDB
+    mkdir mongodb
+    mongod --dbpath ./mongodb &
+    
+Nous avons maintenant le serveur mongoDB qui tourne, le virtualenv Django opérationnel et comme on dit par chez nous, Yaka Faux Cons.
+
+Modification du fichier settings.py
+-----------------------------------
+
+* Commencer par supprimer l'intégralité du bloc ``DATABASES``. 
+* Ajouter les lignes suivantes de connexion à mongoDB à la place du bloc ``DATABASES``. Si vous voulez utiliser l'authentification de mongoDB pour protéger votre base de données, utilisez la première ligne de connexion en commentaire en lieu et place de la deuxième.
+
+.. code:: python
+
+    import mongoengine
+    _MONGODB_USER = 'admin'
+    _MONGODB_PASSWD = 'admin'
+    _MONGODB_HOST = 'localhost'
+    _MONGODB_NAME = 'test'
+    _MONGODB_DATABASE_HOST = \
+        'mongodb://%s:%s@%s/%s' \
+        % (_MONGODB_USER, _MONGODB_PASSWD, _MONGODB_HOST, _MONGODB_NAME)
+
+    #mongoengine.connect(_MONGODB_NAME, host=_MONGODB_DATABASE_HOST)
+    mongoengine.connect(_MONGODB_NAME)
+
+
+* Ajouter ``mongoengine.django.mongo_auth`` à la liste des ``INSTALLED_APPS``
+* Ajouter les lignes suivantes à la fin du fichier ``settings``
+
+.. code:: python
+
+    SESSION_ENGINE = 'mongoengine.django.sessions'
+
+    AUTHENTICATION_BACKENDS = (
+        'mongoengine.django.auth.MongoEngineBackend',
+    )
+
+    MONGOENGINE_USER_DOCUMENT = 'mongoengine.django.auth.User'
+    AUTH_USER_MODEL = 'mongo_auth.MongoUser'
+
+
+Voilà a quoi doit ressembler votre fichier ``settings.py`` après toutes les modifications
+
+.. code:: python
+
+    import mongoengine
+    _MONGODB_USER = 'admin'
+    _MONGODB_PASSWD = 'admin'
+    _MONGODB_HOST = 'localhost'
+    _MONGODB_NAME = 'test'
+    _MONGODB_DATABASE_HOST = \
+        'mongodb://%s:%s@%s/%s' \
+        % (_MONGODB_USER, _MONGODB_PASSWD, _MONGODB_HOST, _MONGODB_NAME)
+
+    #mongoengine.connect(_MONGODB_NAME, host=_MONGODB_DATABASE_HOST)
+    mongoengine.connect(_MONGODB_NAME)
+
+    ...
+
+    INSTALLED_APPS = (
+        'django.contrib.auth',
+        'mongoengine.django.mongo_auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.sites',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        # Uncomment the next line to enable the admin:
+        # 'django.contrib.admin',
+        # Uncomment the next line to enable admin documentation:
+        # 'django.contrib.admindocs',
+    )
+
+    ...
+
+    SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
+    SESSION_ENGINE = 'mongoengine.django.sessions'
+
+    AUTHENTICATION_BACKENDS = (
+        'mongoengine.django.auth.MongoEngineBackend',
+    )
+
+    MONGOENGINE_USER_DOCUMENT = 'mongoengine.django.auth.User'
+    AUTH_USER_MODEL = 'mongo_auth.MongoUser'
+
+
+Creation du super utilisateur
+-----------------------------
+
+Si tout s'est bien passé, vous devriez maintenant pouvoir créer le super utilisateur django à l'aide de la commande suivante:
+
+.. code:: bash
+
+    python manage.py createsuperuser
+    username: ...
+    ...
+
+
+Utilisation de l'authentification dans les vues
+-----------------------------------------------
+
+Il ne vous reste plus qu'à gérer l'authentification dans vos vues avec ``authenticate``
+
+
+.. code:: python
+
+    from django.shortcuts import render_to_response
+    from django.template import RequestContext
+    from django.contrib.auth import authenticate
+
+    import mongoengine
+
+    user = authenticate(username=username, password=password)
+    assert isinstance(user, mongoengine.django.auth.User)
+
+    def ma_vue(request):
+        ...
+
+Et voilà le travail. Vous avez bien transpiré?
+

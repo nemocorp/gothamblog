@@ -1,0 +1,20 @@
+.. link: 
+.. description: 
+.. tags: Connerie
+.. date: 2013/09/16 09:56:51
+.. title: Parce que ça m'a fait marrer...
+.. slug: parce-que-ca-ma-fait-marrer
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/parce-que-ca-ma-fait-marrer/postcard.png
+	:align: left
+
+...et parce que c'est vraiment très con! Sans commentaire.
+
+.. class:: center
+
+    .. youtube:: zm8pz4al_sY
+
+
+

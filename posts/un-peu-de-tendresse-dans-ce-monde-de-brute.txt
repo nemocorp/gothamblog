@@ -1,0 +1,18 @@
+.. link: 
+.. description: 
+.. tags: Bandes dessinées
+.. date: 2013/10/09 12:48:07
+.. title: Un peu de tendresse dans ce monde de brute
+.. slug: un-peu-de-tendresse-dans-ce-monde-de-brute
+.. category: Livres
+.. icon: livres
+
+.. image:: /images/un-peu-de-tendresse-dans-ce-monde-de-brute/postcard.png
+	:align: left
+
+`Bouletcorp.com <http://www.bouletcorp.com>`_ nous offre un pur moment de fraîcheur et d'émotion avec cette planche à mi-chemin entre bandes déssinées et dessins animés. C'est beau, c'est émouvant, ça rappelle des souvenirs et `c'est là que ça se passe... <http://www.bouletcorp.com/blog/2013/10/08/notre-toyota-etait-fantastique/>`_
+
+.. image:: /images/un-peu-de-tendresse-dans-ce-monde-de-brute/1.gif
+    :align: center
+
+

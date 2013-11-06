@@ -1,0 +1,14 @@
+.. tags: Vie du Site
+.. description: 
+.. date: 2013/08/08 10:58:26
+.. title: Lancement du Blog
+.. slug: lancement-du-blog
+.. link: 
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/lancement-du-blog/postcard.png
+	:align: left
+
+Je me décide enfin à lancer mon propre blog. Je vais essayer de le mettre à jour régulièrement. C'est un voeu pieu et la base de tout blog qui se respecte, mais il va falloir que je trouve le temps. De quoi vais-je vous parler? Sûrement de tout et de rien. De Linux, de Python, c'est sûr, mais aussi peut-être de livre, de cinéma, de musique. Pas les toutes dernières sorties mais plutôt ceux que j'aime. Enfin bref, voilà, c'est parti. Il ne me reste plus qu'à trouver le sujet du premier article.
+

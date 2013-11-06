@@ -1,0 +1,44 @@
+.. tags: Plate-forme, Puzzle
+.. slug: braid
+.. link: 
+.. date: 2013/10/29 12:56:08
+.. title: Braid, Ambiance & Gameplay au rendez-vous
+.. description: 
+.. category: Jeux Vidéos
+.. icon: jeux-videos
+
+.. image:: /images/braid/postcard.png
+	:align: left
+
+Tu l'auras sans doute remarqué Lecteur (ou pas), j'aime parler des choses qui sortent de l'ordinaire. C'est pourquoi Braid méritait bien un petit article sur ce blog, que ce soit pour ses graphismes ou pour son gameplay. 
+
+.. TEASER_END
+
+.. image:: /images/braid/11.png
+    :align: right
+
+Tout d'abord, admire-moi c'est screenshots. On aime ou on n'aime pas, mais le moins que l'on puisse dire, c'est qu'on est à des années lumières de la production videoludique normale qui nous matraque de "Regarde combien j'affiche de millions de polygones que donc mon jeu il est trop mieux!". Là, on a plus l'impression de contempler un tableau. C'est tout chatoyant de plein de couleurs! Je t'entends déjà t'extasier, Lecteur.
+
+    Môôônnn Diiieeeuu, c'que c'est bâooo!
+
+Et clairement, tu as raison, tellement ce design osé et affirmé participe grandement au succès de Braid.
+
+.. image:: /images/braid/22.png
+    :align: left
+
+Braid, c'est un jeu de plate-forme dans lequel vous contrôlez Tim parti en quête de sa princesse (et oui encore!). A travers une succession de tableaux (écrans du jeu mais on dit tableau), plus tordus les uns que les autres, vous allez tenter de reconstituer des tableaux (peinture d'artiste mais on dit aussi tableau) en récupérant des pièces de puzzle.
+
+La grande originalité de ce petit (grand) jeu, tient à la manière dont vous allez devoir gérer le temps. En effet, Tim dispose d'un pouvoir pas piqué des vers, il est capable de remonter le temps d'une simple pression sur la touche shift. Et c'est là tout l'intérêt du jeu. Les énigmes proposées à chaque niveau mettront votre esprit (ou vos nerfs, ou les deux) à rude épreuve.
+
+Un très bon moment vidéoludique! Allez hop, un dernier petit cliché et une petite vidéo du gameplay pour se mettre dans l'ambiance...
+
+|
+
+.. image:: /images/braid/commented_polaroid.png
+    :align: center
+
+|
+
+.. class:: center
+
+    .. youtube:: QxXkcg-stLE

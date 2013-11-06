@@ -1,0 +1,45 @@
+.. slug: bien-demarrer-avec-django
+.. title: Bien démarrer avec Django
+.. description: 
+.. date: 2013/08/27 15:15:03
+.. tags: Python, Django, Développement
+.. link: 
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/bien-demarrer-avec-django/postcard.png
+	:align: left
+
+Django est défini par ces promoteurs comme étant "le framework pour les perfectionnistes ayant une deadline à respecter". J'avoue que sur le coup moi aussi j'ai trouvé ça un peu présomptueux, mais après quelques mois d'utilisation, j'avoue qu'on est pas très loin de cela.
+
+Pour bien démarrer avec Django, il faut bien sûr connaître un petit peu le langage Python, mais ce n'est pas indispensable. Le tutoriel de Django est suffisamment bien fait pour profiter de Django pour apprendre Python. Je ne m'intéresserai ici uniquement aux linuxiens, pour les autres, je vous renvoie à l'excellente documentation sur le site du projet django.
+
+.. TEASER_END
+.. code:: bash
+
+    pacman -S python-virtualenvwrapper
+
+
+Une fois installé, nous allons créer un environnement de développement dédié à notre projet Django.
+
+.. code:: bash
+
+    mkvirtualenv -p /usr/bin/python2.7 monprojet
+    pip install django
+    cd
+    django-admin startproject monprojet
+    cd monprojet
+    python manage.py startapp monapp
+
+
+Bon ok, j'ai tapé tout ça et après? Vous êtes maintenant en possession d'un environnement de développement virtuel dédié à Django qui ne polluera pas les bibliothèque de votre système. Pour le supprimer, rien de plus simple.
+
+.. code:: bash
+
+    deactivate
+    cd
+    rmvirtualenv monprojet
+    rm -rf monprojet
+
+Dans un prochain article nous verrons les bases du développement avec Django.
+

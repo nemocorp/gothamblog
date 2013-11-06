@@ -1,0 +1,14 @@
+## -*- coding: utf-8 -*-
+<%inherit file="base.tmpl"/>
+<%block name="content">
+        <!--Body content-->
+        <div class="postbox">
+        <h1>${title}</h1>
+        <ul class="list-unstyled">
+        % for post in posts:
+            <li><a href="${post.permalink()}">${post.title()}, le ${post.formatted_date("%d %B %Y")}</a></li>
+        % endfor
+        </ul>
+        </div>
+        <!--End of body content-->
+</%block>

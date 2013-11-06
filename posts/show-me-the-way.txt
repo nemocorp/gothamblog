@@ -1,0 +1,18 @@
+.. title: [LCDWE] Show me the way, Dinosaur Jr.
+.. link: 
+.. tags: La Chanson du Week-end, Dinosaur Jr., 1987
+.. date: 2013/11/02 01:11:40
+.. slug: show-me-the-way
+.. description: 
+.. category: Musique
+.. icon: musique
+
+.. image:: /images/show-me-the-way/postcard.png
+	:align: left
+
+Une bien belle reprise pour ce nouvel épisode de la chanson du Week-end. Dinosaur Jr. explose le hit de Pete Frampton. Jouissif! A la semaine prochaine.
+
+.. class:: center
+
+    .. youtube:: L8z8Sk2to1U
+

@@ -1,0 +1,24 @@
+.. link: 
+.. description: 
+.. tags: Python, Tutoriel
+.. date: 2013/09/15 15:14:36
+.. title: Vous voulez vraiment apprendre à programmer?
+.. slug: vous-voulez-vraiment-apprendre-a-programmer
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/vous-voulez-vraiment-apprendre-a-programmer/postcard.png
+	:align: left
+
+Commençons par supposer que j'ai énormément de lecteurs. Supposons ensuite que dans le lot, certains soient assez curieux pour s'intéresser à ce qu'est réellement l'informatique. Et enfin que parmi ce sous-ensemble très réduit, certains veuillent apprendre à programmer et qu'en plus ils maitrisent l'anglais. Donc oui, toi qui est assis tout seul au fond à gauche près du radiateur et qui t'es reconnu, tu vas être intéressé par ce qui va suivre.
+
+.. TEASER_END
+
+C'est par là que ça se passe http://www.codecademy.com
+
+.. image:: /images/codeacademy.jpg
+    :align: center 
+
+|
+
+PS: Et si en plus tu es un gamer, y'a tout un tas de badge à débloquer, et un tableau qui tient à jour votre avancement pour ajouter un petit côté ludique à la chose.

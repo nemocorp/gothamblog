@@ -1,0 +1,15 @@
+.. description: 
+.. title: Drawastickman, la créativité debridée
+.. tags: Connerie, Connerie
+.. date: 2013/10/31 11:31:07
+.. slug: drawastickman-la-creativite-debridee
+.. link: 
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/drawastickman-la-creativite-debridee/postcard.png
+	:align: left
+
+Un petit site bien sympathique, où l'imagination est au pouvoir, http://www.drawastickman.com/. Deux aventures rocambolesques d'un petit bonhomme en fil de fer. A tester de toute urgence. 10 minutes de grande productivité assurée.
+
+Merci à JX pour l'info.

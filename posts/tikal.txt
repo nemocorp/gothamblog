@@ -1,0 +1,77 @@
+.. date: 2013/10/21 21:22:34
+.. title: [Tikal] Et bien redémarre mon enfant...
+.. tags: Jeux de Plateau, Wolfgang Kramer, Michael Kiessling, 2 Joueurs, 3 Joueurs, 4 Joueurs, Mayas, Majorité, Points d'action, Enchères, 1999
+.. slug: tikal
+.. description: 
+.. link: 
+.. category:  Jeux de Société
+.. icon: jeux-de-societe
+
+.. image:: /images/tikal/postcard.png
+	:align: left
+
+.. class:: well fiche pull-right
+
+    +---------------------------------------------------------------------+
+    | **Fiche**                                                           |
+    +---------------------------------------------------------------------+
+    | :Auteur:    Wolfgang Kramer, Michael Kiessling                      |
+    | :Editeur:   Ravensburger                                            | 
+    | :Année:     1999                                                    |
+    | :Joueurs:   2 à 4                                                   |
+    | :Durée:     60min                                                   |
+    | :Thème:     Mayas                                                   |
+    +---------------------------------------------------------------------+
+    || `> Voir la règle du jeu </regles/tikal.pdf>`_                      |
+    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/tikal/infos>`_ |
+    || `> BoardGameGeek <http://boardgamegeek.com/boardgame/54/tikal>`_   |
+    +---------------------------------------------------------------------+
+
+
+...je sais, elle est grave pourrie celle-là. Mais après un week-end de chouille, y'a plus toutes les connexions qui se font. Du coup, on fait avec les moyens du bord. Et donc, fidèle lecteur, j'implore toute ton indulgence pour la chronique qui va suivre.
+
+.. TEASER_END
+
+Non, je ne peux pas faire ça. Sacrifier un excellent jeu de société sur l'autel de ma médiocrité. Reprends-toi! Et redonne tout ce que tu as. Car, lecteur, il faut que tu le saches. Si j'en suis là avec les jeux de société, c'est entièrement la faute de messieurs Wolfgang Kramer et Michael Kiessling et de leur petit jeu paye-pas-de-mine, Tikal.
+
+Tikal est ce que les gamers qui parlent avec des termes techniques appellent un jeu de majorité à points d'action. Hop hop hop. On se calme. On a perdu la moitié de notre lectorat là.
+
+Cékoidonc?
+----------
+
+.. image:: /images/tikal/2.png
+    :align: left
+
+Laisse-moi t'expliquer de quoi il retourne dans Tikal. Commençons par planter le décor. Imagine lecteur, le Guatémala, en pleine jungle. Des équipes d'explorateurs à la recherche des restes de la civilisation Maya. A la tête d'une équipe, chaque joueur doit déterrer le plus de temples ou de trésors avant la fin de la partie.
+
+A chaque tour, chaque joueur pioche une tuile qui va représenter une zone découverte de la jungle. Il va devoir la placer sur le plateau puis il va disposer de dix points d'action pour faire bosser ces feignasses d'explorateurs. Ces dix points d'action vont pouvoir être utilisé pour:
+
+* Déterrer un trésor sur une tuile trésor.
+* Déterrer les niveaux souterrains d'un temple pour les mettre au grand jour et ainsi augmenter la valeur du temple.
+* Déplacer ses explorateurs
+* Etablir un campement dans la jungle qui facilitera les déplacement
+* Echanger des trésors avec les autres joueurs
+* Ou encore s'adjuger le contrôle d'un temple
+
+Chaque fois qu'une tuile volcan est piochée, un décompte a lieu et chaque joueur marque des points pour les trésors qu'il a récupére pour les temples sur lesquels il a la majorité d'explorateurs.
+
+Et voilà, lecteur, si tu as tout bien lu tu dois comprendre pourquoi on appelle ça un jeu de majorité à points d'action. Elles est pas belle la vie?
+
+.. image:: /images/tikal/3.png
+    :align: right
+
+Et donc? Tout ça pour...
+------------------------
+
+Tout ça pour dire que Tikal est devenu un classique. Un jeu familial, récompensé par le très prestigieux Spiel des Jahres en 1999, qu'il est toujours édité depuis et qu'il bénéficie même d'une suite, Tikal II, mais que je trouve moins pur et moins subtil que l'original.
+
+Tikal possède tout ce que l'on peut attendre d'un jeu de société, et il dispose même de deux versions de jeu, la version standard pour jouer avec Tata Lucette et la version avancée pour jouer entre joueurs et qui supprime une bonne partie du hasard en introduisant des enchères.
+
+Que du bon!
+
+Allez on finit avec une petite touche culturelle et une photo du vrai site de Tikal au Guatémala.
+
+.. image:: /images/tikal/commented_polaroid.png
+    :align: center
+
+

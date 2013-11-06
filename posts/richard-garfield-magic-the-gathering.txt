@@ -1,0 +1,33 @@
+.. link: 
+.. description: 
+.. tags: Critique
+.. date: 2013/09/12 20:14:52
+.. title: Richard Garfield? Magic the Gathering?
+.. slug: richard-garfield-magic-the-gathering
+.. category: Jeux Vidéos
+.. icon: jeux-videos
+
+.. image:: /images/richard-garfield-magic-the-gathering/postcard.png
+	:align: left
+
+Vous connaissez? Si non, eh bien comment dire, Richard Garfield est au jeu de société ce que David Bowie ou Mick Jagger sont à la musique. Il a tout simplement révolutionné le microcosme du jeux de société au début des années 90 avec `Magic the Gathering <http://www.wizards.com/Magic>`_. Vous voulez en savoir plus, sachez que Magic compte des centaines de milliers de joueurs à travers le monde, que son succès ne faiblit pas 20 ans après sa sortie. Bref, chaque fois que Richard Garfield fait parlez de lui, tous les joueurs tremblent et attendent avec fébrilité ce qui va encore pouvoir sortir de sa tête.
+
+.. TEASER_END
+
+Et là j'entends déjà les joueurs vibrer. Car Richard Garfield vient de participer à un projet à mi-chemin entre jeux vidéo et jeux de société: `Spectromancer <http://www.kongregate.com/games/fighter106/spectromancer-gamers-pack>`_
+
+.. image:: /images/richard-garfield-magic-the-gathering/main-menu.png
+    :align: center
+
+Juste pour aiguiser votre curiosité, sachez que le jeu s'inspire de Magic, y ajoute une dose de placement, reprend et modifie le concept de construction de deck. La gestion de mana (power dans Spectromancer) y est également, de même que le sorcier en face de vous dont il faudra réduire les points de vie à néant pour gagner. Ajouter un mode de jeu scénario, repris de la première adaptation vidéo de Magic et vous obtenez un très bon jeu jouable gratuitement en ligne. Alors pourquoi ne pas foncer l'essayer.
+
+Je vous conseille de régler la difficulté sur hard ou very hard tellement l'IA est facile à battre à des niveaux inférieurs.
+
+Bon jeu! Et n'hésitez pas à aller voir le `site officiel du jeu <http://www.spectromancer.com/>`_ pour télécharger la version Windows ou Mac.
+
+|
+
+.. image:: /images/richard-garfield-magic-the-gathering/in-game.png
+    :align: center
+
+

@@ -1,0 +1,77 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*" />
+<%namespace name="bootstrap" file="bootstrap_helper.tmpl" import="*" />
+${set_locale(lang)}
+<!DOCTYPE html>
+<html
+%if comment_system == 'facebook':
+xmlns:fb="http://ogp.me/ns/fb#"
+%endif
+lang="${lang}">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ${bootstrap.html_head()}
+    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
+    <%block name="extra_head">
+    </%block>
+    ${extra_head_data}
+</head>
+<body>
+<div class="container">
+    <div class="body-content jumbotron ">
+        <div class="row">
+            <h1>Gotham Blog Newsletter</h1>
+            <a href="http://www.nemocorp.info/newsletter.html">Voir la Newsletter en ligne</a><br/>
+            <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-2958887011966812";
+            /* Main-header */
+            google_ad_slot = "1850212976";
+            google_ad_width = 728;
+            google_ad_height = 90;
+            //-->
+            </script>
+            <script type="text/javascript"
+            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+            </script>
+            
+            % for post in posts:
+                <div class="row col-md-10">
+                    <a href="/categories/cat_${post.meta('category')}.html"><img src="/images/logos/${post.meta('category')}.png" style="float:right;"/></a>
+                    <h3><a href="${post.permalink()}">${post.title()}</a>
+                    <br/><small><time class="published" datetime="${post.date.isoformat()}"><i>${post.formatted_date(date_format)}</i></time></small></h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="/images/${post.meta('slug')}/thumb.png" class="img-thumbnail pull-left">
+                    </div>
+                    <div class="col-md-7">
+                        <small><small>${post.text(teaser_only=index_teasers)}</small></small>
+                    </div>
+                </div>
+            <hr/>
+            % endfor
+        </div>
+    </div>
+</div>
+
+${bootstrap.late_load_js()}
+<%block name="extra_js"></%block>
+${body_end}
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11228401-1']);
+  _gaq.push(['_setDomainName', 'nemocorp.info']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+

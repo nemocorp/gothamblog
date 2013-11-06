@@ -1,0 +1,19 @@
+.. link: 
+.. description: 
+.. tags: La Chanson du Week-end, Tanger, 2008
+.. date: 2013/10/12 09:00:06
+.. title: [LCDWE] La Fée de la Forêt, Tanger
+.. slug: la-fee-de-la-foret-de-tanger
+.. category: Musique
+.. icon: musique
+
+.. image:: /images/la-fee-de-la-foret-de-tanger/postcard.png
+	:align: left
+
+Nouvel épisode de la chanson du weekend avec Tanger qui nous pond une chanson barrée à souhait et qui met la patate. Pour info, toutes les paroles ont été prises dans la méthode de lecture "Colette & Rémi". Sinon la chanson est tirée de leur album "Il est toujours 20 heures dans le monde moderne" sorti en 2008.
+
+.. class:: center
+
+    .. youtube:: NHf8wBeNu7g
+
+

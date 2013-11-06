@@ -1,0 +1,78 @@
+.. link: 
+.. description: 
+.. tags: Jeux de Plateau, Uwe Rosenberg, Ystari, Solo, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs, Placement, Gestion, 2007, Moyen-âge
+.. date: 2013/10/14 07:52:32
+.. title: [Agricola] Le XVIIème siècle, sale temps pour les paysans
+.. slug: agricola
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+
+.. image:: /images/agricola/postcard.png
+	:align: left
+
+.. class:: well fiche pull-right
+
+    +-------------------------------------------------------+
+    | **Fiche**                                             |
+    +-------------------------------------------------------+
+    | :Auteur:    Uwe Rosenberg                             |
+    | :Editeur:   Ystari                                    | 
+    | :Année:     2007                                      |
+    | :Joueurs:   1 à 5                                     |
+    | :Durée:     30min/joueur                              |
+    | :Thème:     Moyen-âge                                 |
+    +-------------------------------------------------------+
+    | `Voir la règle du jeu </regles/agricola.pdf>`_        |
+    +-------------------------------------------------------+
+
+
+Agricola est un jeu de société paru en 2007. Pfff, six ans déjà, ça ne nous rajeunit pas. Après avoir longtemps occupé la première place, il truste maintenant la seconde place au `classement BGG (Boardgamegeek) <http://boardgamegeek.com/browse/boardgame>`_. Quand on connait la fréquence de sortie de nouveaux jeux, c'est plutôt pas mal. Mais cékoidon qui fait son succès?
+
+.. TEASER_END
+
+Dans Agricola, chaque joueur est à la tête d'un famille de paysan. En fait plutôt un couple de paysan au début de la partie. Il va devoir développer son exploitation et assuré la survie de sa famille.
+
+Pour cela, chaque joueur dispose d'un plateau individuel représentant sa parcelle de terrain, avec une petite cabane en bois constituée de deux pièces (un par membre de sa famille).
+
+Le plateau central représente les actions que les paysans vont pouvoir effectuer, tel que par exemple:
+
+* Ramasser du bois
+* Aller à la pêche
+* Elever des moutons, des sangliers ou des boeufs
+* Fabriquer des étables, des enclos pour les animaux
+* Apprendre un savoir-faire
+* Labourer et cultiver des champs
+* Construire des équipements
+* ou encore faire des enfants, qui deviendront des paysans travilllant dans l'exploitation familiale (l'ascenceur social n'ayant pas encore été inventé à cette glorieuse époque. Paysan tu nais, paysan tu resteras)
+
+.. image:: /images/agricola/2.png
+    :align: center
+
+|
+
+Bref, il y a une multitude d'actions disponibles au cours de la partie. Mais, car il y a toujours un mais, toutes les actions ne sont pas proposées au début de la partie. Une nouvelle action est révélée au début de chaque tour, la partie se déroulant en 14 tours, répartis en 6 récoltes qui on lieu à la fin des tours 4, 6, 9, 11, 13 et 14.
+
+Il y donc 14 actions qui vont apparaître au cours de la partie. Le truc rigolo et qui fait tout le sel de ce jeu, c'est que bien sûr, chaque action ne va pouvoir être réalisée que par un paysan et un seul à chaque tour. Il est donc particulèrement frustrant de voir l'action que l'on convoitait nous passer sous le nez. "Arrgghh, mon dieu, je voulais du bois! T'es vraiment chiant!"
+
+Chaque paysan a la disposition des joueurs correspond donc à une action. Donc seulement deux actions par tour au début de la partie si vous avez suivi. Chaque naissance permet donc de faire une action supplémentaire par tour. Mais se reproduire est une action, donc le temps qu'on passe à se reproduire, on ne le passe pas à travailler. Et puis lorsqu'arrive les récoltes, il faut pouvoir nourrir cette nombreuse famille. Sinon, c'est direct la mendicité et en fin de partie c'est plutôt désagréable.
+
+.. image:: /images/agricola/3.png
+    :align: center
+
+|
+
+A première vue, le thème d'Agricola ne fait pas rêver (on va finir par croire que les allemands sont les spécialistes des jeux au thème pas bandant). On est bien loin des chevaliers, magiciens et autres sorciers partis sauver une princesse abandonnée en bravant milles dangers. Mais ça marche et sacrément bien. Parce que même si Agricola reste un jeu de pure optimisation, la mayonnaise prend et tout le monde essaye de construire une jolie exploitation, où s'alterne avec harmonie culture, élévage et habitation.
+
+Ce jeu dispose en plus, cerise sur le gâteau, d'une rejouabilité incroyable tellement il est improbable et impossible que deux parties soit identiques. En effet, les savoir-faires et développements qui orientent les choix stratégiques des joueurs en cours de partie sont en très grands nombres dans la boîte (plusieurs centaines de cartes) et seulement 7 savoir-faires et 7 développements sont distribués à chaque joueur en début de partie.
+
+Pour les rares d'entre vous qui n'auraient pas d'amis (ne rigolez pas, je sais qu'il y en a), Agricola propose aussi un mode solo plutôt sympa avec des défis pas piquer des vers (ou des verts parce qu'Agricola est un jeu écolo... Monsanto n'existait pas encore au XVIIème siècle) et un pseudo mode campagne qui permet de conserver d'une partie sur l'autre ceraines infos.
+
+Pour conclure, parce qu'il faut bien s'arrêter à un moment, si vous n'avez pas compris, Agricola mérite amplement sa deuxième place. Ah, oui, j'allais oublier. Agricola dispose également de deux modes de jeu. Un pour les joueurs confirmés, et un autre plus accessible pour jouer avec Tata Lucette et Tonton René (ou avec les enfants si vous avez des enfants).
+
+Bref que du tout bon, comme dirait Jacques!
+
+* `La fiche sur TricTrac <http://www.trictrac.net/jeu-de-societe/agricola-0/infos>`_
+
+.. image:: /images/agricola/4.png
+    :align: center
+

@@ -1,0 +1,43 @@
+.. slug: rien-de-neuf-sous-le-soleil
+.. link: 
+.. tags: Vie du Site, ImageMagick, Script
+.. title: Rien de neuf sous le soleil
+.. date: 2013/10/30 17:27:10
+.. description: 
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/rien-de-neuf-sous-le-soleil/postcard.png
+	:align: left
+
+Pas grand chose aujourd'hui, si ce n'est que j'ai mis à jour mon gestionnaire de favoris pour qu'il propose une miniature des sites. Ca rend la chose plus agréable à regarder... Pour aller voir le résultat `c'est par là que ça se passe <http://www.nemocorp.info/shaarli>`_. Et pour ceux que ça intéresse, je colle le script dans l'article.
+
+.. TEASER_END
+.. code:: bash
+
+    #Récuperer les urls de son site shaarli
+    mkdir shaarli
+    cd shaarli
+
+    # 15 représente le nombre de page de votre shaarli
+    for i in {1..15}; do wget -O shaarli_page$i http://www.nemocorp.info/shaarli/?page=$i; done
+
+    # On génère les captures
+    mkdir thumbs
+    for i in shaarli_page*
+    do
+        awk -F\" '/<h3><a href=/{split($2,url,/\//)}/permalink/{gsub(/\?/,"",$6);print ("CutyCapt --insecure --url=http://" url[3] " --out=\"thumbs/" $6 ".png\"")}' $i
+    done | sh
+
+    # On obtient ainsi un fichier permalink.png pour chaque lien shaarli qu'il ne reste plus qu'à donner à manger à convert
+    cd thumbs
+    for i in *
+    do
+        cp -- "$i" temp.png # Permet de traiter les fichiers dont le permalink commence par -
+        ./shaarli_thumb.sh "temp.png"
+        cp -- temp.png "$i"
+    done
+
+
+.. listing:: shaarli_thumb.sh bash
+

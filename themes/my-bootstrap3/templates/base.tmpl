@@ -1,0 +1,156 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*" />
+<%namespace name="bootstrap" file="bootstrap_helper.tmpl" import="*" />
+${set_locale(lang)}
+<!DOCTYPE html>
+<html
+%if comment_system == 'facebook':
+xmlns:fb="http://ogp.me/ns/fb#"
+%endif
+lang="${lang}">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ${bootstrap.html_head()}
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/images/logos/favicon.png" >
+    <%block name="extra_head">
+    </%block>
+    ${extra_head_data}
+</head>
+<body>
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="${abs_link('/')}">${blog_title}</a>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+            ${bootstrap.html_navigation_links()}
+            % if not hide_sourcelink:
+                <%block name="sourcelink"></%block>
+            %endif
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+<li style="margin: 8px;">
+<form action="http://www.nemocorp.info/stories/searchresult.html" id="cse-search-box" class="form-inline" role="form">
+  <div class="form-group">
+    <input type="hidden" name="cx" value="partner-pub-2958887011966812:1311829377" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="15" class="form-control" />
+  </div>
+    <button type="submit" name="sa" class="btn btn-default"><i class="icon-search"></i></button>
+</form>
+</li>
+<script type="text/javascript" src="http://www.google.fr/coop/cse/brand?form=cse-search-box&amp;lang=fr"></script>
+
+            <%block name="belowtitle">
+            %if len(translations) > 1:
+                <li>${base.html_translations()}</li>
+            %endif
+            </%block>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+
+<!-- End of Menubar -->
+<div class="container">
+    <div class="row">
+        <div class="row col-md-9">
+                
+            <center>
+                <h2 id="blog_desc">Le seul blog d'infos cultes-urelles qui a 10 ans de retard... voire plus</h2>
+
+                <script type="text/javascript"><!--
+                google_ad_client = "ca-pub-2958887011966812";
+                /* Main-header */
+                google_ad_slot = "1850212976";
+                google_ad_width = 728;
+                google_ad_height = 90;
+                //-->
+                </script>
+                <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+
+            </center>
+        </div>
+        <div class="row col-md-3">
+                <center><img src="${abs_link('/images/logos/gothamblog_fb.png')}"></center>
+        </div>
+    </div>
+    <div class="row">
+        <div class="row col-md-9">
+
+            <%block name="content"></%block>
+        </div>
+        <div class="col-md-3">
+            <center>
+
+                <script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-2958887011966812";
+                    /* bloc1 */
+                    google_ad_slot = "5947178573";
+                    google_ad_width = 250;
+                    google_ad_height = 250;
+                    //-->
+                </script>
+                <script type="text/javascript"
+                    src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+
+                <hr/>
+
+                <script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-2958887011966812";
+                    /* bloc2 */
+                    google_ad_slot = "7423911772";
+                    google_ad_width = 250;
+                    google_ad_height = 250;
+                    //-->
+                </script>
+                <script type="text/javascript"
+                    src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+            </center>
+        </div>
+    </div>
+    <div class="row">
+        <footer>
+            ${content_footer}
+        </footer>
+    </div>
+    <!--End of body content-->
+
+</div>
+
+${bootstrap.late_load_js()}
+<%block name="extra_js"></%block>
+${body_end}
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11228401-1']);
+  _gaq.push(['_setDomainName', 'nemocorp.info']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+

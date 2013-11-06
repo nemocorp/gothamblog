@@ -1,0 +1,33 @@
+.. link:
+.. description: 
+.. tags: Linux, Truc, Script, Bash 
+.. date: 2013/09/13 12:02:12
+.. title: Convertir tous vos fichiers flac en mp3
+.. slug: convertir-tous-vos-fichiers-flac-en-mp3
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/convertir-tous-vos-fichiers-flac-en-mp3/postcard.png
+	:align: left
+
+Voici deux petits scripts trouvés sur le `wiki d'Archlinux <https://wiki.archlinux.org>`_ qui permettent de convertir vos fichier ``.flac`` en ``mp3``
+
+Le premier converti les fichiers du répertoire courant
+
+.. TEASER_END
+    #!/bin/bash
+    for f in *.flac; do
+        ffmpeg -i "$f" -qscale:a 0 "${f[@]/%flac/mp3}"
+    done
+
+
+Le second s'applique récursivement à tous les sous-répertoires
+
+.. code:: bash
+
+    #!/bin/bash
+    find -type f -name "*.flac" -print0 | while read -d $'\0' a; do
+        ffmpeg -i "$f" -qscale:a 0 "${f[@]/%flac/mp3}"
+    done
+
+

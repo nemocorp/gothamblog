@@ -1,0 +1,50 @@
+.. link: 
+.. slug: je-fais-le-cafe-avec-imagemagick
+.. tags: ImageMagick, Script
+.. description: 
+.. title: Je fais le café avec ImageMagick
+.. date: 2013/10/24 15:13:29
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/je-fais-le-cafe-avec-imagemagick/postcard.png
+	:align: left
+
+*mise à jour du script*
+
+Pour faire suite au petit article de présentation sur ImageMagick, voici un petit exemple concret d'utilisation qui génère un set complet de boutons à partir d'un fichier de police de caractère.
+
+.. TEASER_END
+
+Basiquement, il s'utilise de la façon suivante:
+
+.. code:: bash
+
+    iconify.sh ma_police.ttf
+
+Et à partir de là, il va générer des boutons en relief et des boîtes arrondies à partir des icônes de la police. Et voilà le résultat avec la police Zaliens à télécharger sur http://www.dafont.com.
+
+.. image:: /images/je-fais-le-cafe-avec-imagemagick/box_cheatsheet.png
+    :align: center
+
+.. image:: /images/je-fais-le-cafe-avec-imagemagick/button_cheatsheet.png
+    :align: center
+
+Il est améliorable, notamment si vous voulez le paramétrer dans tous les sens (couleur du fond, du texte, ombre ou non...).
+
+Amusez-vous bien!
+
+Ah oui, j'oubliais, le code du script en question!
+
+.. class:: alert alert-info
+
+    *Le script a été amelioré. Tout est maintenant paramétrable (couleur, taille, carré, rectangle, ovale....)*
+
+
+.. listing:: iconify.sh bash
+
+
+
+
+Elle est pas belle la vie?
+
