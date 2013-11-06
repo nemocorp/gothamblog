@@ -1,7 +1,7 @@
-.. tags: Jeux de Cartes
+.. tags: Jeux de Cartes, Marcel-André Cassasola-Merkle, Pirates, Commerce, 3 Joueurs, 4 Joueurs, Draft, Adlund Spiele
 .. link: 
 .. slug: meuterer
-.. title: Meuterer, le grand jeu dans une petite boîte
+.. title: [Meuterer] Le grand jeu dans une toute petite boîte
 .. date: 2013/10/28 15:24:08
 .. description: 
 .. category: Jeux de Société
@@ -9,6 +9,23 @@
 
 .. image:: /images/meuterer/postcard.png
 	:align: left
+
+.. class::  well fiche pull-right
+
+    +----------------------------------------------------------------------------------+
+    | **Fiche**                                                                        |
+    +----------------------------------------------------------------------------------+
+    | :Auteur:    Marcel-Angré Cassasola-Merkle                                        |
+    | :Editeur:   Adlung Spiele                                                        | 
+    | :Année:     2000                                                                 | 
+    | :Joueurs:   3 à 4                                                                |
+    | :Durée:     60min                                                                |
+    | :Thème:     Pirates                                                              |
+    +----------------------------------------------------------------------------------+
+    || `> Voir la règle du jeu </regles/meuterer.pdf>`_                                |
+    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/meuterer/infos>`_           |
+    || `> BoardGameGeek <http://boardgamegeek.com/boardgame/902/meuterer>`_            |
+    +----------------------------------------------------------------------------------+
 
 Meuterer est un petit jeu de cartes, pas cher (env. 10€), qui tient dans la poche, mais qui vous promet de nombreuses heures de jeu, tant il est complexe et tordu (coups de \*\*\*\* assurés).
 
@@ -35,10 +52,10 @@ Bref, un seul reproche, parce qu'il en faut un quand même, il ne se joue qu'à 
 
 * `La fiche sur TricTrac <http://www.trictrac.net/jeu-de-societe/meuterer/infos>`_
 * `La fihce sur BoardgameGeek <http://boardgamegeek.com/boardgame/902/meuterer>`_
-* `Voir la règle du jeu en français </images/meuterer/meuterer-regle.pdf>`_
+* `Voir la règle du jeu en français </regles/meuterer.pdf>`_
 
 
-.. image:: /images/meuterer/2.png
+.. image:: /images/meuterer/commented_polaroid.png
     :align: center
 
 
