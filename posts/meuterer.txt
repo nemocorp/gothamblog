@@ -37,23 +37,14 @@ Bruno Faidutti l'avoue sans détour, il s'est inspiré de Verräter pour créer 
 
 Et c'est le cas, c'est juste pour être précis, Lecteur, car Meuterer est l'évolution de Verräter sorti quelques années plutôt.
 
+.. image:: /images/meuterer/3.png
+    :align: right
+
 Dans Meuterer, donc vous êtes une bande de marins écumants les mers pour refourguer leurs marchandises dans différents port. Chaque joueur va choisir secrètement un rôle (comme dans Citadelles pour ceux qui connaissent), sauf le capitaine qui va indiquer la destination du navire. Les autres joueurs vont alors, soit se rallier au capitaine, soit tenter une mutinerie pour renverser le capitaine et choisir une autre destination.
 
 Meuterer, c'est malin, ça assure de franches parties de rigolade. Personnellement, je le préfère à Citadelles, beaucoup plus subtil à mon goût, mais vous savez l'égout et les couleuvres? Et attention, car sous son aspect relativement simple, Meuterer est un jeu très difficile à maîtriser. Ca parle beaucoup autour de la table, ça s'embrouille. Ca s'achète à coup de point de victoire, car oui, j'ai oublié de préciser, le capitaine peut s'assurer ou pas le soutien de son second en cas de mutinerie.
 
-|
-
-.. image:: /images/meuterer/3.png
-    :align: center
-
-|
-
 Bref, un seul reproche, parce qu'il en faut un quand même, il ne se joue qu'à 3 ou 4 joueurs, mais est-ce vraiment un inconvénient?
-
-* `La fiche sur TricTrac <http://www.trictrac.net/jeu-de-societe/meuterer/infos>`_
-* `La fihce sur BoardgameGeek <http://boardgamegeek.com/boardgame/902/meuterer>`_
-* `Voir la règle du jeu en français </regles/meuterer.pdf>`_
-
 
 .. image:: /images/meuterer/commented_polaroid.png
     :align: center
