@@ -1,0 +1,39 @@
+.. tags: Disque-Monde, Terry Pratchett, Martin Wallace, Iello, 2011, 2 Joueurs, 3 Joueurs, 4 Joueurs, Jeux de Plateau, Objectif Secret, Placement, Influence
+.. slug: ankh-morpork
+.. link: 
+.. date: 2013/11/06 20:29:49
+.. title: [Le Disque-Monde: Ankh-Morpork] Terry Pratchett au pays des jeux
+.. description: 
+
+.. image:: /images/ankh-morpork/postcard.png
+    :align: left
+
+.. class::  well fiche pull-right
+
+    +---------------------------------------------------------------------------------------+
+    | **Fiche**                                                                             |
+    +---------------------------------------------------------------------------------------+
+    | :Auteur:    Martin Wallace                                                            |
+    | :Editeur:   Iello                                                                     | 
+    | :Année:     2011                                                                      | 
+    | :Joueurs:   2 à 4                                                                     |
+    | :Durée:     60min                                                                     |
+    | :Thème:     Disque-Monde                                                              |
+    +---------------------------------------------------------------------------------------+
+    || `> Voir la règle du jeu </regles/ankh-morpork.pdf>`_                                 |
+    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/sankt-petersburg/infos>`_        |
+    || `> BoardGameGeek <http://boardgamegeek.com/boardgame/91312/discworld-ankh-morpork>`_ |
+    +---------------------------------------------------------------------------------------+
+
+Oyez, oyez Lecteur! L'université de la Magie du Disque-Monde est heureuse de te présenter son nouveau jeu. Lord Vétérini à laisser vacant le poste de patricien. Alors profites-en et deviens le nouveau maître de la cité éternelle, l'immense et nauséabonde Ankh-Morpork.
+
+.. TEASER_END
+
+Ank-Morpork est un jeu de placement et de contrôle dans lequel les joueurs vont tenter de réliser leur objectif secret:
+
+* Contrôler un certain nombre de quartier
+* Avoir disperser sur le plateau un certain nombre de ses agents
+* Avoir réuni une certaine somme d'argent
+* Ou encore avoir empêché tous les autres joueurs de réaliser leur objectif lorsque le paquet de cartes est épuisé.
+
+Ank-Morpork est un jeu simple, qui se résume à je joue une carte, j'effectue les actions indiquées dessus et je pioche jusqu'à avoir de nouveau cinq cartes en main. Tu vois, Lecteur, c'est on ne peut plus basique. Chaque carte du jeu permet d'effectuer plusieurs actions. En haut de la carte sont placés les icônes des actions à effectuer. 

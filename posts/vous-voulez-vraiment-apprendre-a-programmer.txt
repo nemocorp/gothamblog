@@ -14,7 +14,7 @@ Commençons par supposer que j'ai énormément de lecteurs. Supposons ensuite qu
 
 .. TEASER_END
 
-C'est par là que ça se passe http://www.codecademy.com
+Laissez-moi donc te présenter `Code Academy <http://www.codecademy.com>`_. Code Academy est un site de e-learning dédié à l'apprentissage des langages de programmation. Leur interface est remarquable. Les cours suivent une progression très cohérente et permettent d'obtenir rapidement des résultats concrets. Bref, j'ai adoré perdre du temps dessus et je me suis dit bien humblement que peut-être quelqu'un, quelque part aimerait également en profiter!
 
 .. image:: /images/codeacademy.jpg
     :align: center 
