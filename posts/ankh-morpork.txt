@@ -4,9 +4,12 @@
 .. date: 2013/11/06 20:29:49
 .. title: [Le Disque-Monde: Ankh-Morpork] Terry Pratchett au pays des jeux
 .. description: 
+.. category: Jeux de Société
+.. icon: jeux-de-societe
 
 .. image:: /images/ankh-morpork/postcard.png
     :align: left
+    :class: gallery
 
 .. class::  well fiche pull-right
 
@@ -25,7 +28,7 @@
     || `> BoardGameGeek <http://boardgamegeek.com/boardgame/91312/discworld-ankh-morpork>`_ |
     +---------------------------------------------------------------------------------------+
 
-Oyez, oyez Lecteur! L'université de la Magie du Disque-Monde est heureuse de te présenter son nouveau jeu. Lord Vétérini à laisser vacant le poste de patricien. Alors profites-en et deviens le nouveau maître de la cité éternelle, l'immense et nauséabonde Ankh-Morpork.
+Oyez, oyez Lecteur! L'université de la Magie du Disque-Monde est heureuse de te présenter son nouveau jeu. Lord Vétérini a laissé vacant le poste de patricien. Alors profites-en et deviens le nouveau maître de la cité éternelle, l'immense et nauséabonde Ankh-Morpork.
 
 .. TEASER_END
 
@@ -33,7 +36,38 @@ Ank-Morpork est un jeu de placement et de contrôle dans lequel les joueurs vont
 
 * Contrôler un certain nombre de quartier
 * Avoir disperser sur le plateau un certain nombre de ses agents
-* Avoir réuni une certaine somme d'argent
+* Huit jetons chaos sont présents sur le plateau
+* Avoir réuni 50$
 * Ou encore avoir empêché tous les autres joueurs de réaliser leur objectif lorsque le paquet de cartes est épuisé.
 
-Ank-Morpork est un jeu simple, qui se résume à je joue une carte, j'effectue les actions indiquées dessus et je pioche jusqu'à avoir de nouveau cinq cartes en main. Tu vois, Lecteur, c'est on ne peut plus basique. Chaque carte du jeu permet d'effectuer plusieurs actions. En haut de la carte sont placés les icônes des actions à effectuer. 
+.. image:: /images/ankh-morpork/3.png
+    :align: right
+
+Ank-Morpork est un jeu simple, qui se résume à je joue une carte, j'effectue les actions indiquées dessus et je pioche jusqu'à avoir de nouveau cinq cartes en main. Tu vois, Lecteur, c'est on ne peut plus basique. Chaque carte du jeu permet d'effectuer plusieurs actions. En haut de la carte sont placés les icônes des actions à effectuer. Celle-ci devront obligatoirement être effectué dans l'ordre, de la gauche vers la droite.
+
+**Les actions possibles sont:**
+
+* Gagner de l'argent
+* Placer un des ses agents dans un quartier où l'on a déjà un agent, ou adjacent à celui-ci
+* Retirer un jeton chaos
+* Construire un bâtiment, pour gagner le bénéfice du quartier
+
+.. image:: /images/ankh-morpork/2.png
+    :align: left
+
+* Assassiner un agent adverse, si le quartier où il se trouve contient un jeton chaos
+* Jouer une carte supplémentaire de sa main
+* Appliquer le texte d'effet de la carte jouée
+* Révéler un événement
+
+Le jeu se révèle beaucoup plus malin qu'il n'y parait à la première partie. Les pouvoirs octroyés par certains quartiers s'avèrent indispensables pour réussir rapidement son objectif et la lutte est acharnée pour le contrôle des différents quartiers. Disque-Monde: Ankh-Morpork est un jeu léger au regard du reste de la production de Martin Wallace, mais il est loin d'être simpliste.
+
+Les illustrations sont largement à la hauteur de l'enjeu, réussir à faire un jeu dans le monde du Disque-Monde, sans vexer les puristes et en respectant l'esprit très particulier des romans de Terry Pratchett. Il aurait sans doute mérité encore un poil plus de chaos et d'humour à mon goût, mais, globalement, Ankh-Morpork est une excellente surprise aux parties sans cesse renouvelées par le tirage des cartes et l'ordre imposé des actions.
+
+Un bon jeu, marrant, aux belles illustrations, aux mécanismes simples et efficaces. Idéal pour jouer en famille pendant les longs dimanches après-midi d'hiver.
+ 
+.. image:: /images/ankh-morpork/commented_polaroid.png
+    :align: center
+
+
+
