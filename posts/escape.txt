@@ -14,6 +14,8 @@
 
 .. TEASER_END
 
+Bref c'est très con mais perso je ne m'en lasse pas et y revient toujours de temps en temps.
+
 Ah oui, dernier petit détail , la durée moyenne d'un partie: 19,3s. Bon jeu!
 
 .. image:: /images/escape/1.png

@@ -10,10 +10,6 @@ xmlns:fb="http://ogp.me/ns/fb#"
 lang="${lang}">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    ${bootstrap.html_head()}
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="/images/logos/favicon.png" >
     <%block name="extra_head">
     </%block>
     ${extra_head_data}
@@ -34,10 +30,10 @@ lang="${lang}">
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
             ${bootstrap.html_navigation_links()}
+        </ul>
             % if not hide_sourcelink:
                 <%block name="sourcelink"></%block>
             %endif
-        </ul>
 
         <ul class="nav navbar-nav navbar-right">
 <li style="margin: 8px;">
@@ -64,7 +60,7 @@ lang="${lang}">
 
 <!-- End of Menubar -->
 <div class="container">
-    <div class="row">
+    <div class="row" class="hidden-phone">
         <div class="row col-md-9">
                 
             <center>
@@ -85,7 +81,7 @@ lang="${lang}">
             </center>
         </div>
         <div class="row col-md-3">
-                <center><a href="${abs_link('/')}"><img src="${abs_link('/images/logos/gothamblog_fb.png')}"></a></center>
+                <center><a href="${abs_link('/')}"><img src="${abs_link('/images/logos/gothamblog.png')}"></a></center>
         </div>
     </div>
     <div class="row">
@@ -150,5 +146,10 @@ ${body_end}
   })();
 
 </script>
+    ${bootstrap.html_head()}
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/images/logos/favicon.png" >
+
 </body>
 
