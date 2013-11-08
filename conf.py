@@ -63,6 +63,7 @@ NAVIGATION_LINKS = {
         ('/shaarli', '<i class="icon-bookmark" title="Favoris"></i>'),
         ('/archive.html', '<i class="icon-archive" title="Archives"></i>'),
         ('/categories/index.html', '<i class="icon-tags" title="Tags"></i>'),
+        ('/galleries/index.html', '<i class="icon-picture" title="Galerie de Photos"></i>'),
         ('/phplists/?p=subscribe&id=1', '<i class="icon-envelope-alt" title="Abonne-toi à la Niouzelaiteur"></i>'),
         ('https://twitter.com/nemocorp', '<i class="icon-twitter-sign" title="Suis-moi sur Twitter"></i>'),
         ('https://www.facebook.com/pages/Gotham-Blog/379159445551177', '<i class="icon-facebook-sign" title="La page Facebook du Blog"></i>'),

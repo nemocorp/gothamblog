@@ -7,8 +7,8 @@
         .fiche {display: none !important};
     </style>
     % for post in posts:
-        <div class="row well teaser" style="position: relative;">
-                <a href="/categories/cat_${post.meta('icon')}.html"><img class="pull-right" src="/images/logos/${post.meta('icon')}.png"/></a>
+        <div class="row well well-small teaser" style="position: relative;">
+                <a href="/categories/cat_${post.meta('icon')}.html"><img class="pull-right" src="/images/logos/${post.meta('icon')}.png" title="${post.meta('category')}"/></a>
                 <h3>
                     <a href="${post.permalink()}">${post.title()}</a><br/>
                     <small>
@@ -18,11 +18,6 @@
                 <hr/>
                 ${post.text(teaser_only=index_teasers)}
                 <br/>
-                <div style="position: absolute; top: 0; left: 0px;margin: -1px 0 0 -1px;padding: 0px 16px 0px 8px; background-color: white; border: 1pt solid #E3E3E3;">
-                    % if not post.meta('nocomments'):
-                        ${comments.comment_link(post.permalink(), post._base_path)}
-                    % endif
-                </div>
         </div>
     <hr/>
     % endfor

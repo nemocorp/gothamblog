@@ -16,8 +16,9 @@
         <li><a href="${folder}"><i class="icon-folder-open"></i>&nbsp;${folder}</a></li>
     % endfor
     </ul>
-
-    <div id="gallery_container"></div>
+    <div class="conatiner row col-md-16">
+        <div id="gallery_container"></div>
+    </div>
     <noscript>
     <ul class="thumbnails">
         %for image in photo_array:
@@ -51,20 +52,19 @@ jsonContent = ${photo_array_json};
 $("#gallery_container").flowr({
         data : jsonContent,
         height : ${thumbnail_size}*.6,
-        padding: 5,
+        padding: 0,
         rows: -1,
         render : function(params) {
             // Just return a div, string or a dom object, anything works fine
             img = $("<img />").attr({
                 'src': params.itemData.url_thumb,
-                'width' : params.width,
-                'height' : params.height
-            }).css('max-width', '100%');
+                'class': 'img-polaroid'
+            });
             link = $( "<a></a>").attr({
                 'href': params.itemData.url,
                 'class': 'image-reference'
             });
-            div = $("<div />").addClass('image-block').attr({
+            div = $("<div />").addClass('col-md-2').attr({
                 'title': params.itemData.title,
                 'data-toggle': "tooltip",
             });

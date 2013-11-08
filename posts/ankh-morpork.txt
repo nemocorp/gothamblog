@@ -7,9 +7,8 @@
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. image:: /images/ankh-morpork/postcard.png
+.. image:: /galleries/ankh-morpork/postcard.png
     :align: left
-    :class: gallery
 
 .. class::  well fiche pull-right
 
@@ -26,6 +25,7 @@
     || `> Voir la règle du jeu </regles/ankh-morpork.pdf>`_                                 |
     || `> TricTrac <http://www.trictrac.net/jeu-de-societe/sankt-petersburg/infos>`_        |
     || `> BoardGameGeek <http://boardgamegeek.com/boardgame/91312/discworld-ankh-morpork>`_ |
+    || `> Galerie de Photos </galleries/ankh-morpork/>`_                                    |
     +---------------------------------------------------------------------------------------+
 
 Oyez, oyez Lecteur! L'université de la Magie du Disque-Monde est heureuse de te présenter son nouveau jeu. Lord Vétérini a laissé vacant le poste de patricien. Alors profites-en et deviens le nouveau maître de la cité éternelle, l'immense et nauséabonde Ankh-Morpork.
@@ -40,7 +40,7 @@ Ank-Morpork est un jeu de placement et de contrôle dans lequel les joueurs vont
 * Avoir réuni 50$
 * Ou encore avoir empêché tous les autres joueurs de réaliser leur objectif lorsque le paquet de cartes est épuisé.
 
-.. image:: /images/ankh-morpork/3.png
+.. image:: /galleries/ankh-morpork/3.png
     :align: right
 
 Ank-Morpork est un jeu simple, qui se résume à je joue une carte, j'effectue les actions indiquées dessus et je pioche jusqu'à avoir de nouveau cinq cartes en main. Tu vois, Lecteur, c'est on ne peut plus basique. Chaque carte du jeu permet d'effectuer plusieurs actions. En haut de la carte sont placés les icônes des actions à effectuer. Celle-ci devront obligatoirement être effectué dans l'ordre, de la gauche vers la droite.
@@ -52,7 +52,7 @@ Ank-Morpork est un jeu simple, qui se résume à je joue une carte, j'effectue l
 * Retirer un jeton chaos
 * Construire un bâtiment, pour gagner le bénéfice du quartier
 
-.. image:: /images/ankh-morpork/2.png
+.. image:: /galleries/ankh-morpork/2.png
     :align: left
 
 * Assassiner un agent adverse, si le quartier où il se trouve contient un jeton chaos
@@ -66,7 +66,7 @@ Les illustrations sont largement à la hauteur de l'enjeu, réussir à faire un 
 
 Un bon jeu, marrant, aux belles illustrations, aux mécanismes simples et efficaces. Idéal pour jouer en famille pendant les longs dimanches après-midi d'hiver.
  
-.. image:: /images/ankh-morpork/commented_polaroid.png
+.. image:: /galleries/ankh-morpork/commented_polaroid.png
     :align: center
 
 
