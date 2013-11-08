@@ -38,6 +38,9 @@ nosetests.xml
 output/
 cache/
 __pycache__/
+files/
+galleries/
+
 
 *.swp
 .doit.db
