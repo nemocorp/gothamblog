@@ -1,8 +1,5 @@
 .. title: Photos
-.. tags: Disque-Monde, Wallace
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. class:: well well-small
-
-    `[Disque-Monde: Ankh-Morpork] </posts/ankh-morpork.html>`_
+`Voir la Fiche du Jeu Le Disque-Monde: Ankh-Morpork </posts/ankh-morpork.html>`_

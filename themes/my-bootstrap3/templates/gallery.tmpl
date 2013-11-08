@@ -5,17 +5,20 @@
 <%block name="sourcelink"></%block>
 
 <%block name="content">
-    ${ui.bar(crumbs)}
-    %if text:
-    <p>
-        ${text}
-    </p>
-    %endif
+    <div class="well">
+        <h2><a href="/galleries">Les Belles Photos du Blog</a></h2>
+        %if text:
+        <p>
+            ${text}
+        </p>
+        %endif
+    </div>
     <ul>
     % for folder in folders:
-        <li><a href="${folder}"><i class="icon-folder-open"></i>&nbsp;${folder}</a></li>
+        <a href="${folder}"><i class="icon-folder-open"></i>&nbsp;${folder}</a>
     % endfor
     </ul>
+    
     <div class="row">
         <div id="gallery_container"></div>
     </div>
@@ -27,8 +30,6 @@
         %endfor
     </ul>
     </noscript>
-
-    <div class="pull-right"><a href="/galleries">Retour aux Galeries</div></a>
 
 %if enable_comments:
     ${comments.comment_form(None, permalink, title)}
