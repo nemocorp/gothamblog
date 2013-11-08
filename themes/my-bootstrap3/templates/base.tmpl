@@ -12,6 +12,7 @@ lang="${lang}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     ${bootstrap.html_head()}
     <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
     <link rel="shortcut icon" href="/images/logos/favicon.png" >
     <%block name="extra_head">
@@ -64,12 +65,11 @@ lang="${lang}">
 
 <!-- End of Menubar -->
 <div class="container">
+    <hr/>
     <div class="row">
-        <div class="row col-md-9">
+        <div class="col-md-9">
                 
             <center>
-                <h2 id="blog_desc">Le seul blog d'infos cultes-urelles qui a 10 ans de retard... voire plus</h2>
-
                 <script type="text/javascript"><!--
                 google_ad_client = "ca-pub-2958887011966812";
                 /* Main-header */
@@ -82,14 +82,17 @@ lang="${lang}">
                 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                 </script>
 
+                <center><h2 id="blog_desc">Le blog d'infos cultes-urelles qui a 10 ans de retard...<br/>... voire plus</h2></center>
+
             </center>
         </div>
-        <div class="row col-md-3">
+        <div class="col-md-3">
                 <center><a href="${abs_link('/')}"><img src="${abs_link('/images/logos/gothamblog.png')}"></a></center>
         </div>
     </div>
+    <hr/>
     <div class="row">
-        <div class="row col-md-9">
+        <div class="col-md-9">
 
             <%block name="content"></%block>
         </div>

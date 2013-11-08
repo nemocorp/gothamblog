@@ -1,27 +1,24 @@
 ## -*- coding: utf-8 -*-
 <%inherit file="base.tmpl"/>
 <%namespace name="comments" file="comments_helper.tmpl"/>
-<%namespace name="ui" file="crumbs.tmpl" import="bar"/>
 <%block name="sourcelink"></%block>
 
 <%block name="content">
     <div class="well">
         <h2><a href="/galleries">Les Belles Photos du Blog</a></h2>
-        %if text:
-        <p>
-            ${text}
-        </p>
-        %endif
     </div>
+    %if text:
+    <p>
+        ${text}
+    </p>
+    %endif
     <ul>
     % for folder in folders:
-        <a href="${folder}"><i class="icon-folder-open"></i>&nbsp;${folder}</a>
+        <a href="${folder}"><i class="icon-folder-open"></i>&nbsp;${folder}</a><br/>
     % endfor
     </ul>
     
-    <div class="row">
-        <div id="gallery_container"></div>
-    </div>
+    <div id="gallery_container" class="row"></div>
     <noscript>
     <ul class="thumbnails">
         %for image in photo_array:
@@ -31,9 +28,9 @@
     </ul>
     </noscript>
 
-%if enable_comments:
-    ${comments.comment_form(None, permalink, title)}
-%endif
+    %if enable_comments:
+        ${comments.comment_form(None, permalink, title)}
+    %endif
 </%block>
 
 
@@ -48,8 +45,8 @@ for (i in jsonContent) {
         'href': jsonContent[i].url,
         'class': 'image-reference'
     });
-
-    div = $("<div />").addClass('gallery-thumb col-md-2 img-rounded').attr({
+    divcol = $("<div />").addClass('col-xs-2');
+    div = $("<div />").addClass('gallery-thumb img-rounded').attr({
         'title': jsonContent[i].title,
         'data-toggle': "tooltip",
         'style': 'background-image: url(\''+jsonContent[i].url_thumb+'\');'
@@ -57,7 +54,8 @@ for (i in jsonContent) {
     link.append(img); 
     div.append(link);
     div.hover(div.tooltip());
-    $('#gallery_container').append(div);
+    divcol.append(div)
+    $('#gallery_container').append(divcol);
 };
 
 $("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
