@@ -10,6 +10,10 @@ xmlns:fb="http://ogp.me/ns/fb#"
 lang="${lang}">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ${bootstrap.html_head()}
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/images/logos/favicon.png" >
     <%block name="extra_head">
     </%block>
     ${extra_head_data}
@@ -146,10 +150,6 @@ ${body_end}
   })();
 
 </script>
-    ${bootstrap.html_head()}
-    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="/images/logos/favicon.png" >
 
 </body>
 

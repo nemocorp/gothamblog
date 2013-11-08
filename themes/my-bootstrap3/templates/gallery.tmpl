@@ -16,7 +16,7 @@
         <li><a href="${folder}"><i class="icon-folder-open"></i>&nbsp;${folder}</a></li>
     % endfor
     </ul>
-    <div class="conatiner row col-md-16">
+    <div class="row">
         <div id="gallery_container"></div>
     </div>
     <noscript>
@@ -27,60 +27,38 @@
         %endfor
     </ul>
     </noscript>
+
+    <div class="pull-right"><a href="/galleries">Retour aux Galeries</div></a>
+
 %if enable_comments:
     ${comments.comment_form(None, permalink, title)}
 %endif
 </%block>
 
 
-<%block name="extra_head">
-<style type="text/css">
-    .image-block {
-        display: inline-block;
-    }
-    .flowr_row {
-        width: 100%;
-    }
-    </style>
-</%block>
-
-
 <%block name="extra_js">
-<script src="/assets/js/flowr.plugin.js"></script>
 <script>
 jsonContent = ${photo_array_json};
-$("#gallery_container").flowr({
-        data : jsonContent,
-        height : ${thumbnail_size}*.6,
-        padding: 0,
-        rows: -1,
-        render : function(params) {
-            // Just return a div, string or a dom object, anything works fine
-            img = $("<img />").attr({
-                'src': params.itemData.url_thumb,
-                'class': 'img-polaroid'
-            });
-            link = $( "<a></a>").attr({
-                'href': params.itemData.url,
-                'class': 'image-reference'
-            });
-            div = $("<div />").addClass('col-md-2').attr({
-                'title': params.itemData.title,
-                'data-toggle': "tooltip",
-            });
-            link.append(img);
-            div.append(link);
-            div.hover(div.tooltip());
-            return div;
-        },
-        itemWidth : function(data) { return data.size.w; },
-        itemHeight : function(data) { return data.size.h; },
-        complete : function(params) {
-            if( jsonContent.length > params.renderedItems ) {
-                nextRenderList = jsonContent.slice( params.renderedItems );
-            }
-        }
+for (i in jsonContent) {
+    img = $("<img />").attr({
+        'src': jsonContent[i].url_thumb,
     });
+    link = $( "<a></a>").attr({
+        'href': jsonContent[i].url,
+        'class': 'image-reference'
+    });
+
+    div = $("<div />").addClass('gallery-thumb col-md-2 img-rounded').attr({
+        'title': jsonContent[i].title,
+        'data-toggle': "tooltip",
+        'style': 'background-image: url(\''+jsonContent[i].url_thumb+'\');'
+    });
+    link.append(img); 
+    div.append(link);
+    div.hover(div.tooltip());
+    $('#gallery_container').append(div);
+};
+
 $("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
 </script>
 </%block>
