@@ -1,0 +1,31 @@
+.. date: 2013/11/08 17:15:11
+.. description: 
+.. tags: Tower Defense, Chronophage, 2013
+.. title: [Royal Offense] Encore un petit jeu chronophage...
+.. link: 
+.. slug: royal-offense
+.. category: Jeux Vidéos
+.. icon: jeux-videos
+
+.. image:: /images/royal-offense/postcard.png
+    :align: left
+
+Prêt à perdre quelques précieux instant de ta vie sur un petit jeu à la con comme il en existe tant? Alors c'est parti mon kiki pour un petit Tower Defense, mais pas que, et stratégique aussi. Chronophage, vous avez dit chronophage?
+
+.. TEASER_END
+
+`Royal Offense <http://www.kongregate.com/games/Badim/royal-offense>`_ est un Tower Defense Like. C'est à dire un jeu dans lequel vous allez devoir résister à des hordes d'ennemis plus vilains les uns que les autres. Le principe ici, vous allez recruter des guerriers, archers ou mages  qui défendront votre château et iront assiéger le château adverse. Vous allez recruter des collecteurs de taxe qui vous permettront d'engranger plus rapidement votre argent, pour recruter plus rapidement votre population soldatesque.
+
+.. image:: /images/royal-offense/1.png
+    :align: right
+
+Dès qu'une unité est produite, elle sort de votre château et se dirige inexorablement vers le château adverse. Les troupes adverses font exactement la même chose  dans l'ordre sens. Donc fatalement, elles se croisent et s'affrontent. Mais vous allez pouvoir attrapper vos troupes et les déplacer, créant ainsi des regroupements d'unités, des décalages de déplacements. Toute l'astuces est là pour que vos unités tiennent le plus longtemps possibles et avancent le plus loin possible. Car tant que la forteresse adverse n'est pas détruite, elle pond inéxorablement de la vermine qui viendra vous pourrir l'existence.
+
+Les premiers tableaux sont très simples, mais très, très rapidement ça se corse.
+
+De jolis graphismes, un excellent gameplay... et quelques minutes de bon temps, il n'y a aucune raison de bouder son plaisir. 
+
+.. image:: /images/royal-offense/commented_polaroid.png
+    :align: center
+
+

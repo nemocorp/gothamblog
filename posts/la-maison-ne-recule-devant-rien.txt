@@ -1,0 +1,15 @@
+.. description: 
+.. slug: la-maison-ne-recule-devant-rien
+.. date: 2013/11/08 11:51:13
+.. link: 
+.. title: La maison ne recule devant rien
+.. tags: Vie du Site
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/la-maison-ne-recule-devant-rien/postcard.png
+    :align: left
+
+Et oui Lecteur, vois ce que je mets à ta disposition. Des belles photos, toutes jolies parce qu'il parait que dans les articles on n'y voit pas trop bien. A partir de maintenant, tu disposeras sur chaque nouvelle fiche de jeu d'un petit lien appelé "Galerie de Photos" (c'est bien foutu, hein?) qui te permettra d'aller voir plus d'images sur le jeu qui t'intéresse. Le premier a en bénéficier est `Ankh-Morpork </galleries/ankh-morpork/index.html>`_. Et il y a aussi une nouvelle icône tout en haut de la page (la petite montagne avec un soleil, à côté de l'enveloppe, mais si regarde bien.Là!) qui te permet d'accéder à l'index de toutes les galeries de photos. Mais bon, comme pour l'instant y'en a qu'une!
+
+

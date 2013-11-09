@@ -42,6 +42,7 @@ Ank-Morpork est un jeu de placement et de contrôle dans lequel les joueurs vont
 
 .. image:: /images/ankh-morpork/3.png
     :align: right
+    :target: /galleries/ankh-morpork/index.html
 
 Ank-Morpork est un jeu simple, qui se résume à je joue une carte, j'effectue les actions indiquées dessus et je pioche jusqu'à avoir de nouveau cinq cartes en main. Tu vois, Lecteur, c'est on ne peut plus basique. Chaque carte du jeu permet d'effectuer plusieurs actions. En haut de la carte sont placés les icônes des actions à effectuer. Celle-ci devront obligatoirement être effectué dans l'ordre, de la gauche vers la droite.
 
@@ -54,6 +55,7 @@ Ank-Morpork est un jeu simple, qui se résume à je joue une carte, j'effectue l
 
 .. image:: /images/ankh-morpork/2.png
     :align: left
+    :target: /galleries/ankh-morpork/index.html
 
 * Assassiner un agent adverse, si le quartier où il se trouve contient un jeton chaos
 * Jouer une carte supplémentaire de sa main
@@ -68,6 +70,7 @@ Un bon jeu, marrant, aux belles illustrations, aux mécanismes simples et effica
  
 .. image:: /images/ankh-morpork/commented_polaroid.png
     :align: center
+    :target: /galleries/ankh-morpork/index.html
 
 
 
