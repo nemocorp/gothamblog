@@ -1,0 +1,69 @@
+.. slug: les-chateaux-de-bourgogne
+.. link: 
+.. tags: Jeux de Plateau, Stephan Feld, 2 Joueurs, 3 Joueurs, 4 Joueurs, Moyen-âge, Combinaison, Dés, Placement, 2011, Alea, Ravensburger
+.. date: 2013/11/09 14:27:28
+.. title: [Les Châteaux de Bourgogne] C'est froid, les couleurs sont fades, et pourtant c'est excellent
+.. description: 
+
+.. image:: /images/les-chateaux-de-bourgogne/postcard.png
+    :align: left
+
+.. class::  well fiche pull-right
+
+    +-----------------------------------------------------------------------------------------+
+    | **Fiche**                                                                               |
+    +-----------------------------------------------------------------------------------------+
+    | :Auteur:    Stefan Feld                                                                 |
+    | :Editeur:   Alea, Ravensburger                                                          | 
+    | :Année:     2011                                                                        | 
+    | :Joueurs:   2 à 4                                                                       |
+    | :Durée:     120min                                                                      |
+    | :Thème:     Moyen-âge                                                                   |
+    +-----------------------------------------------------------------------------------------+
+    || `> Voir la règle du jeu </regles/les-chateaux-de-bourgogne.pdf>`_                      |
+    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/les-chateaux-de-bourgogne/infos>`_ |
+    || `> BoardGameGeek <http://boardgamegeek.com/boardgame/84876/the-castles-of-burgundy>`_  |
+    || `> Galerie de Photos </galleries/les-chateaux-de-bourgogne>`_                          |
+    +-----------------------------------------------------------------------------------------+
+
+Stefan Feld est incontestablement l'auteur de jeu le plus prolifique de ces dernières années. Et comble du comble, il a réussi à allier quantité et qualité. Pour la seule année 2013, il a réussi à sortir 4 excellents jeux. Mais revenons plutôt sur Les Châteaux de Bourgogne paru en 2011. Pour se la péter un peu, on va utiliser le titre original, "Die Burgen von Burgund". Avoue Lecteur que ça le fait grave!
+
+.. TEASER_END
+
+Les Châteaux de Bourgogne, pardon, Die Burgen von Burgund est l'archétype du jeu que peut produire l'école allemande. Thème plaqué, mécanisme réglé au millimètre, 200 façons de marquer des points de victoire. Mais, fort heureusement, un jeu ne se résume pas uniquement à la somme de ses différentes parties. Laissons donc de côté tout cela pour nous concentrer sur l'essentiel, à savoir ce qui rend ce jeu si intéressant.
+
+.. image:: /images/les-chateaux-de-bourgogne/1.png
+    :align: right
+    :target: /galleries/les-chateaux-de-bourgogne/index.html
+
+Au cours des cinq manches que durent la partie, les joueurs vont tenter de développer leur domaine afin d'obtenir le plus possibles de points de victoire. Et les chemins qui mènent aux points de victoire et donc par extension à la victoire sont très très nombreux.
+
+Chaque manche est divisée en cinq phases toutes identiques qui consiste à jeter ses deux dés et les utiliser le mieux possible.
+
+Une nouvelle fois, un jeu centré sur un mécanisme d'une très grande simplicité. Mais c'est sans doute la seule chose simple. Pour le reste, c'est beaucoup plus compliqué.
+
+Lecteur, si t'es pas trop mauvais en math, tu as déjà dû calculer qu'une partie va te coûter l'effort physyque suivant: "Jeter 25 fois les deux dés à ta disposition!". Mais tu vas voir que les deux dés en question vont pouvoir être utilisé de plusieurs manières, pour:
+
+.. image:: /images/les-chateaux-de-bourgogne/2.png
+    :align: left
+    :target: /galleries/les-chateaux-de-bourgogne/index.html
+
+* Récuperer des tuiles sur le plateau central
+* Placer dans son domaine une tuile précedemment obtenue
+* Vendre des marchandises
+* Récupérer des ouvriers
+
+Jusque là toujours rien de bien compliqué, mais chaque tuile placée dans un domaine va déclencher tout un tas d'action qu'il va falloir combiner au mieux pour les rentabiliser au maximum. Et c'est bien là tout le sel de ce jeu. Trouver des combinaison d'action/placement de tuiles qui vont optimiser votre jeu et vous faire prendre l'avantage sur vos adversaires. Par exemple placer des navires influera sur l'ordre du tour, placer un bâtiment déclenchera l'action de celui-ci, placer un château, permettra immédiatement d'effectuer une action de son choix, comme si on venait de lancer un troisième dé virtuel dont on aurait choisi le résultat...
+
+.. image:: /images/les-chateaux-de-bourgogne/3.png
+    :align: center
+    :target: /galleries/les-chateaux-de-bourgogne/index.html
+
+Les Châteaux de Bourgogne est un jeu exigeant et qui, bien que reposant exclusivement sur un jet de dé, laisse bien peu de place au hasard. Les chemins menant à la victoire sont nombreux, de même que les stratégies à tester. Cerise sur le gâteau, au cas où vous trouveriez que les parties se ressemblent trop, ce qui est impossible, plusieurs plateaux individuels différents sont fournis, modifiant drastiquement les différentes stratégies que vous auriez pu peaufiner sur le plateau de base.
+
+Un jeu complexe, prenant, qui mettra vos neurones à rude épreuve et qui une fois passée le cap de l'aprentissage se révèlera être très simple à jouer, mais extrêment difficile à maîtriser. A réserver aux gros joueurs. On y jouera rarement le dimanche après le roti en tranche. Tata Lucette et Tonton René sont plutôt hermétique à ce genre de jeux. Mais c'est pas pour autant qu'il faut que tu passes à côté de ce petit bijou.
+
+.. image:: /images/les-chateaux-de-bourgogne/commented_polaroid.png
+    :align: center
+    :target: /galleries/les-chateaux-de-bourgogne/index.html
+
