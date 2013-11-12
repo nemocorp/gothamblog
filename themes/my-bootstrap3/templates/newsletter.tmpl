@@ -20,39 +20,24 @@ lang="${lang}">
 </head>
 <body>
 <div class="container">
-    <div class="body-content jumbotron ">
-        <div class="row">
+    <div class="body-content">
+        <div class="well row col-md-8">
             <h1>Gotham Blog Newsletter</h1>
             <a href="http://www.nemocorp.info/newsletter.html">Voir la Newsletter en ligne</a><br/>
-            <script type="text/javascript"><!--
-            google_ad_client = "ca-pub-2958887011966812";
-            /* Main-header */
-            google_ad_slot = "1850212976";
-            google_ad_width = 728;
-            google_ad_height = 90;
-            //-->
-            </script>
-            <script type="text/javascript"
-            src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-            </script>
-            
-            % for post in posts:
-                <div class="row col-md-10">
-                    <a href="/categories/cat_${post.meta('category')}.html"><img src="/images/logos/${post.meta('category')}.png" style="float:right;"/></a>
-                    <h3><a href="${post.permalink()}">${post.title()}</a>
-                    <br/><small><time class="published" datetime="${post.date.isoformat()}"><i>${post.formatted_date(date_format)}</i></time></small></h3>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="/images/${post.meta('slug')}/thumb.png" class="img-thumbnail pull-left">
-                    </div>
-                    <div class="col-md-7">
-                        <small><small>${post.text(teaser_only=index_teasers)}</small></small>
-                    </div>
-                </div>
-            <hr/>
-            % endfor
+            <a href="http://www.nemocorp.info/phplists/?p=subscribe&id=1">Abonnez-vous à la Niouzelaiteur</a><br/>
+<style>
+.fiche {display:none !important;}
+</style>
         </div>
+            % for post in posts:
+            <div class="well row col-md-8">
+            <h3><a href="${post.permalink()}">${post.title()}</a>
+            <br/><small><time class="published" datetime="${post.date.isoformat()}"><i>${post.formatted_date(date_format)}</i></time></small></h3>
+                        <small><small>${post.text(teaser_only=index_teasers)}</small></small>
+            <br/>
+            <hr/>
+            </div>
+            % endfor
     </div>
 </div>
 

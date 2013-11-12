@@ -5,14 +5,13 @@
 
 <%block name="content">
     <div class="well">
-        <h2><a href="/galleries">Les Belles Photos du Blog</a></h2>
+        <h2><a href="/galleries">Galeries de Photos</a></h2>
     </div>
     %if text:
     <p>
         ${text}
     </p>
     %endif
-    
     <div id="gallery_container" class="row"></div>
     <noscript>
     <ul class="thumbnails">
@@ -54,5 +53,6 @@ for (i in jsonContent) {
 };
 
 $("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
+
 </script>
 </%block>

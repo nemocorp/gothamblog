@@ -1,10 +1,10 @@
 .. link: 
 .. description: 
-.. tags: La Chanson du Week-end
+.. tags: La Chanson du Week-end, Vampire Weekend, 2008
 .. date: 2013/09/21 11:56:10
 .. title: [LCDWE] Oxford Comma, Vampire Weekend
 .. slug: oxford-comma-la-chanson-du-week-end
-.. category: Musique, Vampire Weekend, 2008
+.. category: Musique
 .. icon: musique
 
 .. image:: /images/oxford-comma-la-chanson-du-week-end/postcard.png

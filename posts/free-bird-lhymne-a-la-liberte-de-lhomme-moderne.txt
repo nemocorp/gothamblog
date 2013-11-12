@@ -1,10 +1,10 @@
 .. link: 
 .. description: 
-.. tags: La Chanson du Week-end
+.. tags: La Chanson du Week-end, Lynyrd Skynyrd, 1973
 .. date: 2013/09/28 08:00:00
 .. title: [LCDWE] Free Bird, Lynyrd Skynyrd. L'hymne à la liberté de l'homme moderne
 .. slug: free-bird-lhymne-a-la-liberte-de-lhomme-moderne
-.. category: Musique, Lynyrd Skynyrd, 1973
+.. category: Musique
 .. icon: musique
 
 .. image:: /images/free-bird-lhymne-a-la-liberte-de-lhomme-moderne/postcard.png

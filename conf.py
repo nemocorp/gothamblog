@@ -60,14 +60,14 @@ TRANSLATIONS = {
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/shaarli', '<i class="icon-bookmark" title="Favoris"></i>'),
-        ('/archive.html', '<i class="icon-archive" title="Archives"></i>'),
-        ('/categories/index.html', '<i class="icon-tags" title="Tags"></i>'),
-        ('/galleries/index.html', '<i class="icon-picture" title="Galerie de Photos"></i>'),
-        ('/phplists/?p=subscribe&id=1', '<i class="icon-envelope-alt" title="Abonne-toi à la Niouzelaiteur"></i>'),
-        ('https://twitter.com/nemocorp', '<i class="icon-twitter-sign" title="Suis-moi sur Twitter"></i>'),
-        ('https://www.facebook.com/pages/Gotham-Blog/379159445551177', '<i class="icon-facebook-sign" title="La page Facebook du Blog"></i>'),
-        ('/rss.xml', '<i class="icon-rss" title="Flux RSS"></i>'),
+        ('/shaarli', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Favoris" data-placement="bottom" class="icon-bookmark">&nbsp;</i>'),
+        ('/archive.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Archives" data-placement="bottom" class="icon-archive" title="">&nbsp;</i>'),
+        ('/categories/index.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Tags" data-placement="bottom" class="icon-tags" title="">&nbsp;</i>'),
+        ('/galleries/index.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Photos" data-placement="bottom" class="icon-picture" title="">&nbsp;</i>'),
+        ('/newsletter.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Niouzelaiteur" data-placement="bottom" class="icon-envelope-alt" title="">&nbsp;</i>'),
+        ('https://twitter.com/nemocorp', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Twitter @nemocorp" data-placement="bottom" class="icon-twitter-sign" title="">&nbsp;</i>'),
+        ('https://www.facebook.com/pages/Gotham-Blog/379159445551177', '<i rel="tooltip" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook Gotham Blog" class="icon-facebook-sign" title="">&nbsp;</i>'),
+        ('/rss.xml', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Flux RSS" data-placement="bottom" class="icon-rss" title=""></i>&nbsp;</i>'),
     ),
 }
 

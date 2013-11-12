@@ -1,0 +1,16 @@
+.. link: 
+.. title: [OddVille]
+.. slug: oddville
+.. tags: draft
+.. description: 
+.. date: 2013/11/12 13:57:25
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+.. js_title: OddVille
+.. galerie: False
+
+.. image:: /images/oddville/postcard.png
+    :align: left
+
+.. TEASER_END
+

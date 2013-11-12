@@ -1,5 +1,1 @@
-.. title: Photos
-.. category: Jeux de Société
-.. icon: jeux-de-societe
-
-`Voir la Fiche du Jeu Le Disque-Monde: Ankh-Morpork </posts/ankh-morpork.html>`_
+`Voir la Fiche du Jeu [Disque-Monde: Ankh-Morpork] </posts/ankh-morpork.html>`_

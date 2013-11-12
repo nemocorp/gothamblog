@@ -12,7 +12,7 @@ ${helper.twitter_card_information(post)}
     <div class="postbox">
         <div class="row well">
             <div class="pull-right">
-                <a href="/categories/cat_${post.meta('icon')}.html"><img src="/images/logos/${post.meta('icon')}.png" style="float:right;"/></a><br/>
+                <a href="/categories/cat_${post.meta('icon')}.html"><img class="pull-right" src="/images/logos/${post.meta('icon')}.png" rel="tooltip" data-toggle="tooltip" data-original-title="${post.meta('category')}" data-placement="bottom"/></a><br/>
             </div>
             <h3><a href="${post.permalink()}">${post.title()}</a>
             <br/><small><time class="published" datetime="${post.date.isoformat()}"><i>${post.formatted_date(date_format)}</i></time><br/>${helper.html_tags(post)}</small></h3>

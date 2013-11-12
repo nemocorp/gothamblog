@@ -1,7 +1,7 @@
 .. slug: sed-laide-memoire
 .. date: 2013/11/04 12:00:47
 .. title: [Sed] Aide-mémoire / Cheatsheet
-.. tags: Sed, Aide-mémoire, Cheatsheet
+.. tags: Sed, Aide-mémoire, Cheatsheet, Script
 .. link: 
 .. description: 
 .. category: Informatique

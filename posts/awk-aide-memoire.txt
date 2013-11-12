@@ -1,0 +1,186 @@
+.. description: 
+.. date: 2013/11/12 14:05:00
+.. title: [Awk] Aide-memoire / Cheatsheet
+.. tags: Awk, Aide-mémoire, Cheatsheet, Script
+.. link: 
+.. slug: awk-aide-memoire
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/awk-aide-memoire/postcard.png
+    :align: left
+
+Depuis l'aide-mémoire sur `Sed`, je sais que beaucoup d'entre vous l'attendait avec impatience. Le voilà, il est tout beau, tout chaud, le fantastique, le fabuleux Aide-Mémoire pour le non-moins fabuleux `Awk`.
+
+.. TEASER_END
+
+Variables pré-définies
+======================
+
++-------------+-----------------------------------+
+| FS          | Séparateur de champ <espace> par  |
+|             | défaut.                           |
++-------------+-----------------------------------+
+| OFS         | Séparateur de champ en sortie     |
+|             | <espace> par défaut.              |
++-------------+-----------------------------------+
+| NF          | Nombre de champs dans             |
+|             | l'enregistrement courant.         |
++-------------+-----------------------------------+
+| NR          | Nombre d'enrergistrement traités  |
+|             | jusqu'à présent.                  |
++-------------+-----------------------------------+
+| RS          | Séparateur d'enregistrement.      |
+|             | <entrée> par défaut.              |
++-------------+-----------------------------------+
+| ORS         | Séparateur d'enregistrement en    |
+|             | sortie <entrée> par défaut        |
++-------------+-----------------------------------+
+| FILENAME    | Le nom du fichier courant. Non-   |
+|             | défini dans le block BEGIN.       |
++-------------+-----------------------------------+
+| ARGC        | Nombre d'arguments dans la ligne  |
+|             | de commandes.                     |
++-------------+-----------------------------------+
+| ARGV        | Tableau des arguments de la ligne |
+|             | de commande indéxé à partir de 0  |
++-------------+-----------------------------------+
+| ARGIND      | L'index dans ARGV du fichier en   |
+|             | cours de traitement.              |
++-------------+-----------------------------------+
+| CONVFMT     | Format utilisé par défaut pour    |
+|             | convertir un nombre en chaîne de  |
+|             | caractère.                        |
+|             | Défaut: "%.6g"                    |
++-------------+-----------------------------------+
+| ENVIRON     | Tableau contenant les variables   |
+|             | d'environnement.                  |
++-------------+-----------------------------------+
+| FIELDWIDTHS | Permet d'ignorer FS et de traiter |
+|             | un fichier à enregistrement à     |
+|             | largeur fixe. Liste des longueurs |
+|             | de champs séparés par des espace. |
++-------------+-----------------------------------+
+| FNR         | Nombre de lignes lues. Remis à    |
+|             | zéro à chaque nouveau fichier.    |
++-------------+-----------------------------------+
+| IGNORECASE  | Permet d'ignorer la casse si      |
+|             | différent de 0.                   |
++-------------+-----------------------------------+
+| OFMT        | Format par défaut en sortie pour  |
+|             | les nombres. Défaut: "%.6g"       |
++-------------+-----------------------------------+
+
+
+Les Entrées/Sorties
+===================
+
++---------------------+-------------------------------------------------+
+| getline             | Affecte le prochain enregistrement à $0.        |
+|                     | Retourne 0 pour EOF, -1 en cas d'erreur. ERRNO  |
+|                     | contient le message d'erreur.                   |
++---------------------+-------------------------------------------------+
+| getline <file       | Affecte le prochain enregistrement de file à $0 |
++---------------------+-------------------------------------------------+
+| getline var         | Affecte le prochain enregistrement à var.       |
++---------------------+-------------------------------------------------+
+| getline var <file   | Affecte le prochain enregistrement de file à var|
++---------------------+-------------------------------------------------+
+| command \|          | Exécute une commande et affecte la sortie à $0  |
+| getline [var]       | ou à var.                                       |
++---------------------+-------------------------------------------------+
+| command \|&         | Exécute une commande en tant que co-process     |
+| getline [var]       | et affecte la sortie à $0 ou à var.             |
++---------------------+-------------------------------------------------+
+| next                | Arrête le traitement de l'enregistrement courant|
+|                     | et passe directement à l'enregistrement suivant.|
++---------------------+-------------------------------------------------+
+| nextfile            | Arrête le traitement du fichier courant et      |
+|                     | passe directement au fichier suivant.           |
++---------------------+-------------------------------------------------+
+| print               | Affiche l'enregistrement courant sur la sortie  |
+|                     | standard.                                       |
++---------------------+-------------------------------------------------+
+| system(cmd-line)    | Exécute la commande cmd-line et renvoi le code  |
+|                     | de sortie.                                      |
++---------------------+-------------------------------------------------+
+
+Les Fonctions de manipulation de chaînes
+========================================
+
++---------------------+-------------------------------------------------+
+| gensub(r, s,        | Recherche la chaine t pour des correspondances  |
+| h [, t])            | de la regex r. Si h est une chaîne commençant   |
+|                     | par g ou G, remplce toutes les occurrences      |
+|                     | de r par s. Si h est un nombre, remplace la     |
+|                     | n-iéme occurrence uniquement. Si t n'est pas    |
+|                     | précisé, utilise $0. La chaîne t n'est pas      |
+|                     | modifié. gensub retourn la chaîne résultat.     |
++---------------------+-------------------------------------------------+
+| gsub(r, s [, t])    | Remplace chaque sous-chaîne correspondant à la  |
+|                     | regex r par s dans la chaîne t.                 |
++---------------------+-------------------------------------------------+
+| index(s, t)         | Renvoie l'index de la chaîne t dans la chaîne s |
+|                     | ou 0 si elle n'est pas présente.                |
++---------------------+-------------------------------------------------+
+| length([s])         | Renvoie la longueur de la chaîne s.             |
++---------------------+-------------------------------------------------+
+| match(s, r [, a])   | Renvoie la position dans s où la regex r        |
+|                     | apparait, ou 0 si elle n'est pas présente.      |
++---------------------+-------------------------------------------------+
+| split(s, a [, r])   | Sépare la chaîne s en un tableau en utilisant   |
+|                     | la regex r comme séparateur et renvoie le       |
+|                     | nombre de champs obtenus.                       |
++---------------------+-------------------------------------------------+
+| sprintf(fmt,        | Affiche expr-list en utilisant le format fmt et |
+| expr-list)          | retourne la chaîne résultat.                    |
++---------------------+-------------------------------------------------+
+| sub(r, s [, t])     | identique à gsub, mais seule la première        |
+|                     | occurrence est remplacé.                        |
++---------------------+-------------------------------------------------+
+| substr(s, i [, n])  | Renvoie la sous-chaîne de s commençant à la     |
+|                     | position i et contenant au plus n caractère.    |
++---------------------+-------------------------------------------------+
+| tolower(str)        | Renvoie la chaîne s en minuscule.               |
++---------------------+-------------------------------------------------+
+| toupper(str)        | Renvoi la chaîne s en majuscule.                |
++---------------------+-------------------------------------------------+
+
+Exemples
+========
+
+Remplacer la deuxième occurrence de AA dans une chaîne
+------------------------------------------------------
+
+.. code:: bash
+
+    $ echo "AA:BB:CC:DD:AA:BB:CC:DD" | awk -F\: '{print gensub(/AA/,"00",2);print ("$0=" $0); print("NF=" NF); print("NR=" NR);}'
+
+    AA:BB:CC:DD:00:BB:CC:DD
+    $0=AA:BB:CC:DD:AA:BB:CC:DD  # gensub ne modifie pas $0
+    NF=8                        # -F permet de changer le séparateur par défaut, ici :, on a donc bien 8 champs
+    NR=1                        # NR indique le numéro de l'enregistrement courant
+
+
+Afficher la ligne la plus longue dans un fichier
+------------------------------------------------
+
+.. code:: bash
+
+    $ awk 'NR == 1 { max = $1; maxline = $0; next; } $1 > max { max=$1; maxline=$0 }; END { print max, maxline }' mon_fichier.txt
+
+Transformer CRLF(Windows) en LF(Unix)
+-------------------------------------
+
+.. code:: bash
+
+    $ awk '{ sub(/\r$/,""); print }'
+
+Afficher les logins de tous les utilisateurs triés dans l'ordre alphabétique
+----------------------------------------------------------------------------
+
+.. code:: bash
+
+    $ awk -F ":" '{ print $1 | "sort" }' /etc/passwd
+
+

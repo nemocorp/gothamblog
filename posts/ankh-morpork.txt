@@ -2,10 +2,12 @@
 .. slug: ankh-morpork
 .. link: 
 .. date: 2013/11/06 20:29:49
-.. title: [Le Disque-Monde: Ankh-Morpork] Terry Pratchett au pays des jeux
+.. title: [Disque-Monde: Ankh-Morpork] Terry Pratchett au pays des jeux
 .. description: 
 .. category: Jeux de Société
 .. icon: jeux-de-societe
+.. galerie: True
+.. js_title: Disque-Monde: Ankh-Morpork
 
 .. image:: /images/ankh-morpork/postcard.png
     :align: left

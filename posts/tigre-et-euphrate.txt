@@ -1,14 +1,33 @@
 .. link: 
 .. description: 
-.. tags: Stratégie, Antiquité
+.. tags: Jeux de Plateau, Reiner Knizia, 2 Joueurs, 3 Joueurs, 4 Joueurs, Antiquité, Tuiles, Placement, Affrontement, Civilisation, 1997
 .. date: 2013/10/01 20:04:50
-.. title: "Tigre & Euphrate", le meilleur Reiner Knizia
-.. slug: tigre-euphrate-le-meilleur-reiner-knizia
+.. title: [Tigre & Euphrate] Le meilleur Reiner Knizia
+.. slug: tigre-et-euphrate
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. image:: /images/tigre-euphrate-le-meilleur-reiner-knizia/postcard.png
+.. image:: /images/tigre-et-euphrate/postcard.png
 	:align: left
+
+.. class::  well fiche pull-right
+
+        +-----------------------------------------------------------------------------------+
+        | **Fiche**                                                                         |
+        +-----------------------------------------------------------------------------------+
+        | :Auteur: Reiner Knizia                                                            |
+        | :Editeur: Hans im Glück                                                           |
+        | :Année: 1997                                                                      |
+        | :Joueurs: 2 à 4                                                                   |
+        | :Durée: 120min                                                                    |
+        | :Thème: Antiquité                                                                 |
+        +-----------------------------------------------------------------------------------+
+        || `> Voir la règle du jeu </regles/tigre-et-euphrate.pdf>`_                        |
+        || `> TricTrac <http://www.trictrac.net/jeu-de-societe/tigre-amp-euphrate/infos>`_  |
+        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/42/tigris-euphrates>`_      |
+        || `> Galerie de Photos </galleries/tigre-et-euphrate/index.html>`_                 |
+        +-----------------------------------------------------------------------------------+
+
 
 Quand on parle d'un livre, on cite l'auteur, quand on évoque une chanson, on évoque son compositeur ou son interprète. Donc, rien de plus normal que de citer `Reiner Knizia <https://fr.wikipedia.org/wiki/Reiner_Knizia>`_ lorsque l'on va parler de son jeu de société.
 
@@ -25,14 +44,14 @@ Chaque joueur va tenter de développer sa civilisation dans quatre domaine:
 * le commerce par des tuiles vertes
 * et le domaine politique par des tuiles noires
 
-.. image:: /images/tigre-euphrate-le-meilleur-reiner-knizia/2.png
+.. image:: /images/tigre-et-euphrate/2.png
     :align: center
 
 |
 
 A son tour de jeu, un joueur va pouvoir soit placer ou déplacer l'un de ses chef, soit placer une tuile. S'il place une tuile dans une cité contenant son chef de la même couleur, il va marquer un point de cette couleur. Par exemple, mon chef politique noir est sur le plateau. Je place une tuile noire dans la cité où il est placé, je marque un point de couleur noire. A la fin de la partie, le score de chaque joueur est égal à sa couleur la plus faible. 
 
-.. image:: /images/tigre-euphrate-le-meilleur-reiner-knizia/3.png
+.. image:: /images/tigre-et-euphrate/3.png
     :align: left
 
 Il faut donc faire attention à se développer de manière équilibrée dans tous les domaines.

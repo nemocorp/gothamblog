@@ -8,7 +8,7 @@
     </style>
     % for post in posts:
         <div class="row well well-small teaser" style="position: relative;">
-                <a href="/categories/cat_${post.meta('icon')}.html"><img class="pull-right" src="/images/logos/${post.meta('icon')}.png" title="${post.meta('category')}"/></a>
+                <a href="/categories/cat_${post.meta('icon')}.html"><img class="pull-right" src="/images/logos/${post.meta('icon')}.png" title="${post.meta('category')}" rel="tooltip" data-toggle="tooltip" data-original-title="${post.meta('category')}" data-placement="bottom"/></a>
                 <h3>
                     <a href="${post.permalink()}">${post.title()}</a><br/>
                     <small>

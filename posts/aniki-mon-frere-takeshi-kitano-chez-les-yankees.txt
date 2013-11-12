@@ -4,7 +4,7 @@
 .. tags: Takeshi Kitano, Asie, 2000, Yakusa, Mafia, Polar
 .. slug: aniki-mon-frere-takeshi-kitano-chez-les-yankees
 .. link: 
-.. catgory: Films
+.. category: Films
 .. icon: films
 
 .. image:: /images/aniki-mon-frere-takeshi-kitano-chez-les-yankees/postcard.png
