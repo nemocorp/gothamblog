@@ -25,7 +25,7 @@
     | :Thème:     Disque-Monde                                                              |
     +---------------------------------------------------------------------------------------+
     || `> Voir la règle du jeu </regles/ankh-morpork.pdf>`_                                 |
-    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/sankt-petersburg/infos>`_        |
+    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/ankh-morpork/infos>`_            |
     || `> BoardGameGeek <http://boardgamegeek.com/boardgame/91312/discworld-ankh-morpork>`_ |
     || `> Galerie de Photos </galleries/ankh-morpork/>`_                                    |
     +---------------------------------------------------------------------------------------+

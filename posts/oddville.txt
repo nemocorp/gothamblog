@@ -1,16 +1,83 @@
 .. link: 
-.. title: [OddVille]
+.. title: [OddVille] De zolis dessins pour un jeu très agréable
 .. slug: oddville
-.. tags: draft
+.. tags: Jeux de Cartes, Carlo Lavezzi, 2012, Iello, 2 Joueurs, 3 Joueurs, 4 Joueurs, Construction, Ville, Médiéval-Fantastique
 .. description: 
-.. date: 2013/11/12 13:57:25
+.. date: 2013/11/13 09:57:25
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 .. js_title: OddVille
-.. galerie: False
+.. galerie: True
 
 .. image:: /images/oddville/postcard.png
     :align: left
 
+.. class::  well fiche pull-right
+
+        +-----------------------------------------------------------------------------+
+        | **Fiche**                                                                   |
+        +-----------------------------------------------------------------------------+
+        | :Auteur: Carlo Lavezzi                                                      |
+        | :Editeur: Iello                                                             |
+        | :Année: 2012                                                                |
+        | :Joueurs: 2 à 4                                                             |
+        | :Durée: 45min                                                               |
+        | :Thème: Médiéval-Fantastique                                                |
+        +-----------------------------------------------------------------------------+
+        | | `> Voir la règle du jeu </regles/oddville.pdf>`_                          |
+        | | `> TricTrac <http://www.trictrac.net/jeu-de-societe/oddville/infos>`_     |
+        | | `> BoardGameGeek <http://boardgamegeek.com/boardgame/123219/oddville>`_   |
+        | | `> Galerie de Photos </galleries/oddville/>`_                             |
+        +-----------------------------------------------------------------------------+
+
+Aujourd'hui, je vais vous parler d'un petit jeu sans prétention ramener du festival de Cannes, OddVille.
+
+OddVille frappe d'abord par la beauté de ses illustrations. J'avoue que c'est un critère que j'occulte assez souvent, mais là diificile de passer à côté. Un tel chatoiement de couleur, forcément, ça attire l'oeil. Du coup, on regarde d'un peu plus près et on se dit, "Tiens, pourquoi je l'essaierai pas celui-là?"
+
 .. TEASER_END
+
+Et me voilà parti, ma boîte sous le bras pour une petite partie.
+
+Dans OddVille, vous allez participez à la construction de la ville en posant de nouveaux quartiers au tour du quartier central. Pour cela, il vous faudra envoyer vous ouvrier récupérer des ressources, sélectionnez judicieusement les batiments que vous construirez pour maximiser votre score en fin de partie.
+
+.. image:: /images/oddville/1.png
+    :align: right
+    :target: /galleries/oddville/index.html
+
+Chaque joueur dispose de quatre ouvriers, matérialisés par des cartes à sa couleur et lui permettant de récupérer des ressources, d'acheter des batiments ou d'obtenir de l'or.
+
+A votre tour, vous allez avoir le choix entre deux actions:
+
+* Utiliser un de vos ouvriers encore en main
+* Construire un batiment de votre réserve
+
+Vos quatre ouvriers sont de puissance inégale. Chaque carte ouvrier est divisé en 3 partie qui représente les 3 actions que votre ouvrer va pouvoir efectuer. Les 3 actions possibles pour un ouvrier sont:
+
+* Récupérer de l'or 
+* Récupérer une ressource
+* Acheter un des batiments disponibles de la ligne des batiments
+
+Vos quatre ouvriers ont une puissance de travail différente. Le plus faible permettant de récupérer uniquement du bois ou un or, alors que le plus puissant vous permet de choisir un ressource parmi les quatre disponibles ou de gagner 3 or. De même, pour l'achat d'un batiment, le plus faible vous autorise à prendre gratuitement un des deux premiers batiments de l'étalage alors que le plus puissant vous permet de prendre gratuitement un des quatre premiers.
+
+Il va donc falloir utiliser judicieusement ses ouvriers car on ne les reprend en main qu'une fois qu'ils ont été tous joués.
+
+.. image:: /images/oddville/2.png
+    :align: center
+    :target: /galleries/oddville/index.html
+
+L'autre action possible va être d'ajouter un des batiments que vous avez en réserve à la ville en respectant les règles de construction. Basiquement, il faut que l'image constitué soit cohérente. Une route qui continue une route, ou des morceaux de maisons collés à d'autres morceaux de maisons... Une fois que cela est fait, vous allez mettre un de vos petits personnages sur le batiment ainsi placé pour marquer sa propriété. Le batiment construit va vous permettre d'obtenir des ressources bonus et éventuellement l'aide de la guilde à laquelle il est rattaché. Et tant que personne ne construit un batiment de cette guilde, vous gardez le bénéfice de la guilde.
+
+.. image:: /images/oddville/3.png
+    :align: left  
+    :target: /galleries/oddville/index.html
+
+La partie s'achève dès qu'un joueur a placé son sixième batiment. Arrive alors le traditionnel décompte car les batiments que vous avez construits vont vous rapportez plus ou moins de points en fonction de l'endroit où ils sont construits et de la présence de certains autres batiments dans la ville en fin de partie.
+
+OddVille, comme annoncé en introduction, est un petit jeu plaisant, qui amène son lot de microdécision, comme par exemple l'utilisation judicieuse du bon ouvrier au bon moment. Les cartes sont lisibles, les règles simples, il est facilement explicable et très rapidement les joueurs voient quelles stratégies adoptées en fonction  de ce que font leurs adversaires.
+
+Un petit jeu bien sympathique sans être indispensable, agréable à jouer avec des parties rapides qu'on enchaîne sans problème. Pas une révolution du microcosme ludique mais faut-il une révolution à chaque nouveau jeu?
+
+.. image:: /images/oddville/commented_polaroid.png
+    :align: center
+
 
