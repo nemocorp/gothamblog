@@ -21,6 +21,7 @@
     | :Joueurs:   2 à 4                                                   |
     | :Durée:     60min                                                   |
     | :Thème:     Mayas                                                   |
+    | :Prix:      40€                                                     |
     +---------------------------------------------------------------------+
     || `> Voir la règle du jeu </regles/tikal.pdf>`_                      |
     || `> TricTrac <http://www.trictrac.net/jeu-de-societe/tikal/infos>`_ |

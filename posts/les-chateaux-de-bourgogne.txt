@@ -23,6 +23,7 @@
     | :Joueurs:   2 à 4                                                                       |
     | :Durée:     120min                                                                      |
     | :Thème:     Moyen-âge                                                                   |
+    | :Prix:      40€                                                                         |
     +-----------------------------------------------------------------------------------------+
     || `> Voir la règle du jeu </regles/les-chateaux-de-bourgogne.pdf>`_                      |
     || `> TricTrac <http://www.trictrac.net/jeu-de-societe/les-chateaux-de-bourgogne/infos>`_ |

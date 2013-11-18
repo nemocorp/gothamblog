@@ -28,6 +28,17 @@ ${helper.twitter_card_information(post)}
     </div>
 </%block>
 
+<%block name="twitter_perso">
+% if post.meta('icon')=="jeux-de-societe":
+<a class="twitter-timeline"  href="https://twitter.com/search?q=%23j2s"  data-widget-id="400652494188994560">Tweets concernant "#j2s"</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+% else:
+<a class="twitter-timeline"  href="https://twitter.com/nemocorp"  data-widget-id="400654823516684288">Tweets de @nemocorp</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+% endif
+<hr/>
+</%block>
+
 <%block name="sourcelink">
 % if not post.meta('password'):
     <li>

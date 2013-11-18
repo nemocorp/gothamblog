@@ -1,0 +1,87 @@
+.. slug: horreur-a-arkham
+.. tags: Horreur, Cthulhu, H.P. Lovecraft, Coopératif, 2005, Kevin Wilson, Richard Launius, Solo, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs, 6 Joueurs et plus, Edge Entertainment, Jeu de Plateaudraft
+.. title: [Horreur à Arkham] Cthulhu et ses potes débarquent
+.. date: 2013/11/18 10:08:41
+.. link: 
+.. description: 
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+.. js_title: Horreur à Arkham
+.. galerie: True
+
+.. image:: /images/horreur-a-arkham/postcard.png
+    :align: left
+
+.. class::  well fiche pull-right
+
+        +------------------------------------------------------------------------------------+
+        | **Fiche**                                                                          |
+        +------------------------------------------------------------------------------------+
+        | :Auteur:    Kevin Wilson, Richard Launius                                          |
+        | :Editeur:   Edge Entertainment                                                     |
+        | :Année:     2005                                                                   |
+        | :Joueurs:   1 à 8                                                                  |
+        | :Durée:     180min                                                                 |
+        | :Thème:     Cthulhu                                                                |
+        +------------------------------------------------------------------------------------+
+        || `> Voir la règle du jeu </regles/horreur-a-arkham.pdf>`_                          |
+        || `> TricTrac <http://www.trictrac.net/jeu-de-societe/horreur-a-arkham-0/infos>`_   |
+        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/436634/arkham-horror>`_      |
+        || `> Galerie de Photos </galleries/horreur-a-arkham/index.html>`_                   |
+        +------------------------------------------------------------------------------------+
+
+
+Le mythe de Cthulhu en jeu de société. En voilà un vrai projet ambitieux. il faut dire qu'avec H.P. Lovecraft à l'écriture du background, y'a du matériel et de quoi s'amuser. Les années 30, les Etats-Unis, la prohibition, des êtres surnaturels, des puissances cosmiques, des adorateurs fous et la fin du monde qui se profile àl'horizon. Et pour combattre tout ça, une misérable bande d'investiguateurs, enfin pas si misérable que ça.
+
+.. TEASER_END
+
+Horreur à Arkham est un jeu coopératif. J'aime pas les jeux coopératifs. Je ne trouve rien de plus chiant que d'essayer de faire une réussite à plusieurs, avec un type qui connaît parfaitement le jeu et ce qu'il faut faire pour gagner et passe son temps à te dire, "Fais-ça bordel, sinon on va perdre!". Bref, quand j'ai voulu tester Horreur à Arkham, j'avoue que passer 3 heures autour d'une table pour faire un jeu coopératif ne m'enchantait pas plus que ça. Mais bon, quand on est passionné, on n'hésite pas à faire quelques petits sacrifices.
+
+.. image:: /images/horreur-a-arkham/2.png
+    :align: center
+    :target: /galleries/horreur-a-arkham/index.html
+
+Tout d'abord, ouverture de la lourde boîte. Puis découverte du matériel. C'est beau, c'est copieux, du jetons et des cartes en veux-tu en voilà.
+
+Ensuite, comme pour tout jeu, je m'attèle à la lecture des règles! Aïe, bad point! Qu'est-ce qu'elles sont mal rédigées. Mon dieu, messieurs, un peu de cohérences.
+
+Elles sont complètes certes, mais tout est dans le désordre et quand on doit se référer à un point particulier, impossible de le retrouver. (Sur la description des cartes, non, dans le paragraphe sur le tour de jeu, non plus, à peut-être alors à la fin dans l'aide de jeu, non plus...) Bref on passe son temps à chercher.
+
+.. image:: /images/horreur-a-arkham/1.png
+    :align: left   
+    :target: /galleries/horreur-a-arkham/index.html
+
+Le Jeu
+======
+
+Dans Horreur à Arkham, les joueurs vont tenter d'empêcher le réveil du Grands Anciens, sorte de dieu cosmique, et par la même ainsi sauver l'humanité, rien que ça.
+
+Le plateau représente la ville d'Arkham, coeur de toute la cosmogonie lovecraftienne, et de ses environs. Les phénomènes surnaturels se multiplient et des portails dimensionnels s'ouvrent laissant entre dans notre monde des Cthoniens et autres larves stellaires. Bref, vous l'aurez compris, c'est le bordel.
+
+.. image:: /images/horreur-a-arkham/3.png
+    :align: right 
+    :target: /galleries/horreur-a-arkham/index.html
+
+Un tour de jeu d'Horreur à Arkham est simple. On commence par révéler une carte mythe qui va poser un élément de l'histoire et éventuellement ouvrir un portail dimensionnel sur le plateau, rapprochant ainsi la venue du Grand Ancien. Sur chaque fiche de Grand Ancien, un certain nombre de points du destin sont représentés, environ un dizaine, et dès que ce nombre de portail s'est ouvert, le Grand Ancien se réveille.
+
+Puis les monstres sur le plateau vont se déplacer et enfin les joueurs.
+
+Quand tous les joueurs se sont déplacés, ils vont pouvior faire des rencontres, bonnes ou mauvaises qui vont les aider ou pas à accomplir leur mission. Ils vont également pouvoir utiliser les portails dimensionnels, nouvellement ouvert pour aller dans l'autre monde, en revenir, ou pas, et essayer de le sceller à leur retour. Car le but du jeu est de réussir à faire en sorte qu'il n'y ait plus aucun portail sur le plateau tout en en ayant fermé un minimum égal au nombre de joueur.
+
+Le Thème
+========
+
+.. image:: /images/horreur-a-arkham/4.png
+    :align: right
+    :target: /galleries/horreur-a-arkham/index.html
+
+Horreur à Arkham s'appuie sur le thème éprouvé du mythe de Cthulhu et réussi à en rendre l'atmosphère si particulière. On est dedans, et jusqu'au cou, on court, on fuit les monstres, quand c'est inévitable, on combat pour la survie d'Arkham et on devient fou.
+
+Horreur à Arkham est sans doute le jeu dont le thème est le mieux rendu, où tout colle parfaitement. On est à la frontière du jeu de rôle. Les décisions sont toujours tendus et contrairement aux autres jeux coopératifs, je trouve qu'ici chacun est vraiment confronté à ses propres choix.
+
+Un excellent jeu et on va encore me taxer de fainéant parce que je ne parle que que de choses mythiques, et là avec Cthulhu, c'était vraiment facile. Horreur à Arkham m'a réconcilié avec le jeu coopératif et rien que pour ça, il vaut vraiment le détour.
+
+.. image:: /images/horreur-a-arkham/commented_polaroid.png
+    :align: center
+    :target: /galleries/horreur-a-arkham/index.html
+

@@ -12,18 +12,21 @@
 
 .. class:: well fiche pull-right
 
-    +-------------------------------------------------------+
-    | **Fiche**                                             |
-    +-------------------------------------------------------+
-    | :Auteur:    Uwe Rosenberg                             |
-    | :Editeur:   Ystari                                    | 
-    | :Année:     2007                                      |
-    | :Joueurs:   1 à 5                                     |
-    | :Durée:     30min/joueur                              |
-    | :Thème:     Moyen-âge                                 |
-    +-------------------------------------------------------+
-    | `Voir la règle du jeu </regles/agricola.pdf>`_        |
-    +-------------------------------------------------------+
+    +----------------------------------------------------------------------------------+
+    | **Fiche**                                                                        |
+    +----------------------------------------------------------------------------------+
+    | :Auteur:    Uwe Rosenberg                                                        |
+    | :Editeur:   Ystari                                                               |  
+    | :Année:     2007                                                                 |
+    | :Joueurs:   1 à 5                                                                | 
+    | :Durée:     30min/joueur                                                         |
+    | :Thème:     Moyen-âge                                                            |
+    | :Prix:      50€                                                                  |
+    +----------------------------------------------------------------------------------+
+    || `Voir la règle du jeu </regles/agricola.pdf>`_                                  |
+    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/agricola/infos>`_           |
+    || `> BoardGameGeek <http://boardgamegeek.com/boardgame/31260/agricola>`_          |
+    +----------------------------------------------------------------------------------+
 
 
 Agricola est un jeu de société paru en 2007. Pfff, six ans déjà, ça ne nous rajeunit pas. Après avoir longtemps occupé la première place, il truste maintenant la seconde place au `classement BGG (Boardgamegeek) <http://boardgamegeek.com/browse/boardgame>`_. Quand on connait la fréquence de sortie de nouveaux jeux, c'est plutôt pas mal. Mais cékoidon qui fait son succès?

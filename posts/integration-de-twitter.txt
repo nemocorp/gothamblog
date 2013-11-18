@@ -1,0 +1,16 @@
+.. tags:  Vie du Site
+.. title: Integration de Twitter
+.. date: 2013/11/13 17:18:14
+.. description: 
+.. link: 
+.. slug: integration-de-twitter
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/integration-de-twitter/postcard.png
+    :align: left
+
+Et une fonctionnalité de plus! Une. L'intégration de Twitter. Tu peux me suivre sur la page d'accueil du site en direct live et en plus sur les fiche de jeu, tu as maintenant les tweets "Jeux de Société" en direct live pour de l'info de premier choix en parallèle de mes vieilleries! hashtag j2s comme ils disent les jeunes...
+
+Plus ça va, plus elle est belle la vie!
+

@@ -21,6 +21,7 @@
     | :Joueurs:   3 à 4                                                                |
     | :Durée:     60min                                                                |
     | :Thème:     Pirates                                                              |
+    | :Prix:      10€                                                                  |
     +----------------------------------------------------------------------------------+
     || `> Voir la règle du jeu </regles/meuterer.pdf>`_                                |
     || `> TricTrac <http://www.trictrac.net/jeu-de-societe/meuterer/infos>`_           |

@@ -23,6 +23,7 @@
     | :Joueurs:   2 à 4                                                                     |
     | :Durée:     60min                                                                     |
     | :Thème:     Disque-Monde                                                              |
+    | :Prix:      40€                                                                       |
     +---------------------------------------------------------------------------------------+
     || `> Voir la règle du jeu </regles/ankh-morpork.pdf>`_                                 |
     || `> TricTrac <http://www.trictrac.net/jeu-de-societe/ankh-morpork/infos>`_            |
@@ -34,7 +35,7 @@ Oyez, oyez Lecteur! L'université de la Magie du Disque-Monde est heureuse de te
 
 .. TEASER_END
 
-Ank-Morpork est un jeu de placement et de contrôle dans lequel les joueurs vont tenter de réliser leur objectif secret:
+Ank-Morpork est un jeu de placement et de contrôle dans lequel les joueurs vont tenter de réaliser leur objectif secret:
 
 * Contrôler un certain nombre de quartier
 * Avoir disperser sur le plateau un certain nombre de ses agents

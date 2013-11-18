@@ -23,6 +23,7 @@
         | :Joueurs: 2 à 4                                                             |
         | :Durée: 45min                                                               |
         | :Thème: Médiéval-Fantastique                                                |
+        | :Prix: 20€                                                                  |
         +-----------------------------------------------------------------------------+
         | | `> Voir la règle du jeu </regles/oddville.pdf>`_                          |
         | | `> TricTrac <http://www.trictrac.net/jeu-de-societe/oddville/infos>`_     |
@@ -30,15 +31,15 @@
         | | `> Galerie de Photos </galleries/oddville/>`_                             |
         +-----------------------------------------------------------------------------+
 
-Aujourd'hui, je vais vous parler d'un petit jeu sans prétention ramener du festival de Cannes, OddVille.
+Aujourd'hui, je vais vous parler d'un petit jeu sans prétention ramené du festival de Cannes, OddVille.
 
-OddVille frappe d'abord par la beauté de ses illustrations. J'avoue que c'est un critère que j'occulte assez souvent, mais là diificile de passer à côté. Un tel chatoiement de couleur, forcément, ça attire l'oeil. Du coup, on regarde d'un peu plus près et on se dit, "Tiens, pourquoi je l'essaierai pas celui-là?"
+OddVille frappe d'abord par la beauté de ses illustrations. J'avoue que c'est un critère que j'occulte assez souvent, mais là difficile de passer à côté. Un tel chatoiement de couleur, forcément, ça attire l'oeil. Du coup, on regarde d'un peu plus près et on se dit, "Tiens, pourquoi je l'essaierai pas celui-là?"
 
 .. TEASER_END
 
 Et me voilà parti, ma boîte sous le bras pour une petite partie.
 
-Dans OddVille, vous allez participez à la construction de la ville en posant de nouveaux quartiers au tour du quartier central. Pour cela, il vous faudra envoyer vous ouvrier récupérer des ressources, sélectionnez judicieusement les batiments que vous construirez pour maximiser votre score en fin de partie.
+Dans OddVille, vous allez participer à la construction de la ville en posant de nouveaux quartiers autour du quartier central. Pour cela, il vous faudra envoyer vos ouvriers récupérer des ressources, sélectionnez judicieusement les batiments que vous construirez pour maximiser votre score en fin de partie.
 
 .. image:: /images/oddville/1.png
     :align: right
@@ -51,13 +52,13 @@ A votre tour, vous allez avoir le choix entre deux actions:
 * Utiliser un de vos ouvriers encore en main
 * Construire un batiment de votre réserve
 
-Vos quatre ouvriers sont de puissance inégale. Chaque carte ouvrier est divisé en 3 partie qui représente les 3 actions que votre ouvrer va pouvoir efectuer. Les 3 actions possibles pour un ouvrier sont:
+Vos quatre ouvriers sont de puissance inégale. Chaque carte ouvrier est divisé en 3 parties qui représentent les 3 actions que votre ouvrier va pouvoir effectuer. Les 3 actions possibles pour un ouvrier sont:
 
 * Récupérer de l'or 
 * Récupérer une ressource
 * Acheter un des batiments disponibles de la ligne des batiments
 
-Vos quatre ouvriers ont une puissance de travail différente. Le plus faible permettant de récupérer uniquement du bois ou un or, alors que le plus puissant vous permet de choisir un ressource parmi les quatre disponibles ou de gagner 3 or. De même, pour l'achat d'un batiment, le plus faible vous autorise à prendre gratuitement un des deux premiers batiments de l'étalage alors que le plus puissant vous permet de prendre gratuitement un des quatre premiers.
+Vos quatre ouvriers ont une puissance de travail différente. Le plus faible permettant de récupérer uniquement du bois ou une pièce d'or, alors que le plus puissant vous permet de choisir une ressource parmi les quatre disponibles ou de gagner 3 pièces d'or. De même, pour l'achat d'un batiment, le plus faible vous autorise à prendre gratuitement un des deux premiers batiments de l'étalage alors que le plus puissant vous permet de prendre gratuitement un des quatre premiers.
 
 Il va donc falloir utiliser judicieusement ses ouvriers car on ne les reprend en main qu'une fois qu'ils ont été tous joués.
 
@@ -73,7 +74,7 @@ L'autre action possible va être d'ajouter un des batiments que vous avez en ré
 
 La partie s'achève dès qu'un joueur a placé son sixième batiment. Arrive alors le traditionnel décompte car les batiments que vous avez construits vont vous rapportez plus ou moins de points en fonction de l'endroit où ils sont construits et de la présence de certains autres batiments dans la ville en fin de partie.
 
-OddVille, comme annoncé en introduction, est un petit jeu plaisant, qui amène son lot de microdécision, comme par exemple l'utilisation judicieuse du bon ouvrier au bon moment. Les cartes sont lisibles, les règles simples, il est facilement explicable et très rapidement les joueurs voient quelles stratégies adoptées en fonction  de ce que font leurs adversaires.
+OddVille, comme annoncé en introduction, est un petit jeu plaisant, qui amène son lot de microdécision, comme par exemple l'utilisation judicieuse du bon ouvrier au bon moment. Les cartes sont lisibles, les règles simples, il est facilement explicable et très rapidement les joueurs voient quelles stratégies adopter en fonction  de ce que font leurs adversaires.
 
 Un petit jeu bien sympathique sans être indispensable, agréable à jouer avec des parties rapides qu'on enchaîne sans problème. Pas une révolution du microcosme ludique mais faut-il une révolution à chaque nouveau jeu?
 

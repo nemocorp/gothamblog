@@ -21,6 +21,7 @@
         | :Joueurs: 2 à 4                                                                   |
         | :Durée: 120min                                                                    |
         | :Thème: Antiquité                                                                 |
+        | :Prix:  40€                                                                       |
         +-----------------------------------------------------------------------------------+
         || `> Voir la règle du jeu </regles/tigre-et-euphrate.pdf>`_                        |
         || `> TricTrac <http://www.trictrac.net/jeu-de-societe/tigre-amp-euphrate/infos>`_  |
