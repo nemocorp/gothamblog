@@ -1,7 +1,7 @@
 import urllib.request
 from bs4 import BeautifulSoup
 import sys
-import subprocess 
+import subprocess
 
 url=urllib.request.urlopen('http://www.nemocorp.info/shaarli/index.php5')
 soup=BeautifulSoup(url.read())

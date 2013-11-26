@@ -1,6 +1,6 @@
 .. link: 
 .. slug: lcdwe-emerge-de-fischerspooner
-.. tags: La Chanson du Week-end, Fischerspooner, 2001
+.. tags: La Chanson du Week-end, Fischerspooner, 2001, Electronique
 .. date: 2013/11/23 08:59:38
 .. title: [LCDWE] Emerge, de Fischerspooner
 .. description: 

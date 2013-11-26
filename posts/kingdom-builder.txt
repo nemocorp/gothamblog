@@ -23,6 +23,7 @@
         |:Joueurs: 2 à 4                                                                    |
         |:Durée: 45min                                                                      |
         |:Thème: Médiéval-Fantastique                                                       |
+        |:Prix: 45€                                                                         |
         +-----------------------------------------------------------------------------------+
         || `> Voir la règle du jeu </regles/kingdom-builder.pdf>`_                          |
         || `> TricTrac <http://www.trictrac.net/jeu-de-societe/kingdom-builder/infos>`_     |
