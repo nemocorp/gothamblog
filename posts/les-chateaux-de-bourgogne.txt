@@ -9,7 +9,7 @@
 .. galerie: True
 .. js_title: Les Châteaux de Bourgogne
 
-.. image:: /images/les-chateaux-de-bourgogne/postcard.png
+.. image:: /images/jeux/les-chateaux-de-bourgogne/postcard.png
     :align: left
 
 .. class::  well fiche pull-right
@@ -37,7 +37,7 @@ Stefan Feld est incontestablement l'auteur de jeu le plus prolifique de ces dern
 
 Les Châteaux de Bourgogne, pardon, Die Burgen von Burgund est l'archétype du jeu que peut produire l'école allemande. Thème plaqué, mécanisme réglé au millimètre, 200 façons de marquer des points de victoire. Mais, fort heureusement, un jeu ne se résume pas uniquement à la somme de ses différentes parties. Laissons donc de côté tout cela pour nous concentrer sur l'essentiel, à savoir ce qui rend ce jeu si intéressant.
 
-.. image:: /images/les-chateaux-de-bourgogne/1.png
+.. image:: /images/jeux/les-chateaux-de-bourgogne/1.png
     :align: right
     :target: /galleries/les-chateaux-de-bourgogne/index.html
 
@@ -49,7 +49,7 @@ Une nouvelle fois, un jeu centré sur un mécanisme d'une très grande simplicit
 
 Lecteur, si t'es pas trop mauvais en math, tu as déjà dû calculer qu'une partie va te coûter l'effort physyque suivant: "Jeter 25 fois les deux dés à ta disposition!". Mais tu vas voir que les deux dés en question vont pouvoir être utilisé de plusieurs manières, pour:
 
-.. image:: /images/les-chateaux-de-bourgogne/2.png
+.. image:: /images/jeux/les-chateaux-de-bourgogne/2.png
     :align: left
     :target: /galleries/les-chateaux-de-bourgogne/index.html
 
@@ -60,7 +60,7 @@ Lecteur, si t'es pas trop mauvais en math, tu as déjà dû calculer qu'une part
 
 Jusque là toujours rien de bien compliqué, mais chaque tuile placée dans un domaine va déclencher tout un tas d'action qu'il va falloir combiner au mieux pour les rentabiliser au maximum. Et c'est bien là tout le sel de ce jeu. Trouver des combinaison d'action/placement de tuiles qui vont optimiser votre jeu et vous faire prendre l'avantage sur vos adversaires. Par exemple placer des navires influera sur l'ordre du tour, placer un bâtiment déclenchera l'action de celui-ci, placer un château, permettra immédiatement d'effectuer une action de son choix, comme si on venait de lancer un troisième dé virtuel dont on aurait choisi le résultat...
 
-.. image:: /images/les-chateaux-de-bourgogne/3.png
+.. image:: /images/jeux/les-chateaux-de-bourgogne/3.png
     :align: center
     :target: /galleries/les-chateaux-de-bourgogne/index.html
 
@@ -68,7 +68,7 @@ Les Châteaux de Bourgogne est un jeu exigeant et qui, bien que reposant exclusi
 
 Un jeu complexe, prenant, qui mettra vos neurones à rude épreuve et qui une fois passée le cap de l'aprentissage se révèlera être très simple à jouer, mais extrêment difficile à maîtriser. A réserver aux gros joueurs. On y jouera rarement le dimanche après le roti en tranche. Tata Lucette et Tonton René sont plutôt hermétique à ce genre de jeux. Mais c'est pas pour autant qu'il faut que tu passes à côté de ce petit bijou.
 
-.. image:: /images/les-chateaux-de-bourgogne/commented_polaroid.png
+.. image:: /images/jeux/les-chateaux-de-bourgogne/commented_polaroid.png
     :align: center
     :target: /galleries/les-chateaux-de-bourgogne/index.html
 

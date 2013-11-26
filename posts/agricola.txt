@@ -7,7 +7,7 @@
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. image:: /images/agricola/postcard.png
+.. image:: /images/jeux/agricola/postcard.png
 	:align: left
 
 .. class:: well fiche pull-right
@@ -48,7 +48,7 @@ Le plateau central représente les actions que les paysans vont pouvoir effectue
 * Construire des équipements
 * ou encore faire des enfants, qui deviendront des paysans travilllant dans l'exploitation familiale (l'ascenceur social n'ayant pas encore été inventé à cette glorieuse époque. Paysan tu nais, paysan tu resteras)
 
-.. image:: /images/agricola/2.png
+.. image:: /images/jeux/agricola/2.png
     :align: center
 
 |
@@ -59,7 +59,7 @@ Il y donc 14 actions qui vont apparaître au cours de la partie. Le truc rigolo 
 
 Chaque paysan a la disposition des joueurs correspond donc à une action. Donc seulement deux actions par tour au début de la partie si vous avez suivi. Chaque naissance permet donc de faire une action supplémentaire par tour. Mais se reproduire est une action, donc le temps qu'on passe à se reproduire, on ne le passe pas à travailler. Et puis lorsqu'arrive les récoltes, il faut pouvoir nourrir cette nombreuse famille. Sinon, c'est direct la mendicité et en fin de partie c'est plutôt désagréable.
 
-.. image:: /images/agricola/3.png
+.. image:: /images/jeux/agricola/3.png
     :align: center
 
 |
@@ -76,6 +76,6 @@ Bref que du tout bon, comme dirait Jacques!
 
 * `La fiche sur TricTrac <http://www.trictrac.net/jeu-de-societe/agricola-0/infos>`_
 
-.. image:: /images/agricola/4.png
+.. image:: /images/jeux/agricola/4.png
     :align: center
 

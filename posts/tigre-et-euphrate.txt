@@ -6,8 +6,10 @@
 .. slug: tigre-et-euphrate
 .. category: Jeux de Société
 .. icon: jeux-de-societe
+.. galerie: False
+.. js-title: Tigre & Euphrates
 
-.. image:: /images/tigre-et-euphrate/postcard.png
+.. image:: /images/jeux/tigre-et-euphrate/postcard.png
 	:align: left
 
 .. class::  well fiche pull-right
@@ -45,14 +47,14 @@ Chaque joueur va tenter de développer sa civilisation dans quatre domaine:
 * le commerce par des tuiles vertes
 * et le domaine politique par des tuiles noires
 
-.. image:: /images/tigre-et-euphrate/2.png
+.. image:: /images/jeux/tigre-et-euphrate/2.png
     :align: center
 
 |
 
 A son tour de jeu, un joueur va pouvoir soit placer ou déplacer l'un de ses chef, soit placer une tuile. S'il place une tuile dans une cité contenant son chef de la même couleur, il va marquer un point de cette couleur. Par exemple, mon chef politique noir est sur le plateau. Je place une tuile noire dans la cité où il est placé, je marque un point de couleur noire. A la fin de la partie, le score de chaque joueur est égal à sa couleur la plus faible. 
 
-.. image:: /images/tigre-et-euphrate/3.png
+.. image:: /images/jeux/tigre-et-euphrate/3.png
     :align: left
 
 Il faut donc faire attention à se développer de manière équilibrée dans tous les domaines.

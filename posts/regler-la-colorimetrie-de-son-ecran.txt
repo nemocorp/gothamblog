@@ -1,0 +1,24 @@
+.. title: Régler la colorimétrie de son écran sous Linux
+.. slug: regler-la-colorimetrie-de-son-ecran
+.. link: 
+.. tags: Xorg, Linux, Astuces
+.. description: 
+.. date: 2013/11/19 07:44:40
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/regler-la-colorimetrie-de-son-ecran/postcard.png
+    :align: left
+
+Récemment, j'ai eu un petit problème d'affichage sur un portable Lenovo. L'image sur l'écran semblait être vue à travers un voile grisatre. Les réglages classiques de luminosité ne changeait rien au problème. Et j'ai trouvé cette petite astuce.
+
+.. TEASER_END
+
+Il existe un petit soft livré avec Xorg et qui miraculeusement s'appelle ``xgamma``. Il permet d'ajuster le gamma de l'écran. Par défaut, chaque composante Rouge, Bleue et Verte à une valeur de 1.0. Pour règler mon problème, j'ai juste eu à tâtonner un peu et le réglage suivant m'a rendu un écran correct.
+
+.. code:: bash
+
+    xgamma -rgamma 0.8 -bgamma 0.8 -ggamma 0.8
+
+
+Et voilà le travail. Si ça peut en aider quelques uns.

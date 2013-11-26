@@ -1,5 +1,5 @@
 .. slug: horreur-a-arkham
-.. tags: Horreur, Cthulhu, H.P. Lovecraft, Coopératif, 2005, Kevin Wilson, Richard Launius, Solo, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs, 6 Joueurs et plus, Edge Entertainment, Jeu de Plateaudraft
+.. tags: Horreur, Cthulhu, H.P. Lovecraft, Coopératif, 2005, Kevin Wilson, Richard Launius, Solo, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs, 6 Joueurs et plus, Edge Entertainment, Jeu de Plateau
 .. title: [Horreur à Arkham] Cthulhu et ses potes débarquent
 .. date: 2013/11/18 10:08:41
 .. link: 
@@ -9,7 +9,7 @@
 .. js_title: Horreur à Arkham
 .. galerie: True
 
-.. image:: /images/horreur-a-arkham/postcard.png
+.. image:: /images/jeux/horreur-a-arkham/postcard.png
     :align: left
 
 .. class::  well fiche pull-right
@@ -23,6 +23,7 @@
         | :Joueurs:   1 à 8                                                                  |
         | :Durée:     180min                                                                 |
         | :Thème:     Cthulhu                                                                |
+        | :Prix:      50€                                                                    |
         +------------------------------------------------------------------------------------+
         || `> Voir la règle du jeu </regles/horreur-a-arkham.pdf>`_                          |
         || `> TricTrac <http://www.trictrac.net/jeu-de-societe/horreur-a-arkham-0/infos>`_   |
@@ -37,7 +38,7 @@ Le mythe de Cthulhu en jeu de société. En voilà un vrai projet ambitieux. il 
 
 Horreur à Arkham est un jeu coopératif. J'aime pas les jeux coopératifs. Je ne trouve rien de plus chiant que d'essayer de faire une réussite à plusieurs, avec un type qui connaît parfaitement le jeu et ce qu'il faut faire pour gagner et passe son temps à te dire, "Fais-ça bordel, sinon on va perdre!". Bref, quand j'ai voulu tester Horreur à Arkham, j'avoue que passer 3 heures autour d'une table pour faire un jeu coopératif ne m'enchantait pas plus que ça. Mais bon, quand on est passionné, on n'hésite pas à faire quelques petits sacrifices.
 
-.. image:: /images/horreur-a-arkham/2.png
+.. image:: /images/jeux/horreur-a-arkham/2.png
     :align: center
     :target: /galleries/horreur-a-arkham/index.html
 
@@ -47,7 +48,7 @@ Ensuite, comme pour tout jeu, je m'attèle à la lecture des règles! Aïe, bad 
 
 Elles sont complètes certes, mais tout est dans le désordre et quand on doit se référer à un point particulier, impossible de le retrouver. (Sur la description des cartes, non, dans le paragraphe sur le tour de jeu, non plus, à peut-être alors à la fin dans l'aide de jeu, non plus...) Bref on passe son temps à chercher.
 
-.. image:: /images/horreur-a-arkham/1.png
+.. image:: /images/jeux/horreur-a-arkham/1.png
     :align: left   
     :target: /galleries/horreur-a-arkham/index.html
 
@@ -58,7 +59,7 @@ Dans Horreur à Arkham, les joueurs vont tenter d'empêcher le réveil du Grands
 
 Le plateau représente la ville d'Arkham, coeur de toute la cosmogonie lovecraftienne, et de ses environs. Les phénomènes surnaturels se multiplient et des portails dimensionnels s'ouvrent laissant entre dans notre monde des Cthoniens et autres larves stellaires. Bref, vous l'aurez compris, c'est le bordel.
 
-.. image:: /images/horreur-a-arkham/3.png
+.. image:: /images/jeux/horreur-a-arkham/3.png
     :align: right 
     :target: /galleries/horreur-a-arkham/index.html
 
@@ -71,7 +72,7 @@ Quand tous les joueurs se sont déplacés, ils vont pouvior faire des rencontres
 Le Thème
 ========
 
-.. image:: /images/horreur-a-arkham/4.png
+.. image:: /images/jeux/horreur-a-arkham/4.png
     :align: right
     :target: /galleries/horreur-a-arkham/index.html
 
@@ -81,7 +82,7 @@ Horreur à Arkham est sans doute le jeu dont le thème est le mieux rendu, où t
 
 Un excellent jeu et on va encore me taxer de fainéant parce que je ne parle que que de choses mythiques, et là avec Cthulhu, c'était vraiment facile. Horreur à Arkham m'a réconcilié avec le jeu coopératif et rien que pour ça, il vaut vraiment le détour.
 
-.. image:: /images/horreur-a-arkham/commented_polaroid.png
+.. image:: /images/jeux/horreur-a-arkham/commented_polaroid.png
     :align: center
     :target: /galleries/horreur-a-arkham/index.html
 

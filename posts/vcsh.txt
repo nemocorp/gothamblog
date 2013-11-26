@@ -1,0 +1,136 @@
+.. title: [VCSH] Gestion centralisée de ses conf perso avec vcsh, mr et git
+.. tags: Linux, Configuration, Git, Vcsh, Mr
+.. description: 
+.. slug: vcsh
+.. link: 
+.. date: 2013/11/20 18:08:37
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/vcsh/postcard.png
+    :align: left
+
+Je suis tombé sur `un petit article en anglais <http://www.linuxjournal.com/content/manage-your-configs-vcsh?page=0,0>`_ ce matin, et je ne peux m'empêcher de le partager avec vous tellement c'est propre, élégant, puissant et souple. Amis non informaticiens qui traînez sur ce blog, passez votre chemin parce que là on est dans du très très lourd. Pour les autres, entrez et admirez. Moi perso, ça me fait grave kiffer que des mecs se tordent le cerveau comme ça par pur fainéantise.
+
+.. TEASER_END
+
+La première chose à faire est de prendre votre gestionnaire de paquet et d'installer l'ensemble des outils nécessaires à la suite des opérations. Il va donc nous falloir ``git`` pour gérer le suivi et les changements de configuration, ``vcsh`` pour créer des dépôts factices et ``mr`` pour automatiser le clonage/déploiement de nos modifications.
+
+.. code:: bash
+
+    sudo apt-get install git mr vcsh    # Ubuntu/Debian like
+    yaourt -s git mr vcsh               # Archlinux
+
+
+Prenons comme exemple la configuration de ``tmux`` (`cf post précédent <tmux-le-gestionnaire-de-fenetre-en-mode-terminal.html>`_) qui se trouve dans le fichier ``.tmux.conf``.
+
+Première chose, on initialise un dépôt factice et on se place à l'intérieur avec les commandes suivantes.
+
+.. code:: bash
+
+    $ vcsh init tmux
+    Initialized empty Dépôt git dans /home/nemocorp/.config/vcsh/repo.d/tmux.git/
+    $ vcsh enter tmux
+
+
+On va maintenant ajouter à ce dépôt les fichiers à suivre, dans notre cas ``.tmux.conf``.
+
+.. code:: bash
+
+    $ git add .tmux.conf
+    $ git commit -m 'Import initial'
+    [master (root-commit) f1b921e] Import Initial
+    1 file changed, 36 insertions(+)
+    create mode 100644 .tmux.conf
+
+
+Voilà notre dépôt créé et notre fichier de configuration ajouté. Nous allons maintenant définir le dépôt distant qui centralisera l'ensemble de nos fichiers de conf. 2 solutions, soit vous utilisez github.com, que je ne peux que vous recommander, soit vous centralisez tout sur une de vos machines qui servira de serveur git.
+
+Il va vous falloir un compte github. Une fois que cela est fait, créer un dépôt appelé tmux.
+
+On va ajouter le dépôt distant que l'on vient de créer dans notre dépôt local avec la commande suivante:
+
+.. code:: bash
+
+    $ git remote add origin git@gitserver:tmux.git # Remplacer la séquence de connexion par celle fournit sur la page de votre dépôt
+
+
+Il vous faut maintenant ajouter votre clé publique ssh dans la config de github.
+
+Il ne reste plus qu'à pousser votre dépôt sur github
+
+.. code:: bash
+
+    $ git push -u origin master
+    $ exit
+
+
+Pensez à sortir du dépôt factice à l'aide de la commande exit.
+
+Passons maintenant à la config de ``mr``. Pour cela nous allons cloner le dépôt des auteurs du logiciel ce qui nous permettra d'avoir un exemple de fichier de conf.
+
+.. code:: bash
+
+    $ vcsh clone git://github.com/RichiH/vcsh_mr_template.git mr
+
+
+Nous allons maintenant modifier la conf de ``mr`` pour qu'il tienne compte de la configuration de tmux rentrée précédemment.
+
+.. code:: bash
+
+    $ cd .config/mr/available.d
+    $ ls
+    mr.vcsh     zsh.vcsh
+    $ mv zsh.vcsh tmux.vcsh
+
+
+Modifiez le contenu pour indiquer à ``mr`` l'emplacement des fichiers et du dépôt git.
+
+.. code::
+
+    $ vi mr.vcsh
+    [$HOME/.config/vcsh/repo.d/mr.git]
+    checkout = vcsh clone git@gitserver:mr.git mr
+
+    $ vi tmux.vcsh
+    [$HOME/.config/vcsh/repo.d/vim.git]
+    checkout = vcsh clone git@gitserver:tmux.git tmux
+
+
+Il ne reste plus qu'à créer un lien vers ce fichier dans le répertoire ``.config/mr/config.d``
+
+.. code:: bash
+
+    $ cd .config.mr/config.d
+    $ ln -s ../available.d/tmux.vcsh tmux.vcsh
+
+``mr`` utilise des liens symboliques dans le répertoire config.d pour savoir quelle conf déployer, vous n'avez plus qu'à supprimer ou ajouter les liens symboliques des différentes conf. Et comme précédemment, on va ajouter nos fichier à notre dépôt factice
+
+.. code:: bash
+
+    $ vcsh enter mr
+    $ cd ~/.config
+    $ git add mr
+    $ git commit -m 'Import initial'
+
+
+Comme pour le dépôt tmux, on va créer un dépôt mr sur github et on va pousser notre conf locale.
+
+.. code:: bash
+
+    $ git remote rm origin
+    $ git remote add origin git@gitserver:mr.git
+    $ git push -u origin master
+
+
+Et voilà tout est prêt. Maintenant la magie va pouvoir opérer. Allez sur votre nouvelle machine. Et lancez les commandes suivantes:
+
+.. code:: bash
+
+    $ vcsh clone git@gitserver:mr.git mr
+    $ mr up
+
+
+Toute votre configuration est maintenant déployée sur votre nouvelle machine et vous bénficiez de toutes les fonctionnalités de ``git`` et ``mr`` pour tenir à jour l'ensemble de vos machines. Bien sûr ``mr`` permet de gérer autant de dépôt que vous le souhaitez donc, il ne vous reste plus qu'à répéter les premières étapes avec par exemple, un dépôt pour vim, un autre pour mutt...
+
+

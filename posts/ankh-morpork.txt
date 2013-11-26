@@ -9,7 +9,7 @@
 .. galerie: True
 .. js_title: Disque-Monde: Ankh-Morpork
 
-.. image:: /images/ankh-morpork/postcard.png
+.. image:: /images/jeux/ankh-morpork/postcard.png
     :align: left
 
 .. class::  well fiche pull-right
@@ -43,7 +43,7 @@ Ank-Morpork est un jeu de placement et de contrôle dans lequel les joueurs vont
 * Avoir réuni 50$
 * Ou encore avoir empêché tous les autres joueurs de réaliser leur objectif lorsque le paquet de cartes est épuisé.
 
-.. image:: /images/ankh-morpork/3.png
+.. image:: /images/jeux/ankh-morpork/3.png
     :align: right
     :target: /galleries/ankh-morpork/index.html
 
@@ -56,7 +56,7 @@ Ank-Morpork est un jeu simple, qui se résume à je joue une carte, j'effectue l
 * Retirer un jeton chaos
 * Construire un bâtiment, pour gagner le bénéfice du quartier
 
-.. image:: /images/ankh-morpork/2.png
+.. image:: /images/jeux/ankh-morpork/2.png
     :align: left
     :target: /galleries/ankh-morpork/index.html
 
@@ -71,7 +71,7 @@ Les illustrations sont largement à la hauteur de l'enjeu, réussir à faire un 
 
 Un bon jeu, marrant, aux belles illustrations, aux mécanismes simples et efficaces. Idéal pour jouer en famille pendant les longs dimanches après-midi d'hiver.
  
-.. image:: /images/ankh-morpork/commented_polaroid.png
+.. image:: /images/jeux/ankh-morpork/commented_polaroid.png
     :align: center
     :target: /galleries/ankh-morpork/index.html
 

@@ -1,0 +1,17 @@
+.. slug: favoris
+.. link: 
+.. description: 
+.. tags: 
+.. title: Mes derniers Favoris en accès direct
+.. date: 2013/11/21 13:45:07
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/favoris/postcard.png
+    :align: left
+
+Ceux qui me suivent depuis le départ le savent déjà, les autres l'ont peut-être découvert, je partage mes favoris, toutes les conneries ou pas que je trouve sur internet à l'aide de shaarli, superbe appli de seb sauvage. Ils sont accessibles dans le menu de naviguation en haut, la première icône à gauche.
+
+J'ai rajouté un petit widget sur la droite de votre écran qui vous permet d'accéder directement à mes dernières trouvailles, infos, applis, jeux, insolite... Alors n'hésitez pas à en profiter.
+
+.. TEASER_END

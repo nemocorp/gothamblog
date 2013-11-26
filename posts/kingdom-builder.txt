@@ -1,0 +1,90 @@
+.. tags: Jeux de Plateau, Donald X. Vaccarino, 2011, Queen Games, 2 Joueurs, 3 Joueurs, 4 Joueurs, Placement, Objectif, Médiéval-Fantastique, Spiel des Jahres
+.. link: 
+.. title: [Kingdom Builder] Et si nous dominions ce nouveau royaume?
+.. date: 2013/11/22 07:56:08
+.. description: 
+.. slug: kingdom-builder
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+.. js_title: Kingdom Builder
+.. galerie: True
+
+.. image:: /images/jeux/kingdom-builder/postcard.png
+    :align: left
+
+.. class::  well fiche pull-right
+
+        +-----------------------------------------------------------------------------------+
+        | **Fiche**                                                                         |
+        +-----------------------------------------------------------------------------------+
+        |:Auteur: Donald X. Vaccarino                                                       |
+        |:Editeur: Queen Games                                                              |
+        |:Année: 2011                                                                       |
+        |:Joueurs: 2 à 4                                                                    |
+        |:Durée: 45min                                                                      |
+        |:Thème: Médiéval-Fantastique                                                       |
+        +-----------------------------------------------------------------------------------+
+        || `> Voir la règle du jeu </regles/kingdom-builder.pdf>`_                          |
+        || `> TricTrac <http://www.trictrac.net/jeu-de-societe/kingdom-builder/infos>`_     |
+        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/107529/kingdom-builder>`_   |
+        || `> Galerie de Photos </galleries/kingdom-builder/>`_                             |
+        +-----------------------------------------------------------------------------------+
+
+Aujourd'hui fidèle lecteur, je vais te parler d'un jeu simple, décrié de manière générale par les hardcore gamers déçus de cette réalisation de M. Vaccarino. Pourquoi déçus? 
+
+Parce que juste avant de produire ce petit bijou (à mon humble avis), le monsieur fut l'auteur de l'excellentissime Dominion (t'as vu un peu le jeu de mot avec le titre, si ça c'est pas la classe!), petit jeu carte qui pour le coup a révolutionné le microcosme ludique en poussant le concept de deckbuilding à un niveau jusqu'alors jamais atteint. Mais on y reviendra. Là, c'est Kingdom Builder le héros du jour.
+
+.. TEASER_END
+
+.. image:: /images/jeux/kingdom-builder/1.png
+    :align: right
+    :target: /galleries/kingdom-builder/index.html
+
+Kingdom builder c'est un jeu léger, mais uniquement au premier abord. Sûrement parce que les règles sont simples.
+
+Sur un plateau modulable, constitué de quatre morceaux, les joueurs vont placer leurs petites maisons en bois afin de remporter un maximum de points de victoire (et oui encore) en fonction de trois objectifs tirés au début de la partie et communs à tous les joueurs.
+
+Le plateau est constitué de différentes zones (forêt, prairie, champ de fleurs, désert, canyon). A son tour, un joueur va jouer la carte qu'il a en main et représentant un de ces types de paysage.
+
+Il va ensuite devoir placer trois de ses maisons sur le plateau en respectant les contraintes suivantes:
+
+* Les maisons posées doivent se trouver sur des zones de paysage correspondant à la carte jouée.
+* Chacune des maisons posées doit être, si possible, adjacentes à une autre maison de ce joueur sur le plateau.
+
+.. image:: /images/jeux/kingdom-builder/3.png
+    :align: center
+    :target: /galleries/kingdom-builder/index.html
+
+Une fois que cela est fait, il pioche une nouvelle carte et son tour est fini.
+
+La partie prend fin dès qu'un joueur a placé toutes ses maisons sur le plateau. On compte alors les points de chacun en fonction des objectifs communs tirés au début de la partie.
+
+Les objectifs peuvent être par exemple:
+
+* 1 point de victoire par maison dans votre village le plus grand, vous obligeant à poser un maximum de maisons adjacentes les unes aux autres
+* ou alors 1 point de victoire par maisons sur les bords du plateau
+
+Rien de plus simple. J'entends déjà Tata Lucette qui dit "On en refait une?"
+
+.. image:: /images/jeux/kingdom-builder/2.png
+    :align: left
+    :target: /galleries/kingdom-builder/index.html
+
+Où ça se complique, c'est que sur certaines cases du plateau, les joueurs vont pouvoir obtenir des actions bonus qui leurs permettront de faire plus de choses lorsque leur tour viendra. Par exemple, ils pourront déplacer leur maison déjà sur le plateau, placer des maisons supplémentaires...
+
+De même, certains objectifs peuvent être à l'opposé l'un de l'autre rendant compliquée la maximisation de ses points de victoire.
+
+En conclusion
+-------------
+
+Kingdom Builder est un jeu abstrait de placement, habilement caché derrière un thème médiéval fantastique. C'est tactique et tendu. Les situations de blocages sont nombreuses. La modularité des plateaux, la diversité des actions et le nombre conséquent d'objectifs et d'extensions déjà sorties lui assure en plus une énorme rejouabilité. Et tout ça, comme d'hab' en moins d'une heure au coin du feu. Avec les longues soirées d'hiver qui arrive, ça va le faire!
+
+Alors, c'est sûr que Kingdom Builder est moins révolutionnaire que Dominion, moins compliqué, mais cela n'en reste pas moins un excellent jeu, capable de toucher un public beaucoup plus large. Et comme d'habitude, ce n'est que mon avis et je le partage!
+
+Bon jeu.
+
+.. image:: /images/jeux/kingdom-builder/commented_polaroid.png
+    :align: center
+    :target: /galleries/kingdom-builder/index.html
+
+

@@ -7,7 +7,7 @@
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. image:: /images/sankt-petersburg/postcard.png
+.. image:: /images/jeux/sankt-petersburg/postcard.png
 	:align: left
 
 .. class::  well fiche pull-right
@@ -41,7 +41,7 @@ Et pourtant si, fais-moi confiance un petit peu. Sankt Petersburg est le premier
 
 *"Hein! c'est quoi ce gag!"*
 
-.. image:: /images/sankt-petersburg/1.png
+.. image:: /images/jeux/sankt-petersburg/1.png
     :align: right
 
 Bon, d'accord il est pas connu, mais même la rock star du Jeu de société "Reiner Knizia" n'est pas ce que l'on pourrait appeler quelqu'un de connu, en tout cas pas au sens "Larian Fabian, Céline Dion" du terme. Bref, juste pour te dire que c'est le jeu qu'il a conçu juste avant "L'âge de Pierre" dont je parlerai très prochainement.
@@ -55,14 +55,14 @@ Un tour de jeu est divisé en 4 phases:
 * **La phase des Nobles**, identique aux deux autres et où les Nobles rapporteront suivant des Nobles, Points de Victoire ou Argent
 * **La phase d'échange**, identique aux autres sauf qu'elle n'est pas pareil. Il n'y pas de g'ain d'argent ou de point de victoire à la fin de cette phase.
 
-.. image:: /images/sankt-petersburg/2.png 
+.. image:: /images/jeux/sankt-petersburg/2.png 
     :align: center
 
 Bon, vous voyez, c'est pas bien compliqué. Mais il faut juste ajouter à cela une ou deux petites règles bien sympathique, telle que, celle qui dit "plus j'ai d'exemplaire d'une carte, moins je la paye cher" ou encore "L'importance de bien gérer son argent pour pouvoir acheter à toutes les phases", car seule la phase des artisans et des nobles génèrent des revenus.
 
 Bref, c'est rapide, fluide, tendu, aussi bien à 2 qu'à 4 joueurs. Et même si c'est moche, c'est un excellent jeu qui mériterait une traduction française, même si aucun texte n'est présent sur le matériel, ne serait-ce que pour le rendre accessible au plus grand nombre.
 
-.. image:: /images/sankt-petersburg/commented_polaroid.png 
+.. image:: /images/jeux/sankt-petersburg/commented_polaroid.png 
     :align: center
 
 

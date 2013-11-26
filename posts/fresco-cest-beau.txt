@@ -7,7 +7,7 @@
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. image:: /images/fresco-cest-beau/postcard.png
+.. image:: /images/jeux/fresco-cest-beau/postcard.png
 	:align: left
 
 ... mais pas que. Fresco (ou en Fresko en version original) est un jeu allemand édité par Queen Games (célèbre éditeur allemand) spécialisé dans les jeux dis à l'allemande (On s'en serait douté). Fresco est un très beau jeu (question de goûts, mais c'est mon avis et je le partage), simple à expliquer, mais pas dénué d'intérêt. Je m'explique...
@@ -26,7 +26,7 @@ D'après la règle, et je lui fais confiance, un tour de Fresco se déroule ains
 * Mélanger les couleurs pour en obtenir des nouvelles
 * Aller au théâtre pour ne pas être de trop mauvaise humeur si on s'est levé tôt.
 
-.. image:: /images/fresco-cest-beau/2.png
+.. image:: /images/jeux/fresco-cest-beau/2.png
     :align: center
 
 Comme vous le constatez, Fresco est un jeu simple à expliquer, joli, original et au thème parfaitement rendu. Contrairement à Goa où le thème est plaqué sur les mécanismes du jeu, ici on a vraiment l'impression de participer à la restauration de la fresque.
@@ -35,6 +35,6 @@ Loin d'être un jeu pour hardcore gamer, Fresco est plutôt un très bon jeu fam
 
 |
 
-.. image:: /images/fresco-cest-beau/3.png
+.. image:: /images/jeux/fresco-cest-beau/3.png
     :align: center
 

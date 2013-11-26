@@ -1,20 +1,41 @@
 .. link: 
 .. description: 
-.. tags: Jeux de Cartes, Science-Fiction
+.. tags: Jeux de Cartes, Science-Fiction, Tom Lehmann, Ystari, 2007, Combinaison, 2 Joueurs, 3 Joueurs, 4 Joueurs
 .. date: 2013/09/27 17:24:11
-.. title: Race for the Galaxy... Desintox needed
-.. slug: race-for-the-galaxy-desintox-needed
+.. title: [Race for the Galaxy] Desintox needed
+.. slug: race-for-the-galaxy
 .. category: Jeux de Société
 .. icon: jeux-de-societe
+.. js_title: Race for the Galaxy
+.. galerie: False
 
-.. image:: /images/race-for-the-galaxy-desintox-needed/postcard.png
+.. image:: /images/jeux/race-for-the-galaxy/postcard.png
 	:align: left
+
+.. class::  well fiche pull-right
+
+        +--------------------------------------------------------------------------------------+
+        | **Fiche**                                                                            |
+        +--------------------------------------------------------------------------------------+
+        |:Auteur: Tom Lehmann                                                                  |
+        |:Editeur: Ystari                                                                      |
+        |:Année: 2007                                                                          |
+        |:Joueurs: 2 à 4                                                                       |
+        |:Durée: 45min                                                                         |
+        |:Thème: Science-Fiction                                                               |
+        |:Prix: 30€                                                                            |
+        +--------------------------------------------------------------------------------------+
+        || `> Voir la règle du jeu </regles/race-for-the-galaxy.pdf>`_                         |
+        || `> TricTrac <http://www.trictrac.net/jeu-de-societe/race-for-the-galaxy/infos>`_    |
+        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/28143/race-for-the-galaxy>`_   |
+        || `> Galerie de Photos </galleries/race-for-the-galaxy/>`_                            |
+        +--------------------------------------------------------------------------------------+
 
 Euh, comment introduire simplement ce petit jeu de cartes ultra-addictif. En te disant que j'ai plus de 6000 parties au compteur. Argghh! Je ne suis pas sûr que ce soit le meilleur argument. En te disant, que si tu es un geek, qui aime la SF, qui aime se tordre le cerveau en douze, qui aime les stratégies multiples, qui aime les jeux où il faut sans cesse anticiper, s'adapter en permanence à son adverse, alors peut-être que ce jeu est pour toi.
 
 .. TEASER_END
 
-Race for the Galaxy est souvent perçu par le commun des joueur comme un jeu de chance, sans aucune intéraction et où tout le monde fait son petit truc dans son coin. Bref comme un jeu chiant. Ajouté à cela un thème sexy à souhait, des cartes au design discutable et vous obtenez le mélange ultime pour faire fuir la ménagère de moins de cinquante ans.
+Race for the Galaxy est souvent perçu par le commun des joueurs comme un jeu de chance, sans aucune intéraction et où tout le monde fait son petit truc dans son coin. Bref comme un jeu chiant. Ajouté à cela un thème sexy à souhait, des cartes au design discutable et vous obtenez le mélange ultime pour faire fuir la ménagère de moins de cinquante ans.
 
 Parce que bon, ne nous voilons pas la face, Race for the Galaxy est un jeu au public cible ultra limité. Vous n'y jouerez jamais avec tata Lucette et tonton René.
 
@@ -23,7 +44,7 @@ C'est quoi donc ton jeu, là?
 
 Comme évoqué plus haut, Race for the Galaxy (RFTG pour les intimes) est un jeu de cartes. Le but étant d'être le joueur avec le plus de points de victoire lorsque la partie s'arrête (Putain, quelle originalité!) La partie s'arrête à la fin du toure où un joueur a posé deavnt lui sa douzième carte ou lorsqu'il n'y a plus de point de victoire a rammasé.
 
-.. image:: /images/race-for-the-galaxy-desintox-needed/2.png
+.. image:: /images/jeux/race-for-the-galaxy/2.png
     :align: left
 
 A chaque tour, les joueurs vont choisir secrètement une action parmi Explorer, Développer, Coloniser, Consommer, ou Produire. Puis toutes les actions choisies par tous les joueurs vont être exécutées par tous les joueurs avec un petit bonus pour celui qui a choisi l'action. Par exemple, je choisis l'action Développer qui permet de poser en jeu une carte développement, tous les joueurs vont pouvoir poser un développement, mais moi il me coûtera un crédit de moins.
@@ -40,7 +61,7 @@ RFTG est un jeu exigeant avec une courbe d'apprentissage conséquente. On ne fai
 
 |
 
-.. image:: /images/race-for-the-galaxy-desintox-needed/3.png
+.. image:: /images/jeux/race-for-the-galaxy/3.png
     :align: center
 
 |
@@ -49,7 +70,7 @@ Je recommande uniquement le jeu à deux, qui permet de choisir deux actions à c
 
 Si tu veux le tester, tu peux te rendre à cette adresse http://fr.boardgamearena.com et y jouer en ligne avec tous les gens d'internet et une interface temps réel vraiment sympa. Et si tu as peur des vrais gens, tu peux contre l'ordinateur en le téléchargeant `ici <http://keldon.net/rftg/>`_. 
 
-Contrairement aux autres jeux que j'avais présenté et qui font l'unanimité, RFTG s'adresse clairement au gamer et notamment aux joeurs de Magic qui veulent retrouver les sensations du jeu de cartes à combos sans l'aspect collectionnite.
+Contrairement aux autres jeux que j'avais présenté et qui font l'unanimité, RFTG s'adresse clairement au gamer et notamment aux joueurs de Magic qui veulent retrouver les sensations du jeu de cartes à combos sans l'aspect collectionnite.
 
 Bon jeu!
 

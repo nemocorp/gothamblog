@@ -1,14 +1,36 @@
 .. link: 
 .. description: 
-.. tags: Critique
+.. tags: Jeux de Plateau, Friedemann Friese, 2001, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs, 6 Joueurs et plus, Placement, Développement, Enchères, 2F Spiele
 .. date: 2013/09/20 10:17:53
 .. title: Funkenschlag, Power Grid, Megawatts...
-.. slug: funkenschlag-power-grid-megawatts
+.. slug: funkenschlag
 .. category: Jeux de Société
 .. icon: jeux-de-societe
+.. js_title: Funkenschlag
+.. galerie: False
 
-.. image:: /images/funkenschlag-power-grid-megawatts/postcard.png
+.. image:: /images/jeux/funkenschlag/postcard.png
 	:align: left
+
+.. class::  well fiche pull-right
+
+        +------------------------------------------------------------------------------+
+        | **Fiche**                                                                    |
+        +------------------------------------------------------------------------------+
+        |:Auteur: Friedemann Friese                                                    |
+        |:Editeur: 2F Spiele                                                           |
+        |:Année: 2001                                                                  |
+        |:Joueurs: 2 à 6                                                               |
+        |:Durée: 120min                                                                |
+        |:Thème: Industrie                                                             |
+        |:Prix: 45€                                                                    |
+        +------------------------------------------------------------------------------+
+        || `> Voir la règle du jeu </regles/funkenschlag.pdf>`_                        |
+        || `> TricTrac <http://www.trictrac.net/jeu-de-societe/funkenschlag/infos>`_   |
+        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/xxxxx/powergrid>`_     |
+        || `> Galerie de Photos </galleries/funkenschlag/>`_                           |
+        +------------------------------------------------------------------------------+
+
 
 ... peu importe le nom pourvu qu'on ait l'ivresse! Car, en voilà un, un grand jeu. Jusqu'à présent je m'étais plutôt cantonné au jeu format petit/moyen. Là, en revanche, on est clairement dans le gros jeu.
 
@@ -24,7 +46,7 @@ Bon plaisanterie mise à part, ce jeu est une véritable tuerie une fois passé 
 
 En effet, Funkenschlag (je préfère utiliser le nom allemand qui va compliquer un petit peu ta lecture et te demander un petit effort supplémentaire fidèle lecteur, car une perle de ce niveau, ça se mérite), est un très bon jeu, voire un excellent jeu. Laisse-moi donc te présenter le comment qu'on y joue?
 
-.. image:: /images/funkenschlag-power-grid-megawatts/1.jpg
+.. image:: /images/jeux/funkenschlag/1.png
     :align: left
 
 Comment qu'on y joue?
@@ -36,7 +58,7 @@ Ensuite, les joueurs vont aller s'approvisionner en matières premières nécess
 
 Puis viendra une phase dite d'"implantation" où les joueurs vont pouvoir étendre leur réseau électrique sur le plateau représentant au choix la carte de l'Allemagne ou celle des Stazunis d'Amérique.
 
-.. image:: /images/funkenschlag-power-grid-megawatts/2.jpg
+.. image:: /images/jeux/funkenschlag/2.png
     :align: right
 
 S'étendre c'est bien beau, mais il faudra aussi produire suffisamment d'électricité avec ses centrales pour recevoir des revenus qui nous permettront dans les prochains tours d'acheter de nouvelles centrales et de s'étendre encore dans plus de ville.
@@ -54,7 +76,7 @@ Chaque concept du jeu est facilement rattachable à des choses concrètes et le 
 
 |
 
-.. image:: /images/funkenschlag-power-grid-megawatts/3.jpg
+.. image:: /images/jeux/funkenschlag/3.png
     :align: center
 
 |

@@ -7,7 +7,7 @@
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. image:: /images/meuterer/postcard.png
+.. image:: /images/jeux/meuterer/postcard.png
 	:align: left
 
 .. class::  well fiche pull-right
@@ -38,7 +38,7 @@ Bruno Faidutti l'avoue sans détour, il s'est inspiré de Verräter pour créer 
 
 Et c'est le cas, c'est juste pour être précis, Lecteur, car Meuterer est l'évolution de Verräter sorti quelques années plutôt.
 
-.. image:: /images/meuterer/3.png
+.. image:: /images/jeux/meuterer/3.png
     :align: right
 
 Dans Meuterer, donc vous êtes une bande de marins écumants les mers pour refourguer leurs marchandises dans différents port. Chaque joueur va choisir secrètement un rôle (comme dans Citadelles pour ceux qui connaissent), sauf le capitaine qui va indiquer la destination du navire. Les autres joueurs vont alors, soit se rallier au capitaine, soit tenter une mutinerie pour renverser le capitaine et choisir une autre destination.
@@ -47,7 +47,7 @@ Meuterer, c'est malin, ça assure de franches parties de rigolade. Personnelleme
 
 Bref, un seul reproche, parce qu'il en faut un quand même, il ne se joue qu'à 3 ou 4 joueurs, mais est-ce vraiment un inconvénient?
 
-.. image:: /images/meuterer/commented_polaroid.png
+.. image:: /images/jeux/meuterer/commented_polaroid.png
     :align: center
 
 

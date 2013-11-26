@@ -7,7 +7,7 @@
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. image:: /images/ave-augustus-ludoturi-te-salutante/postcard.png
+.. image:: /images/jeux/ave-augustus-ludoturi-te-salutante/postcard.png
 	:align: left
 
 Augustus, Augustus... Mon coup de coeur du festival de Cannes 2013. Un jeu léger (mais pas trop), plutôt rapide (voire pas trop long, comptez trente minutes à 6 joueurs) dont je ne refuse jamais une partie et qui a l'énorme avantage de pouvoir sortir souvent du placard et avec n'importe qui.
@@ -22,7 +22,7 @@ Augustus, est vraiment simple, et tout le monde joue en même temps, comme au lo
 
 |
 
-.. image:: /images/ave-augustus-ludoturi-te-salutante/in-game.jpg
+.. image:: /images/jeux/ave-augustus-ludoturi-te-salutante/in-game.jpg
     :align: center
 
 |
@@ -33,10 +33,10 @@ Chaque objectif validé rapporte des points en fin de partie et apporte un bonus
 
 |
 
-.. image:: /images/ave-augustus-ludoturi-te-salutante/carte-senateur.jpg
+.. image:: /images/jeux/ave-augustus-ludoturi-te-salutante/carte-senateur.jpg
     :align: center
 
-.. image:: /images/ave-augustus-ludoturi-te-salutante/carte-territoire.jpg
+.. image:: /images/jeux/ave-augustus-ludoturi-te-salutante/carte-territoire.jpg
     :align: center
 
 |

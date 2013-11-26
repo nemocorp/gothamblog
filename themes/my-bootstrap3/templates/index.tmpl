@@ -12,7 +12,12 @@
                 <h3>
                     <a href="${post.permalink()}">${post.title()}</a><br/>
                     <small>
-                        <time class="published" datetime="${post.date.isoformat()}"><i>${post.formatted_date(date_format)}</i></time><br/>
+                        <i><time class="published" datetime="${post.date.isoformat()}">${post.formatted_date(date_format)}</time>,&nbsp;
+                        % if not post.meta('nocomments'):
+                            ${comments.comment_index_link(post.permalink(), post._base_path)}
+                        % endif
+                        </i>
+                        <br/>
                     </small>
                 </h3>
                 <hr/>

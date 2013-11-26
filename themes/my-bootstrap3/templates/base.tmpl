@@ -13,6 +13,7 @@ lang="${lang}">
     ${bootstrap.html_head()}
     <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
     <link rel="shortcut icon" href="/images/logos/favicon.png" >
     <%block name="extra_head">
@@ -65,6 +66,7 @@ lang="${lang}">
 
 <!-- End of Menubar -->
 <div class="container">
+    <div class="body-content">
     <hr/>
     <div class="row">
         <div class="col-md-9">
@@ -84,7 +86,7 @@ lang="${lang}">
 
                 <center><h2 id="blog_desc">Le blog d'infos cultes-urelles qui a 10 ans de retard...<br/>... voire plus</h2></center>
 
-            </center>
+             </center>
         </div>
         <div class="col-md-3">
                 <center><a href="${abs_link('/')}"><img src="${abs_link('/images/logos/gothamblog.png')}"></a></center>
@@ -98,6 +100,29 @@ lang="${lang}">
         </div>
         <div class="col-md-3">
             <center>
+                <div id="myCarousel" class="carousel slide well">
+                    <h3>Mes derniers Favoris</h3>
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                        <li data-target="#myCarousel" data-slide-to="8"></li>
+                        <li data-target="#myCarousel" data-slide-to="9"></li>
+                    </ol>
+                    <script language="JavaScript" src="http://nemocorp.info/feed2js/feed2js-carousel.php?src=http%3A%2F%2Fnemocorp.info%2Fshaarli%2Findex.php5%3Fdo%3Drss&chan=y&num=20&desc=160&date=n&utf=y"  charset="UTF-8" type="text/javascript"></script>
+                         <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+                <noscript>
+                    <a href="http://nemocorp.info/feed2js/feed2js.php?src=http%3A%2F%2Fnemocorp.info%2Fshaarli%2Findex.php5%3Fdo%3Drss&chan=y&num=5&desc=1&date=y&utf=y&html=y">View RSS feed</a>
+                </noscript>
+
                 <%block name="twitter_perso">
                     <a class="twitter-timeline"  href="https://twitter.com/nemocorp"  data-widget-id="400654823516684288">Tweets de @nemocorp</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -140,6 +165,7 @@ lang="${lang}">
             ${content_footer}
         </footer>
     </div>
+    </div>
     <!--End of body content-->
 
 </div>
@@ -147,6 +173,24 @@ lang="${lang}">
 ${bootstrap.late_load_js()}
 <%block name="extra_js"></%block>
 ${body_end}
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.nemocorp.info"]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.nemocorp.info/piwik/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -164,6 +208,7 @@ ${body_end}
 
 <script>
     $('[rel=tooltip]').tooltip();
+    $('.carousel').carousel();
 </script>
 
 </body>

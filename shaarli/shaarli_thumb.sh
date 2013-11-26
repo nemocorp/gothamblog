@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+CutyCapt --insecure --url=$2 --out=$1
+
+W=320
+H=200
+FONTSIZE='96'
+
+convert -resize $W"x" "$1" "$1"
+convert -crop "x"$H+0+0 "$1" "$1"
+convert "$1" -bordercolor Lavender -background navy -polaroid 0 "$1" 
+
+scp $1 u39468970@id.nemocorp.info:./shaarli/thumbs
+rm $1

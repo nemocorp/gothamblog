@@ -9,7 +9,7 @@
 .. js_title: OddVille
 .. galerie: True
 
-.. image:: /images/oddville/postcard.png
+.. image:: /images/jeux/oddville/postcard.png
     :align: left
 
 .. class::  well fiche pull-right
@@ -41,7 +41,7 @@ Et me voilà parti, ma boîte sous le bras pour une petite partie.
 
 Dans OddVille, vous allez participer à la construction de la ville en posant de nouveaux quartiers autour du quartier central. Pour cela, il vous faudra envoyer vos ouvriers récupérer des ressources, sélectionnez judicieusement les batiments que vous construirez pour maximiser votre score en fin de partie.
 
-.. image:: /images/oddville/1.png
+.. image:: /images/jeux/oddville/1.png
     :align: right
     :target: /galleries/oddville/index.html
 
@@ -62,13 +62,13 @@ Vos quatre ouvriers ont une puissance de travail différente. Le plus faible per
 
 Il va donc falloir utiliser judicieusement ses ouvriers car on ne les reprend en main qu'une fois qu'ils ont été tous joués.
 
-.. image:: /images/oddville/2.png
+.. image:: /images/jeux/oddville/2.png
     :align: center
     :target: /galleries/oddville/index.html
 
 L'autre action possible va être d'ajouter un des batiments que vous avez en réserve à la ville en respectant les règles de construction. Basiquement, il faut que l'image constitué soit cohérente. Une route qui continue une route, ou des morceaux de maisons collés à d'autres morceaux de maisons... Une fois que cela est fait, vous allez mettre un de vos petits personnages sur le batiment ainsi placé pour marquer sa propriété. Le batiment construit va vous permettre d'obtenir des ressources bonus et éventuellement l'aide de la guilde à laquelle il est rattaché. Et tant que personne ne construit un batiment de cette guilde, vous gardez le bénéfice de la guilde.
 
-.. image:: /images/oddville/3.png
+.. image:: /images/jeux/oddville/3.png
     :align: left  
     :target: /galleries/oddville/index.html
 
@@ -78,7 +78,7 @@ OddVille, comme annoncé en introduction, est un petit jeu plaisant, qui amène 
 
 Un petit jeu bien sympathique sans être indispensable, agréable à jouer avec des parties rapides qu'on enchaîne sans problème. Pas une révolution du microcosme ludique mais faut-il une révolution à chaque nouveau jeu?
 
-.. image:: /images/oddville/commented_polaroid.png
+.. image:: /images/jeux/oddville/commented_polaroid.png
     :align: center
 
 

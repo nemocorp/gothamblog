@@ -7,7 +7,7 @@
 .. icon: jeux-de-societe
 .. tags: Critique, 
 
-.. image:: /images/7-wonders-la-8eme-merveille-du-monde-ludique/postcard.png
+.. image:: /images/jeux/7-wonders-la-8eme-merveille-du-monde-ludique/postcard.png
 	:align: left
 
 Comment commencer une critique de 7 Wonders sans paraphraser les nombreux articles élogieux sur ce jeu qui envahissent la toile? Aucune idée, alors je vais le faire à ma sauce en espérant vous donnez soit:
@@ -22,7 +22,7 @@ Donc, comme vous l'aurez compris, 7 Wonders est un jeu de société et donc pour
 
 Deuxièmement, et c'est sans doute ce qui est le plus grand frein à la démocratisation du jeu de société, il vous faudra lire "des règles du jeu". Arf, j'entends déjà les critiques... Comment ça on ne peut pas joueur tout de suite! Il faut lire un livre avant! Rendez-moi mon argent! N'exagérons rien, il vous faudra lire une petite dizaine de pages et les premières parties nécessiteront vraissemblablement que vous vous reportiez régulièrement à la règle si vous n'êtes pas habitué à ce genre d'activités. Mais bon passons. Pour vous faciliter la lecture, je vais vous expliquer dans les grandes lignes de quoi il retourne.
 
-.. image:: /images/7-wonders-la-8eme-merveille-du-monde-ludique/materiel.png
+.. image:: /images/jeux/7-wonders-la-8eme-merveille-du-monde-ludique/materiel.png
     :align: center
 
 Dans 7 Wonders, chaque joueur autour de la table va tenter de développer au mieux sa civilisation tout en surveillant le développement de ses voisins pour être le joueur qui a la plus mieux belle collection de cartes devant lui à la fin de la partie (comprenez la civilisation qui rapporte le plus de points). Pour cela les joueurs vont disposer de 3 âges de développement que nous appèleront, le premier âge, le deuxième et le... troisième âge. Vous aviez deviné?
@@ -35,12 +35,12 @@ Euh, et c'est quoi le rapport avec les 7 merveilles du monde? Très bonne questi
 
 Bref, je ne peux que vous recommander chaudement 7 Wonders, parce que 7 Wonders c'est bon mangez-en!
 
-.. image:: /images/7-wonders-la-8eme-merveille-du-monde-ludique/cards-1.jpg
+.. image:: /images/jeux/7-wonders-la-8eme-merveille-du-monde-ludique/cards-1.jpg
     :align: center
 
 |
 
-.. image:: /images/7-wonders-la-8eme-merveille-du-monde-ludique/cards-2.jpg
+.. image:: /images/jeux/7-wonders-la-8eme-merveille-du-monde-ludique/cards-2.jpg
     :align: center
 
 

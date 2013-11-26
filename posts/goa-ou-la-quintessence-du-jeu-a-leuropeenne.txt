@@ -7,7 +7,7 @@
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 
-.. image:: /images/goa-ou-la-quintessence-du-jeu-a-leuropeenne/postcard.png
+.. image:: /images/jeux/goa-ou-la-quintessence-du-jeu-a-leuropeenne/postcard.png
 	:align: left
 
 A sa sortie en 2003, Goa a un peu fait parler de lui. Mais pas suffisamment à mon goût. Lors de sa première édition française en 2011, il a encore un peu fait parler de lui. Mais toujours pas suffisamment à mon goût. Alors rendons enfin un vibrant hommage à cet excellent jeu de Rüdiger Dorn.
@@ -37,7 +37,7 @@ Mais voyons voir comment tout ça s'articule.
 Le comment qu'on y joue
 -----------------------
 
-.. image:: /images/goa-ou-la-quintessence-du-jeu-a-leuropeenne/2.png
+.. image:: /images/jeux/goa-ou-la-quintessence-du-jeu-a-leuropeenne/2.png
     :align: left
 
 Une partie de Goa est constitué de 8 tours de jeu. 4 tours en phase A, 4 tours en phase... (rrrr...RRRR...rrrr) B. Bravo!
@@ -66,7 +66,7 @@ Bref, j'adore. Et comble du comble, il marche aussi bien à 2 qu'à 4 joueurs.
 
 |
 
-.. image:: /images/goa-ou-la-quintessence-du-jeu-a-leuropeenne/3.png
+.. image:: /images/jeux/goa-ou-la-quintessence-du-jeu-a-leuropeenne/3.png
     :align: center
 
 

@@ -28,4 +28,4 @@ convert "$1" -bordercolor Lavender -background navy -polaroid 0 "$1"
 #convert roundrectangle.png tmp.png -gravity center -compose overlay -composite $1
 #convert $1 \( +clone -channel A -blur 0x2.5 -level 0,50% +channel +level-colors black \) -compose DstOver -composite $1
 
-scp $1 u39468970@id.nemocorp.info':./shaarli/thumbs
+scp $1 u39468970@id.nemocorp.info:./shaarli/thumbs
