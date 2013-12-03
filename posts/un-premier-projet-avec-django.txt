@@ -1,6 +1,6 @@
 .. link: 
 .. description: 
-.. tags: Python, Django, Tutoriel, Développement
+.. tags: Python, Django, Tutoriel, Dev
 .. date: 2013/09/16 13:04:29
 .. title: Un premier projet avec Django
 .. slug: un-premier-projet-avec-django

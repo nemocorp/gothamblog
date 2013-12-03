@@ -1,6 +1,6 @@
 .. link: 
 .. description: 
-.. tags: Python, Développement, Virtualenv
+.. tags: Python, Dev, Virtualenv
 .. date: 2013/09/13 07:26:39
 .. title: Utilisation concrète d'un virtualenv
 .. slug: utilisation-concrete-dun-virtualenv

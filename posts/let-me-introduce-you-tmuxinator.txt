@@ -1,6 +1,6 @@
 .. link: 
 .. description: 
-.. tags: Tmux, Développement
+.. tags: Tmux, Dev
 .. date: 2013/09/20 14:34:36
 .. title: Let me introduce you tmuxinator
 .. slug: let-me-introduce-you-tmuxinator

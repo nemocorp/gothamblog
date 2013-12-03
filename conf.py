@@ -64,6 +64,7 @@ NAVIGATION_LINKS = {
         ('/archive.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Archives" data-placement="bottom" class="icon-archive" title="">&nbsp;</i>'),
         ('/categories/index.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Tags" data-placement="bottom" class="icon-tags" title="">&nbsp;</i>'),
         ('/galleries/index.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Photos" data-placement="bottom" class="icon-picture" title="">&nbsp;</i>'),
+        ('/stories/fiches-resumees.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Fiches Résumées" data-placement="bottom" class="icon-file-text" title="">&nbsp;</i>'),
         ('/newsletter.html', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Niouzelaiteur" data-placement="bottom" class="icon-envelope-alt" title="">&nbsp;</i>'),
         ('https://twitter.com/nemocorp', '<i rel="tooltip" data-toggle="tooltip" data-original-title="Twitter @nemocorp" data-placement="bottom" class="icon-twitter-sign" title="">&nbsp;</i>'),
         ('https://www.facebook.com/pages/Gotham-Blog/379159445551177', '<i rel="tooltip" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook Gotham Blog" class="icon-facebook-sign" title="">&nbsp;</i>'),

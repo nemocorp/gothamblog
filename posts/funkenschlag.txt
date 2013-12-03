@@ -1,13 +1,14 @@
 .. link: 
 .. description: 
-.. tags: Jeux de Plateau, Friedemann Friese, 2001, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs, 6 Joueurs et plus, Placement, Développement, Enchères, 2F Spiele
+.. tags: Jeux de Plateau, Friedemann Friese, 2004, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs, 6 Joueurs et plus, Placement, Développement, Enchères, 2F Spiele
 .. date: 2013/09/20 10:17:53
-.. title: Funkenschlag, Power Grid, Megawatts...
+.. title: [Funkenschlag] ou Power Grid ou Megawatts...
 .. slug: funkenschlag
 .. category: Jeux de Société
 .. icon: jeux-de-societe
 .. js_title: Funkenschlag
-.. galerie: False
+.. galerie: True
+.. fiche: True
 
 .. image:: /images/jeux/funkenschlag/postcard.png
 	:align: left
@@ -27,7 +28,7 @@
         +------------------------------------------------------------------------------+
         || `> Voir la règle du jeu </regles/funkenschlag.pdf>`_                        |
         || `> TricTrac <http://www.trictrac.net/jeu-de-societe/funkenschlag/infos>`_   |
-        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/xxxxx/powergrid>`_     |
+        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/2651/power-grid>`_     |
         || `> Galerie de Photos </galleries/funkenschlag/>`_                           |
         +------------------------------------------------------------------------------+
 
@@ -48,6 +49,7 @@ En effet, Funkenschlag (je préfère utiliser le nom allemand qui va compliquer 
 
 .. image:: /images/jeux/funkenschlag/1.png
     :align: left
+    :target: /galleries/funkenschlag/index.html
 
 Comment qu'on y joue?
 ---------------------
@@ -60,6 +62,7 @@ Puis viendra une phase dite d'"implantation" où les joueurs vont pouvoir étend
 
 .. image:: /images/jeux/funkenschlag/2.png
     :align: right
+    :target: /galleries/funkenschlag/index.html
 
 S'étendre c'est bien beau, mais il faudra aussi produire suffisamment d'électricité avec ses centrales pour recevoir des revenus qui nous permettront dans les prochains tours d'acheter de nouvelles centrales et de s'étendre encore dans plus de ville.
 
@@ -78,6 +81,7 @@ Chaque concept du jeu est facilement rattachable à des choses concrètes et le 
 
 .. image:: /images/jeux/funkenschlag/3.png
     :align: center
+    :target: /galleries/funkenschlag/index.html
 
 |
 

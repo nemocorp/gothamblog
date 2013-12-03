@@ -1,0 +1,102 @@
+.. tags: Awk, Dev, Scripts, Linux, Tutoriel
+.. slug: awk-tutoriel-part-ii
+.. link: 
+.. date: 2013/12/02 07:20:32
+.. title: [Awk] Amusons-nous avec Awk (Part II)
+.. description: 
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/awk-aide-memoire/postcard.png 
+    :align: left
+
+Deuxième article de notre série consacré à Awk. On va aller un petit peu plus loin dans la technique, mais pas trop rassurez-vous. Aujourd'hui on va voir les conditions avec `if` et comment traiter des fichiers `csv`. Allez en route!
+
+.. TEASER_END
+
+On va vu dans `l'épisode précédent </posts/awk-tutoriel-part-i.html>`_ qu'on pouvait appliquer un filtre à un bloc d'instructions pour qu'il ne s'exécute que sur les enregistrements correspondants au filtre. D'ailleurs, à ce propos, voici la correction de l'exercice précédent. Pour n'afficher que les salaires supérieur à 1000, il suffit d'invoquer Awk de la sorte:
+
+.. code:: bash
+
+    awk '$4>1000' file.txt
+
+
+Point besoin de `$0`, de `if`, il suffit de savoir qu'un filtre sans bloc d'instruction revient à exécuter le bloc `{print $0}` qui affiche l'enregistrement en cours de traitement.
+
+Bon passons maintenant à la suite.
+
+Par défaut, Awk utilise l'espace comme séparateur de champs et le retour à la ligne comme séparateur d'enregistrement. Mais il est tout à fait possible de modifier ses valeurs. Par exemple, pour traiter des fichiers `csv` avec Awk, il suffit de lui indiquer d'utiliser le `;` comme séparateur de champs et alors tout devient enfantin.
+
+Prenons le fichier d'exemple `file.txt` suivant:
+
+.. code::
+
+    Batman;Bruce Wayne;Gotham;Le Joker
+    Superman;Clark Kent;Metropolis;Lex Luthor
+    Iron Man;Tony Stark;New York;Le Mandarin
+    Spiderman;Peter Parker;New York;Le Bouffon Vert
+
+
+Pour traiter efficacement un tel fichier avec Awk, nous allons donc utiliser le `;` comme séparateur de champs. Cela se fait à l'aide de l'option `-F`. L'anti-slash `\` placé devant le `;` sert uniquement à indiquer au shell qu'il ne faut pas traiter le `;` comme un séparateur d'instruction mais comme un caractère classique. Et nous obtenons ainsi:
+
+.. code:: bash
+
+    awk -F\; '{print ($2 " est en réalité " $1 " et il fait régner la justice sur " $3 " face à " $4)}' file.txt
+    Bruce Wayne est en réalité Batman et il fait régner la justice sur Gotham face à Le Joker
+    Clark Kent est en réalité Superman et il fait régner la justice sur Metropolis face à Lex Luthor
+    Tony Stark est en réalité Iron Man et il fait régner la justice sur New York face à Le Mandarin
+    Peter Parker est en réalité Spiderman et il fait régner la justice sur New York face à Le Bouffon Vert
+
+
+Rien de plus simple. On a donc bien maintenant chaque variable `$1`, `$2`,... qui est initialisée avec la valeur correspondant à son champ.
+
+Bon mais je vous entends déjà, "euh, comment c'est pas beau à Le Bouffon Vert!"
+
+Et c'est là que nous allons faire entrer en scène le `if`, pas le sapin, qui va nous permettre d'effectuer des traitements conditionnels.
+
+La syntaxe de base de `if` est la suivante:
+
+.. code:: awk
+
+    if (condition) {
+        ...
+        <bloc d'instruction>
+        ...
+    } else {
+        ...
+        <bloc d'instruction>
+        ...
+    }
+
+
+Le premier bloc s'exécutera si *condition* est vraie, le bloc du `else` s'exécutera quant à lui si *condition* est fausse.
+
+Voyons cela dans notre exemple précédent. Nous allons pour cela mettre notre code Awk dans un petit fichier `script.awk` que nous appellerons avec l'option `-f`:
+
+.. code:: awk
+
+    {
+        if ($4 ~ /^Le /) {
+            gsub(/Le /,"",$4);
+            $4=("face au " $4);
+        } else {
+            $4=("face à " $4);
+        }
+        print ($2 " est en réalité " $1 " et il fait régner la justice sur " $3 " " $4);
+    }
+
+
+Et on obtient alors le résultat suivant, beaucoup plus joli:
+
+.. code:: bash
+
+    awk -F\; -f script.awk file.txt
+    Bruce Wayne est en réalité Batman et il fait régner la justice sur Gotham face au Joker
+    Clark Kent est en réalité Superman et il fait régner la justice sur Metropolis face à Lex Luthor
+    Tony Stark est en réalité Iron Man et il fait régner la justice sur New York face au Mandarin
+    Peter Parker est en réalité Spiderman et il fait régner la justice sur New York face au Bouffon Vert
+
+
+Mais là, le `if` n'était absolument pas indispensable, d'où petit exercice pour la prochaine fois, obtenez le même résultat sans utiliser l'instruction conditionnelle `if`.
+
+

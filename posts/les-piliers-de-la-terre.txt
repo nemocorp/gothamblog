@@ -1,0 +1,78 @@
+.. tags: Jeux de Plateau, Moyen-âge, Pose d'ouvrier, Développement, 2 Joueurs, 3 Joueurs, 4 Joueurs, 2006, Michael Rieneck , Stefan Stadler, Filosofia
+.. slug: les-piliers-de-la-terre
+.. link: 
+.. title: [Les Piliers de la Terre] Pas le roman, ni la série...
+.. description: 
+.. date: 2013/11/27 08:03:14
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+.. js_title: Les Piliers de la Terre
+.. galerie: True
+
+.. image:: /images/jeux/les-piliers-de-la-terre/postcard.png
+    :align: left
+
+.. class::  well fiche pull-right
+
+        +--------------------------------------------------------------------------------------------+
+        | **Fiche**                                                                                  |
+        +--------------------------------------------------------------------------------------------+
+        |:Auteur: Michael Rieneck, Stefan Stadler                                                    |
+        |:Editeur: Filosofia                                                                         |
+        |:Année: 2006                                                                                |
+        |:Joueurs: 2 à 4                                                                             |
+        |:Durée: 90min                                                                               |
+        |:Thème: Moyen-âge                                                                           |
+        |:Prix: 45€                                                                                  |
+        +--------------------------------------------------------------------------------------------+
+        || `> Voir la règle du jeu </regles/les-piliers-de-la-terre.pdf>`_                           |
+        || `> TricTrac <http://www.trictrac.net/jeu-de-societe/les-piliers-de-la-terre/infos>`_      |
+        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/212815/the-pillars-of-the-earth>`_   |
+        || `> Galerie de Photos </galleries/les-piliers-de-la-terre/>`_                              |
+        +--------------------------------------------------------------------------------------------+
+
+
+Les Piliers de la Terre, vous connaissez? Mais si, cet excellent livre de Ken Follett, qui, à travers 1200 pages et quelques dizaines d'années, nous raconte la grande épopée des bâtisseurs de Cathédrales à travers l'histoire de la construction de celle de Kingsbridge. Et bien là, on va parler de l'adaptation en jeu de cet excellent roman (qui aura sans doute droit à un article lui aussi).
+
+.. TEASER_END
+
+Dans le jeu des Piliers de la Terre, les joueurs participent à la construction de la cathédrale en recrutant des ouvriers et artisans qui vont apporter tout leur savoir-faire au chantier. Le but du jeu étant d'utiliser au mieux ses ouvriers et ses artisans pour marquer un maximum de points de victoire. Quelle originalité!
+
+Le jeu se déroule en 6 tours. A la fin de chaque tour, une pièce de la cathédrale est ajoutée au centre du plateau. Lorsque la cathédrale est complète, le jeu est terminé et le joueur avec le plus de points de victoire l'emporte.
+
+.. image:: /images/jeux/les-piliers-de-la-terre/1.png
+    :align: right
+    :target: /galleries/les-piliers-de-la-terre/index.html
+
+Comment que ça se passe concrètement?
+-------------------------------------
+
+Chaque tour de jeu est divisé en 3 phases bien distinctes, que j'appellerai par commodité, la première, la deuxième et... (...rrr...RRR...rrr...) la troisième. Pfff. 
+
+La première phase va consister à recruter des ouvriers qui iront récupérer des ressources dans la forêt (bois), dans la carrière (pierre) ou dans la sablière (sable). Les joueurs, chacun leur tour, vont prendre un ouvrier ou un artisan parmi les 9 disponibles (7 ouvriers et 2 artisans), et recommencer jusqu'à ce que tout le monde passe.
+
+.. image:: /images/jeux/les-piliers-de-la-terre/2.png
+    :align: left
+    :target: /galleries/les-piliers-de-la-terre/index.html
+
+Ensuite, le premier joueur va prendre la sac tissu (opaque qu'on voit pas au travers sinon c'est de la triche) contenant trois architectes de chacun des joueurs et les piocher un par un jusqu'à épuisement du sac (pas du premier joueur). Le joueur dont l'architecte vient d'être pioché a alors deux options. Soit il paye le prix de la place la plus élévée disponible sur la rosace et place son architecte sur une des actions libres du plateau, soit il place son architecte sur la rosace sur la place disponible la plus élévée et pourra le placer gratuitement sur le plateau ultétieurement (donc moins de choix d'action car elles auront été prises par les joueurs ayant payé pour se placer).
+
+Ca a l'air compliqué comme ça, mais c'es très simple.
+
+La dernière phase va constituer à effectuer l'ensemble des 15 actions disponibles sur le plateau, de manière séquentielle, jusqu'à l'action finale qui va permettre d'utiliser ses cartes artisans pour convertir les différentes ressources accumulées en points de victoire.
+
+.. image:: /images/jeux/les-piliers-de-la-terre/3.png
+    :align: center
+    :target: /galleries/les-piliers-de-la-terre/index.html
+
+Et finalement...
+----------------
+
+On a là un très bon jeu, qui reprend tous les grands thèmes et les personnages principaux du roman. C'est très agréable à jouer, fin en bouche comme dirait les grands chefs. Les nombreux choix qui s'offrent au joueur font que tout se déroule sans temps mort. On hésite toujours à prendre un artisan au début du tour ou plus tard sur le plateau, au risque de se retrouver sans les bonnes ressources, ou finalement sans artisan. Les places sur le plateau sont toutes intéressantes et convoitées ajoutant une tension bien plaisante ma foi et il n'est pas rare d'entendre le fameux et récurrent "Putain, t'es chiant c'est la place que je voulais!", que l'on retrouve dans de nombreux autres jeux.
+
+Encore un très bon jeu, accessible, même si on est dans du familial++, à la limite du jeu pour gamer. Une très bonne transition pour aller un peu plus loin dans le jeu de société dit "moderne".
+
+.. image:: /images/jeux/les-piliers-de-la-terre/commented_polaroid.png
+    :align: center
+
+

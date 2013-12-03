@@ -1,0 +1,15 @@
+.. title: Une nouvelle rubrique, une
+.. slug: une-nouvelle-rubrique-une
+.. tags: Vie du Site
+.. description: 
+.. date: 2013/12/03 10:43:39
+.. link: 
+.. category: Divers
+.. icon: divers
+
+.. image:: /images/abonne-toi-a-la-niouzelaiteur/postcard.png
+    :align: left
+
+Et voilà  encore une nouvelle rubrique, les fiches résumées de règles. On commence avec `Funkenschlag </posts/funkenschlag.html>`_. Un nouveau raccourci dans la barre de navigation en haut de l'écran et sinon, `c'est la que ça se passe </stories/fiches-resumees.html>`_. N'hésitez pas à laisser vos remarques, corrections en commentaires.
+
+.. TEASER_END

@@ -1,0 +1,8 @@
+Fiches Résumées de règles
+-------------------------
+
+.. raw:: html
+
+    <div class='gallery_container row'>
+        <div class='col-xs-2'><div rel='tooltip' class='gallery-thumb img-rounded' title='' data-toggle='tooltip' data-original-title='Funkenschlag' style='background-image: url(/../galleries/cover/funkenschlag.png);'><a href='/../fiches/funkenschlag.pdf'><img src='/../galleries/cover/funkenschlag.thumbnail.png'></a></div></div>
+    </div>

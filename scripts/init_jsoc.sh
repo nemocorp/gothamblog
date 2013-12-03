@@ -10,8 +10,8 @@ then
     exit
 fi
 
-mkdir -p $SITE_DIR/files/images/$1
-cd $SITE_DIR/files/images/$1
+mkdir -p $SITE_DIR/files/images/jeux/$1
+cd $SITE_DIR/files/images/jeux/$1
 polaroid.sh $2
 
 mkdir -p $SITE_DIR/galleries/$1
@@ -26,7 +26,7 @@ sed -i "/.. tags/ s/$/draft/g" $1.txt
 echo ".. category: Jeux de Société" >> $1.txt
 echo ".. icon: jeux-de-societe" >> $1.txt
 echo ".. js_title: $3" >> $1.txt
-echo ".. galerie: False" >> $1.txt
+echo ".. galerie: True" >> $1.txt
 echo >> $1.txt
 echo ".. image:: /images/$1/postcard.png" >> $1.txt
 echo "    :align: left" >> $1.txt

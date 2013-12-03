@@ -1,0 +1,101 @@
+.. link: 
+.. slug: awk-tutoriel-part-i
+.. tags: Awk, Dev, Scripts, Linux, Tutoriel
+.. date: 2013/11/28 16:59:12
+.. title: [Awk] Amusons-nous avec Awk (part I)
+.. description: 
+.. category: Informatique
+.. icon: informatique
+
+.. image:: /images/awk-aide-memoire/postcard.png 
+    :align: left
+
+Bon, comme dirait Bernard Laporte, il est temps de revenir aux fondamentaux. Je vais donc démarrer une petite série de tutoriel pour vous montrer toute la puissance du port du Havre, toute la puissance de Awk, quoi.
+
+Alors ne perdons pas une minute et entrons directement dans le vif du sujet.
+
+.. TEASER_END
+
+Tout d'abord, une petite mise au point. Awk est un langage de programmation à part entière et pas juste un outil de manipulation de chaîne de caractères. Après il excelle dans le traitement des fichiers à plat et des chaînes de caractères, et c'est sans doute de là que vient l'amalgame.
+
+Les méthodes d'invocation
+-------------------------
+
+Attention, ici, point de démons ou autre génies. Il s'agit juste de voir les différentes façons de lancer Awk.
+
+.. code:: bash
+
+    # 1ère Méthode (si le traitement à effectuer est simple)
+    awk '/pattern1/{traitement}/pattern2/{traitement]...' mon_fichier.txt
+
+    # 2ème Méthode (si le traitement est compliqué)
+    awk -f mon_script.awk mon_fichier.txt
+
+Voyons dans le détail le fonctionnement d'un programme Awk
+
+Structure d'un programme Awk
+----------------------------
+
+Un programme Awk est constitué de 1 à n blocs d'instructions regroupées dans une paire d'accolade. Chaque programme Awk a besoin d'un fichier en entrée à traiter. Le fichier à traiter est vu par Awk comme une succession d'enregistrement contenant un certain nombre de champs de données. Voyons un exemple concret.
+
+Soit le fichier `file.txt` à traiter suivant:
+
+.. code::
+
+    Nom Prénom Ville Salaire
+    Wayne Bruce Gotham 5000000
+    Kent Clark Metropolis 10000
+    Dupont Super Paris 100
+
+
+Par défaut, le séparateur d'enregistrement est le retour à la ligne. Donc, Awk va considérer chaque ligne comme un enregistrement. De même, le séparateur de champs est l'espace. Nous verrons plus tard comment modifier ces valeurs. 
+
+Dans Awk, il existe deux blocs d'instructions particuliers. `BEGIN` qui est exécuté une fois en début de script et `END` qui est exécuté une fois en fin de script. 
+
+Nous allons utiliser Awk pour effectuer un petit traitement sur le fichier précédent pour comprendre le fonctionnement d'un script Awk. Soit donc le petit script suivant que nous appellerons de manière très originale `script.awk`.
+
+.. code:: awk
+
+    BEGIN {
+        total = 0;
+    }
+    NR==1 {
+        print $0;
+        next;
+    }
+    /Wayne/ {
+        $4 = $4 / 2;
+    }
+    {
+        print (NR ") "$0);
+        total = total + $4;
+    }
+    END {
+        print("Masse salariale des Super-Héros:" total);
+    }
+
+Maintenant exécutons-le à l'aide de la commande `awk -f script.awk file.txt` et observons le résultat:
+
+.. code::
+
+    Nom Prénom Ville Salaire
+    2) Wayne Bruce Gotham 2500000
+    3) Kent Clark Metropolis 10000
+    4) Dupont Super Paris 100 
+    Masse salariale des Super-Héros:2510100
+
+
+Regardons en détail les blocs d'instructions de ce petit script. Hormis pour le bloc `BEGIN` et `END`, chaque bloc d'instructions d'un script Awk va être exécuté sur chaque enregistrement du fichier, si l'enregistrement correspond au filtre placé devant le bloc.
+
+Dans notre exemple, le bloc filtré par `NR==1` ne sera appliqué que sur le premier enregistrement de notre fichier. `NR` est une variable interne de Awk qui contient toujours le numéro de l'enregistement en cours de traitement. De même, le bloc filtré par `/Wayne/` ne s'appliquera que sur la ligne contenant `Wayne`, et ainsi de suite... Comme vous le voyez, le déroulement est d'une logique implacable. Chaque bloc est évalué séquentiellement et un même enregistrement peut être traité dans plusieurs bloc.
+
+Le bloc sans filtre de notre exemple s'appliquera donc à tous les enregistrements du fichier.
+
+*"Oui, mais c'est quoi tes `$4` et `$0`. Et puis ce `next`, il sert à quoi?"*
+
+Le `next` sert à court-circuiter le déroulement séquentiel. Dès qu'Awk rencontre cette instruction, il arrête le traitement de l'enregistrement courant et passe directement à l'enregistrement suivant. Dans notre cas, le premier enregistrement de notre fichier ne passera pas par tous les blocs suivants.
+
+Le `$0` quant à lui contient l'enregistrement en cours de traitement, dans notre cas une ligne du fichier. Pour le `$4`, c'est le 4ème champs de notre enregistrement, ici le salaire, et donc si on suit la logique, `$1` va contenir le nom, `$2` le prénom et `$3` la ville.
+
+On s'arrête là pour aujourd'hui. Je vous donne un petit exercice pour la prochaine fois. A partir du fichier précédent, n'afficher que les lignes dont le salaire est supérieur à 1000. Il va falloir chercher un peu? Les réponses et éventuelles questions en commentaires.
+

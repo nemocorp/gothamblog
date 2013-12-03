@@ -1,6 +1,6 @@
 .. link: 
 .. description: 
-.. tags:  Python, Développement, Virtualenv
+.. tags:  Python, Dev, Virtualenv
 .. date: 2013/09/13 11:15:13
 .. title: virtualenv, la suite de la suite
 .. slug: virtualenv-la-suite-de-la-suite

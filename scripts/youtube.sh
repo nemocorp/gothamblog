@@ -10,5 +10,5 @@ then
     exit
 fi
 
-convert -resize 250x "$1" "$1"
+convert -resize 250x250 "$1" "$1"
 ffmpeg -y -loop 1 -r 1 -i "$1" -i "$2" -acodec mp3 -shortest music-video.mp4

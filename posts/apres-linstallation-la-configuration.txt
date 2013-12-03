@@ -1,6 +1,6 @@
 .. link: 
 .. description: 
-.. tags: Python, Django, Développement, Tutoriel
+.. tags: Python, Django, Dev, Tutoriel
 .. date: 2013/09/17 17:28:53
 .. title: Après l'installation, la configuration
 .. slug: apres-linstallation-la-configuration

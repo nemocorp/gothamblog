@@ -1,6 +1,6 @@
 .. link: 
 .. description: 
-.. tags: Python, Développement, Virtualenv
+.. tags: Python, Dev, Virtualenv
 .. date: 2013/09/04 20:48:09
 .. title: Virtualenvwrapper, le couteau suisse de Python
 .. slug: virtualenvwrapper-le-couteau-suisse-de-python

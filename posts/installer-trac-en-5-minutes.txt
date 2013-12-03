@@ -1,5 +1,5 @@
 .. link: 
-.. tags: Python, Trac, Développement
+.. tags: Python, Trac, Dev
 .. description: 
 .. date: 2013/09/02 17:57:54
 .. title: Installer Trac en 5 minutes

@@ -2,7 +2,7 @@
 .. title: Bien démarrer avec Django
 .. description: 
 .. date: 2013/08/27 15:15:03
-.. tags: Python, Django, Développement
+.. tags: Python, Django, Dev
 .. link: 
 .. category: Informatique
 .. icon: informatique
