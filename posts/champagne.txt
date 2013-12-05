@@ -1,0 +1,18 @@
+.. date: 2013/12/04 16:18:41
+.. title: Champagne!
+.. description: 
+.. link: 
+.. slug: champagne
+.. tags: Vie du Site
+
+.. image:: /images/champagne/postcard.png
+    :align: left
+
+Voilà, c'est fait. Le 500ème visiteur unique sur le site à 16h17 et 41s en ce mémorable 4 décembre de l'an de grâce 2013. Et donc le 500ème visiteur est chinois, ce n'est pas une blague, il a un mac et navigue avec Firefox. Il arrive de la page http://users.getnikola.com et je lui souhaite la bienvenue sur le site! Mais je doute qu'il revienne, sait-on jamais!
+
+J'aurai voulu le faire exprès je n'y serai jamais arrivé.
+
+    Merci à vous tous, chinois ou pas et que l'aventure continue!
+
+.. TEASER_END
+
