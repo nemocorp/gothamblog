@@ -12,24 +12,7 @@
 .. image:: /images/jeux/ankh-morpork/postcard.png
     :align: left
 
-.. class::  well fiche pull-right
-
-    +---------------------------------------------------------------------------------------+
-    | **Fiche**                                                                             |
-    +---------------------------------------------------------------------------------------+
-    | :Auteur:    Martin Wallace                                                            |
-    | :Editeur:   Iello                                                                     | 
-    | :Année:     2011                                                                      | 
-    | :Joueurs:   2 à 4                                                                     |
-    | :Durée:     60min                                                                     |
-    | :Thème:     Disque-Monde                                                              |
-    | :Prix:      40€                                                                       |
-    +---------------------------------------------------------------------------------------+
-    || `> Voir la règle du jeu </regles/ankh-morpork.pdf>`_                                 |
-    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/ankh-morpork/infos>`_            |
-    || `> BoardGameGeek <http://boardgamegeek.com/boardgame/91312/discworld-ankh-morpork>`_ |
-    || `> Galerie de Photos </galleries/ankh-morpork/>`_                                    |
-    +---------------------------------------------------------------------------------------+
+.. include:: ./files/fiches/ankh-morpork.rst
 
 Oyez, oyez Lecteur! L'université de la Magie du Disque-Monde est heureuse de te présenter son nouveau jeu. Lord Vétérini a laissé vacant le poste de patricien. Alors profites-en et deviens le nouveau maître de la cité éternelle, l'immense et nauséabonde Ankh-Morpork.
 

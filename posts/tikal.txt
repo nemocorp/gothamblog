@@ -1,33 +1,15 @@
+.. tags: Michael Kiesling, Wolfgang Kramer, Franz Vohwinkel, Ravensburger, 1999, Mayas, Enchères, Majorité, Points d&#39;action, 2 Joueurs, 3 Joueurs, 4 Joueurs
+.. js_title: Tikal
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+.. slug: tikal
+.. galerie: True
 .. date: 2013/10/21 21:22:34
 .. title: [Tikal] Et bien redémarre mon enfant...
-.. tags: Jeux de Plateau, Wolfgang Kramer, Michael Kiessling, 2 Joueurs, 3 Joueurs, 4 Joueurs, Mayas, Majorité, Points d'action, Enchères, 1999
-.. slug: tikal
 .. description: 
 .. link: 
-.. category:  Jeux de Société
-.. icon: jeux-de-societe
 
-.. image:: /images/tikal/postcard.png
-	:align: left
-
-.. class:: well fiche pull-right
-
-    +---------------------------------------------------------------------+
-    | **Fiche**                                                           |
-    +---------------------------------------------------------------------+
-    | :Auteur:    Wolfgang Kramer, Michael Kiessling                      |
-    | :Editeur:   Ravensburger                                            | 
-    | :Année:     1999                                                    |
-    | :Joueurs:   2 à 4                                                   |
-    | :Durée:     60min                                                   |
-    | :Thème:     Mayas                                                   |
-    | :Prix:      40€                                                     |
-    +---------------------------------------------------------------------+
-    || `> Voir la règle du jeu </regles/tikal.pdf>`_                      |
-    || `> TricTrac <http://www.trictrac.net/jeu-de-societe/tikal/infos>`_ |
-    || `> BoardGameGeek <http://boardgamegeek.com/boardgame/54/tikal>`_   |
-    +---------------------------------------------------------------------+
-
+.. include:: ./files/fiches/tikal.rst
 
 ...je sais, elle est grave pourrie celle-là. Mais après un week-end de chouille, y'a plus toutes les connexions qui se font. Du coup, on fait avec les moyens du bord. Et donc, fidèle lecteur, j'implore toute ton indulgence pour la chronique qui va suivre.
 

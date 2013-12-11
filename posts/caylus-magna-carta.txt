@@ -1,0 +1,73 @@
+.. tags: William Attia, Arnaud Demaegd, Ystari, 2007, Moyen-âge, Gestion, Gestion d&#39;une main de carte, Placement d&#39;ouvriers, 2 Joueurs, 3 Joueurs, 4 Joueurs
+.. js_title: Caylus Magna Carta
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+.. slug: caylus-magna-carta
+.. galerie: True
+.. description:
+.. title: [Caylus Magna Carta] "Des ouvriers pour Mooon Châââteau!"
+.. date: 2013/12/09 22:34:01
+.. link: 
+
+.. include:: ./files/fiches/caylus-magna-carta.rst
+
+Oyé, oyé! Le bon roi Philippe veut construire le château de Caylus. La construction attirent maître d'oeuvre et ouvriers provoquant le développement de la ville au pied du château. Les joueurs vont tenter de récupérer le plus de points de prestige en participant au chantier.
+
+.. TEASER_END
+
+Caylus Magna Carta, comme son grand frère Caylus, est un pur jeu de gestion où les joueurs vont construire des bâtiments qui leurs permettront d'obtenir des ressources pour construire d'autres bâtiments pour avoir encore plus ressources, donc encore plus de bâtiments et donc de ressources et donc de bâtiments... Vous avez compris le principe? Et avec toutes ces ressources et tous ces bâtiments, je construis le beau château, qui rend heureux le bon roi et donc j'ai plein de points et je gagne la partie.
+
+STOP! C'est un peu réducteur dis comme ça. Parce que Caylus Magna Carta, derrière sa petite boîte et son petit prix n'a rien à envier à Caylus. Voyons donc voir comment on joue à tout ça.
+
+.. figure:: /images/jeux/caylus-magna-carta/1.png
+    :align: right
+
+    \(c\) BGG User - Karp
+
+Le Comment qu'on y joue à ton truc?
+-----------------------------------
+
+Comme dans tout bon jeu de société dit moderne, une partie est divisée en tour, chaque tour en phase, jusqu'à ce que la fin de partie survienne, ici c'est quand il n'y a plus de points de prestige disponibles dans la réserve. Chacun compte ses points et celui qui en a le plus l'emporte.
+
+    Oui, d'accord, mais comment je gagne des points de prestige? Il faut que je lèche le cul du roi?
+
+Que nenni, que nenni. On gagne des points de prestige en construisant les différentes parties du château, en construisant des bâtiments dans la ville, en accumulant de l'or, ou encore pour notre stock de ressources et d'argent. Mais la solution la plus efficace pour gagner de points reste la construction du château.
+
+Au début de la partie, la ville va être constituée de 2, 3 ou 4 bâtiments suivants le nombre de joueur. Chaque joueur va prendre son petit pécule de départ, en l'occurence 2 cubes de nourritures, 2 cubes de bois et 4 deniers puis la partie va puvoir enfin commencer.
+
+.. figure:: /images/jeux/caylus-magna-carta/2.png
+    :align: left
+
+    \(c\) BGG User - Saise
+
+Les différentes phases d'un tour de jeu sont les suivantes:
+
+* Collecte des revenus, parce qu'il faut des sous pour faire bosser les ouvriers.
+* Actions, c'est à dire piocher une carte, échanger ses cartes, faire bosser un ouvrier en le plaçant sur une carte, construire un bâtiments ou passer. Cette phase d'action se répète jusqu' ce que tous les joueurs aient passé.
+* Déplacement du prévôt. Alors là on est clairement dans la partie malin-malin du jeu. Pour vous faire un topo rapide, les batiments sont construit les uns à la suite des autres. On place des ouvriers dessus pour les faire bosser. Mais le prévôt n'autorisera que l'utilisation des bâtiments situé avant lui sur la route. Donc par un subtil jeu de soudoiement, on peut le déplacer, moyennant finances, pour empêcher certains joueurs de bénéficier de l'effet de leur bâtiment.
+* Effet des bâtiments: Et bien là, si vous avez suivi, tous les bâtiments avec un ouvrier vont produire leurs effets. A condition qu'ils soient placés avant le prévôt.
+* Construction du château: Les joueurs vont maintenant dépenser des ressources sous forme de lot constitué d'un cube de bois, d'un cube de nourriture et d'un de pierre pour récupérer des jeton de prestige et éventuellement de l'or pour celui qui fournira le plus de lot.
+
+Comme vous le constatez, Caylus Magna Carta dispose de règles simples, très bien écrites même si il y a pas mal de petits points de détail à ne pas oublier. Les parties sont rapides, moins d'une heure, une broutille comparée au deux, trois heures de Caylus et pourtant on en retrouve pas mal de sensations.
+
+Alors, c'est bien ou pas?
+-------------------------
+
+.. figure:: /images/jeux/caylus-magna-carta/3.png
+    :align: right
+
+    \(c\) BGG User - LanaDove
+
+Ne me faites pas dire ce que je n'ai pas dit, Caylus Magna Carta n'est pas un Caylus light. C'est un vrai bon jeu, dans un autre format. On ne peut certes renier une certaine filliation entre les deux, mais les différences sont suffisamment nombreuses pour que l'un ne soit pas le doublon de l'autre.
+
+Les choix à chaque tour sont nombreux, donc attention aux joueurs qui réfléchissent pendant 3 plombes, ça peut vite devenir lourd. L'ordre de ses actions aussi est primordial pour ne pas se voir souffler l'effet d'un bâtiment. Tout doit être calculé avec précision.
+
+Je vous recommande chaudement de l'essayer, fan de Caylus attention, je le répète, Caylus Magna Carta ne dois pas être comparé à Caylus, c'est un autre jeu. Mais il présente, pour un rapport plaisir/prix excellent et permet de faire une partie de jeu de gestion dans un temps relativement court.
+
+.. figure:: /images/jeux/caylus-magna-carta/commented_polaroid.png
+    :align: center
+
+    \(c\) BGG User - Ajax013
+
+
+

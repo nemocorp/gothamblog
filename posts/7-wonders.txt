@@ -1,14 +1,15 @@
-.. slug: 7-wonders-la-8eme-merveille-du-monde-ludique
-.. description: 
-.. link: 
-.. title: 7 Wonders, la 8ème merveille du monde (ludique)
-.. date: 2013/09/03 09:19:55
+.. tags: Antoine Bauza, Miguel Coimbra, Repos Prod., 2010, Civilisations Antiques, Combinaison, Draft, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs, 6 Joueurs, 7 Joueurs
+.. js_title: 7 Wonders
 .. category: Jeux de Société
 .. icon: jeux-de-societe
-.. tags: Critique, 
+.. slug: 7-wonders
+.. galerie: True
+.. description: 
+.. link: 
+.. title: [7 Wonders] La 8ème merveille du monde (ludique)
+.. date: 2013/09/03 09:19:55
 
-.. image:: /images/jeux/7-wonders-la-8eme-merveille-du-monde-ludique/postcard.png
-	:align: left
+.. include:: ./files/fiches/7-wonders.rst
 
 Comment commencer une critique de 7 Wonders sans paraphraser les nombreux articles élogieux sur ce jeu qui envahissent la toile? Aucune idée, alors je vais le faire à ma sauce en espérant vous donnez soit:
 

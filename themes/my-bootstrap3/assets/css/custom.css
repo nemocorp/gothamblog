@@ -2,6 +2,10 @@ body {
     font-family: 'Abel', sans-serif;
     font-size: 16px
 }
+
+p {
+    text-align: justify;
+}
 .literal, .literal-block {
     font-family: 'SaxMono', monospace;
     font-size: 12px;
@@ -34,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-thumb {
     width:  100px;  
     height:  100px; 
-    background-position: center center;
+    background-position: top center;
     background-repeat: no-repeat;
     overflow: hidden;
     margin: 16px;
@@ -101,4 +105,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -10px;
 }
 
+ul, ol {
+    padding-left: 14px;
+}
 
+.mini_fiche {
+    font-size: 10pt;
+    margin-left: 8px;
+    padding-top: 0px;
+}
+
+.mini_fiche h3 {
+    margin-top: 0px;
+    padding-top: 6px;
+}
+
+p.caption {
+    padding-top: 0.2em;
+    font-size: 8pt;
+}

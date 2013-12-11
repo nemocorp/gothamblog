@@ -1,13 +1,13 @@
 .. tags: Bruno Cathala, Ludovic Maublanc, Miguel Coimbra, Matagot, 2009, Civilisations Antiques, Conquête, Enchères, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs
-.. js_title: Cyclades
-.. category: Jeux de Société
-.. icon: jeux-de-societe
-.. slug: cyclades
-.. galerie: True
 .. date: 2013/12/02 12:39:05
 .. description: 
 .. link: 
+.. slug: cyclades
 .. title: [Cyclades] Et oui, les Dieux aiment l'argent...
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+.. js_title: Cyclades
+.. galerie: True
 
 .. include:: ./files/fiches/cyclades.rst
 

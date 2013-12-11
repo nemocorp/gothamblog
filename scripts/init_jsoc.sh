@@ -23,16 +23,16 @@ cd $SITE_DIR/posts
 sed -i "7~1d" $1.txt
 sed -i "/.. tags/ s/$/draft/g" $1.txt
 
-echo ".. category: Jeux de Société" >> $1.txt
-echo ".. icon: jeux-de-societe" >> $1.txt
-echo ".. js_title: $3" >> $1.txt
-echo ".. galerie: True" >> $1.txt
-echo >> $1.txt
-echo ".. image:: /images/$1/postcard.png" >> $1.txt
-echo "    :align: left" >> $1.txt
-echo "" >> $1.txt
-echo ".. TEASER_END" >> $1.txt
-echo "" >> $1.txt
+#echo ".. category: Jeux de Société" >> $1.txt
+#echo ".. icon: jeux-de-societe" >> $1.txt
+#echo ".. js_title: $3" >> $1.txt
+#echo ".. galerie: True" >> $1.txt
+#echo >> $1.txt
+#echo ".. image:: /images/$1/postcard.png" >> $1.txt
+#echo "    :align: left" >> $1.txt
+#echo "" >> $1.txt
+#echo ".. TEASER_END" >> $1.txt
+#echo "" >> $1.txt
 
 cd $SITE_DIR
 
