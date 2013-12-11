@@ -1,3 +1,5 @@
+.. visuel_boite: http://ludomania.nemocorp.info:9000/media/photos/126/57aa4a5e-3018-4162-a18f-b49bb15b3ea7
+.. ludomania: 126
 .. tags: Bruno Cathala, Ludovic Maublanc, Miguel Coimbra, Matagot, 2009, Civilisations Antiques, Conquête, Enchères, 2 Joueurs, 3 Joueurs, 4 Joueurs, 5 Joueurs
 .. js_title: Cyclades
 .. category: Jeux de Société
@@ -9,7 +11,7 @@
 .. link: 
 .. title: [Cyclades] Et oui, les Dieux aiment l'argent...
 
-.. include:: ./files/fiches/cyclades.rst
+.. include:: ./fiches/cyclades.rst
 
 Nouveau jeu dans le blog aujourd'hui avec Cyclades de messieurs Bruno Cathala et Ludovic Maublanc. Je sais, je sais, c'est loin d'être de la nouveauté. Mais jeune internaute fougueux. Point de buzz ici, point de nouveautés neuves. On laisse le temps au temps comme on dit. Que le soufflé retombe pour voir si il reste quelque chose ou si tout n'était que du vent. Cyclades est sorti en 2009, ça commence à faire dans l'histoire du jeu de société qui voit plusieurs centaines de nouveaux jeux sortir chaque année.
 

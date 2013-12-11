@@ -1,3 +1,4 @@
+#!/bin/bash
 cur_letter="0"
 
 echo "Jeux de Société"

@@ -1,36 +1,17 @@
-.. tags: Jeux de Plateau, Moyen-âge, Pose d'ouvrier, Développement, 2 Joueurs, 3 Joueurs, 4 Joueurs, 2006, Michael Rieneck , Stefan Stadler, Filosofia
+.. visuel_boite: http://ludomania.nemocorp.info:9000/media/photos/505/9f42f895-6342-4d8f-a794-3cd7df218910
+.. ludomania: 505
+.. tags: Michael Rieneck, Stefan Stadler, Michael Menzel, Anke Pohl, Rick Thilo, Filosofia, 2007, Moyen-âge, Gestion, Placement d&#39;ouvriers, 2 Joueurs, 3 Joueurs, 4 Joueurs
+.. js_title: Les Piliers de la Terre
+.. category: Jeux de Société
+.. icon: jeux-de-societe
 .. slug: les-piliers-de-la-terre
+.. galerie: True
 .. link: 
 .. title: [Les Piliers de la Terre] Pas le roman, ni la série...
 .. description: 
 .. date: 2013/11/27 08:03:14
-.. category: Jeux de Société
-.. icon: jeux-de-societe
-.. js_title: Les Piliers de la Terre
-.. galerie: True
 
-.. image:: /images/jeux/les-piliers-de-la-terre/postcard.png
-    :align: left
-
-.. class::  well fiche pull-right
-
-        +--------------------------------------------------------------------------------------------+
-        | **Fiche**                                                                                  |
-        +--------------------------------------------------------------------------------------------+
-        |:Auteur: Michael Rieneck, Stefan Stadler                                                    |
-        |:Editeur: Filosofia                                                                         |
-        |:Année: 2006                                                                                |
-        |:Joueurs: 2 à 4                                                                             |
-        |:Durée: 90min                                                                               |
-        |:Thème: Moyen-âge                                                                           |
-        |:Prix: 45€                                                                                  |
-        +--------------------------------------------------------------------------------------------+
-        || `> Voir la règle du jeu </regles/les-piliers-de-la-terre.pdf>`_                           |
-        || `> TricTrac <http://www.trictrac.net/jeu-de-societe/les-piliers-de-la-terre/infos>`_      |
-        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/212815/the-pillars-of-the-earth>`_   |
-        || `> Galerie de Photos </galleries/les-piliers-de-la-terre/>`_                              |
-        +--------------------------------------------------------------------------------------------+
-
+.. include:: ./fiches/les-piliers-de-la-terre.rst
 
 Les Piliers de la Terre, vous connaissez? Mais si, cet excellent livre de Ken Follett, qui, à travers 1200 pages et quelques dizaines d'années, nous raconte la grande épopée des bâtisseurs de Cathédrales à travers l'histoire de la construction de celle de Kingsbridge. Et bien là, on va parler de l'adaptation en jeu de cet excellent roman (qui aura sans doute droit à un article lui aussi).
 

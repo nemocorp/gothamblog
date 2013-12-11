@@ -1,35 +1,17 @@
-.. tags: Jeux de Plateau, Donald X. Vaccarino, 2011, Queen Games, 2 Joueurs, 3 Joueurs, 4 Joueurs, Placement, Objectif, Médiéval-Fantastique, Spiel des Jahres
+.. visuel_boite: http://ludomania.nemocorp.info:9000/media/photos/645/2aff17ab-8b18-408d-a8f4-cadd7947573b
+.. ludomania: 645
+.. tags: Donald X. Vaccarino , Oliver Schlemmer, Queen Games, 2011, Moyen-âge, Conquête, Expansion, Placement, 2 Joueurs, 3 Joueurs, 4 Joueurs
+.. js_title: Kingdom Builder
+.. category: Jeux de Société
+.. icon: jeux-de-societe
+.. slug: kingdom-builder
+.. galerie: True
 .. link: 
 .. title: [Kingdom Builder] Et si nous dominions ce nouveau royaume?
 .. date: 2013/11/22 07:56:08
 .. description: 
-.. slug: kingdom-builder
-.. category: Jeux de Société
-.. icon: jeux-de-societe
-.. js_title: Kingdom Builder
-.. galerie: True
 
-.. image:: /images/jeux/kingdom-builder/postcard.png
-    :align: left
-
-.. class::  well fiche pull-right
-
-        +-----------------------------------------------------------------------------------+
-        | **Fiche**                                                                         |
-        +-----------------------------------------------------------------------------------+
-        |:Auteur: Donald X. Vaccarino                                                       |
-        |:Editeur: Queen Games                                                              |
-        |:Année: 2011                                                                       |
-        |:Joueurs: 2 à 4                                                                    |
-        |:Durée: 45min                                                                      |
-        |:Thème: Médiéval-Fantastique                                                       |
-        |:Prix: 45€                                                                         |
-        +-----------------------------------------------------------------------------------+
-        || `> Voir la règle du jeu </regles/kingdom-builder.pdf>`_                          |
-        || `> TricTrac <http://www.trictrac.net/jeu-de-societe/kingdom-builder/infos>`_     |
-        || `> BoardGameGeek <http://boardgamegeek.com/boardgame/107529/kingdom-builder>`_   |
-        || `> Galerie de Photos </galleries/kingdom-builder/>`_                             |
-        +-----------------------------------------------------------------------------------+
+.. include:: ./fiches/kingdom-builder.rst
 
 Aujourd'hui fidèle lecteur, je vais te parler d'un jeu simple, décrié de manière générale par les hardcore gamers déçus de cette réalisation de M. Vaccarino. Pourquoi déçus? 
 

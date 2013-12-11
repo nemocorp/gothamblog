@@ -1,3 +1,5 @@
+.. visuel_boite: http://ludomania.nemocorp.info:9000/media/photos/108/28f8f66d-bd5c-4b4c-ab1f-f21aaf395180
+.. ludomania: 108
 .. tags: William Attia, Arnaud Demaegd, Ystari, 2007, Moyen-âge, Gestion, Gestion d&#39;une main de carte, Placement d&#39;ouvriers, 2 Joueurs, 3 Joueurs, 4 Joueurs
 .. js_title: Caylus Magna Carta
 .. category: Jeux de Société
